@@ -17,7 +17,7 @@ export default function Home() {
             Hello World App with Supabase
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            This NextJS app is connected to Supabase and displays data from the database.{" "}
+            This NextJS app is connected to Supabase and displays live data from the database.{" "}
             <a
               href="/images"
               className="font-medium text-zinc-950 dark:text-zinc-50 underline"
