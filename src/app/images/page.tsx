@@ -21,11 +21,20 @@ export default function ImagesPage() {
   useEffect(() => {
     async function fetchImages() {
       try {
+        // Debug environment variables
+        console.log('Environment check:', {
+          hasUrl: !!process.env.NEXT_PUBLIC_SUPABASE_URL,
+          hasKey: !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
+          url: process.env.NEXT_PUBLIC_SUPABASE_URL?.substring(0, 30) + '...'
+        })
+
         const { data, error } = await supabase
           .from('images')
           .select('*')
           .eq('is_public', true)
           .order('created_datetime_utc', { ascending: false })
+
+        console.log('Supabase response:', { data: data?.length, error })
 
         if (error) {
           throw error
@@ -33,6 +42,7 @@ export default function ImagesPage() {
 
         setImages(data || [])
       } catch (err) {
+        console.error('Fetch error:', err)
         setError(err instanceof Error ? err.message : 'An error occurred')
       } finally {
         setLoading(false)
