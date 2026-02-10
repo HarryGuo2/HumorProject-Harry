@@ -1,0 +1,5181 @@
+{
+  "totalCaptions": 55816,
+  "totalLikes": 319,
+  "totalVotes": 6525,
+  "humorFlavorStats": [
+    {
+      "id": 33,
+      "slug": "pov-pov-pov",
+      "description": "A Professor Chilton special flavor.",
+      "captionCount": 52,
+      "totalLikes": 0,
+      "captions": [
+        {
+          "id": "e696dcab-e218-4806-984a-cdd8474d0ba0",
+          "content": "When you realize pizza is your soulmate.",
+          "likes": 0
+        },
+        {
+          "id": "99289e22-4909-4abf-a638-ba6762b61895",
+          "content": "When beer is your only investment plan.",
+          "likes": 0
+        },
+        {
+          "id": "a43d5863-1062-48ac-82f0-cc019c89d4e4",
+          "content": "Flat-earthers: Proof the world is cheesy.",
+          "likes": 0
+        },
+        {
+          "id": "d3dab797-9996-417e-8001-862d2d258b65",
+          "content": "When the marching band has better choreography than your startup’s team-building retreat.",
+          "likes": 0
+        },
+        {
+          "id": "5343fdfd-b3e1-4018-8d24-0f9ca567e4d5",
+          "content": "Tech bros after pulling an all-nighter coding.",
+          "likes": 0
+        },
+        {
+          "id": "b457fd50-766b-45b1-81df-ac15ac105131",
+          "content": "When influencer life is just pizza pics.",
+          "likes": 0
+        },
+        {
+          "id": "51ab2675-fe30-4fd0-bd74-835070dad201",
+          "content": "When boomers discover craft beer, chaos ensues.",
+          "likes": 0
+        },
+        {
+          "id": "933a0417-98e8-46b8-973c-b522c83b6be3",
+          "content": "Trying to find meaning in my Spotify Wrapped.",
+          "likes": 0
+        },
+        {
+          "id": "997476f5-d5cd-4018-9ae3-7b788d2de906",
+          "content": "Just another day in the life of a Karen.",
+          "likes": 0
+        },
+        {
+          "id": "8a38940d-9590-4830-b1d4-865ce309924a",
+          "content": "Reenacting the latest string theory debate.",
+          "likes": 0
+        },
+        {
+          "id": "acbe1564-104d-4a20-9a7c-e5cec49999ec",
+          "content": "When your meal prep goes...bananas!",
+          "likes": 0
+        },
+        {
+          "id": "b9f0de18-82d1-43f4-a312-efd82e0e5508",
+          "content": "The corporate ladder, but make it rhino.",
+          "likes": 0
+        },
+        {
+          "id": "eddc791b-83b9-4639-b99d-41f809deadf0",
+          "content": "When you’re juggling too many existential crises at once.",
+          "likes": 0
+        },
+        {
+          "id": "8256b4da-395f-4a2c-a8dd-b178d36ee94e",
+          "content": "When you smile for a LinkedIn profile pic.",
+          "likes": 0
+        },
+        {
+          "id": "6522db0a-cdfc-43a2-a6bd-41271141a144",
+          "content": "When your glasses reveal the code to invest in crypto.",
+          "likes": 0
+        },
+        {
+          "id": "6dddfcc3-b908-42a8-af09-5d467d881b0d",
+          "content": "When you realize adulting was a trap.",
+          "likes": 0
+        },
+        {
+          "id": "9e2372be-0a3a-474c-b062-9eee4e232f83",
+          "content": "The only way to survive a plot twist.",
+          "likes": 0
+        },
+        {
+          "id": "1d1801dc-4c1f-4af9-bcb9-dd1d58aa6f9e",
+          "content": "When you realize even your shades went digital.",
+          "likes": 0
+        },
+        {
+          "id": "58402201-d626-4269-b936-c894bbd4bad0",
+          "content": "POV: Seeing the stock market crash in real-time.",
+          "likes": 0
+        },
+        {
+          "id": "ee8e7648-c449-4e08-92b0-9b6e00443b71",
+          "content": "When you realize your dog's a better commuter than you.",
+          "likes": 0
+        },
+        {
+          "id": "fdc02163-fe8b-4db5-be55-29737db4cdd7",
+          "content": "Human, why are you swiping? I'm the real catch here.",
+          "likes": 0
+        },
+        {
+          "id": "772d353a-658c-4169-9331-7c27f29ad912",
+          "content": "When you realize adulting is just napping.",
+          "likes": 0
+        },
+        {
+          "id": "2a5d5a47-1579-4707-b440-6679dd776701",
+          "content": "Elphaba: \"Psst, when's the Bitcoin intermission?\"",
+          "likes": 0
+        },
+        {
+          "id": "a30ca8cc-dd60-41bf-acfe-be6366628e5d",
+          "content": "Me on the couch after a long day of pretending to care.",
+          "likes": 0
+        },
+        {
+          "id": "bb5a3342-e208-4afc-b4e7-cf8da322c631",
+          "content": "Frog's got more sass than my ex.",
+          "likes": 0
+        },
+        {
+          "id": "5d77f0d7-81a0-4650-9d9e-36fd74db2e00",
+          "content": "When the economy's tight but cravings hit.",
+          "likes": 0
+        },
+        {
+          "id": "0dc3377c-75f5-4672-bd7f-6e5c74827f71",
+          "content": "Current mood: ignoring reality, living in the virtual world.",
+          "likes": 0
+        },
+        {
+          "id": "78d2c4a4-4c68-40b3-829d-d7b5c2491d90",
+          "content": "When you realize your cat has a better social life than you.",
+          "likes": 0
+        },
+        {
+          "id": "a779cb32-0e0f-43bc-9ce7-e346c8ac8fb4",
+          "content": "When you see a \"Flat Earth\" documentary trending on Netflix.",
+          "likes": 0
+        },
+        {
+          "id": "65839fe5-7d68-4f60-a3d1-d1630a781df7",
+          "content": "Reagan's smile when the store clerk says \"ma'am.\"",
+          "likes": 0
+        },
+        {
+          "id": "d97f0dda-e6df-49e8-b09b-7172a79d7fd2",
+          "content": "Trying to explain NFTs to your grandparents.",
+          "likes": 0
+        },
+        {
+          "id": "e32a7b51-6b34-4e36-b078-b3975ed3bf59",
+          "content": "Pretending to sleep to avoid responsibilities like...",
+          "likes": 0
+        },
+        {
+          "id": "2068800c-819f-4352-b561-810ed2eac84c",
+          "content": "POV: Your dog just discovered Nietzsche.",
+          "likes": 0
+        },
+        {
+          "id": "76e7c7b6-e90b-415f-ba66-6337f2332eba",
+          "content": "When the stock market crashes and you just invested.",
+          "likes": 0
+        },
+        {
+          "id": "61e98bc4-93ea-4f33-aa12-329719eba641",
+          "content": "When your professor assigns a group project.",
+          "likes": 0
+        },
+        {
+          "id": "eb306a26-7d10-4093-a32d-ea9a8ddc7d22",
+          "content": "Finance Bros: \"This jacket has more layers than my portfolio.\"",
+          "likes": 0
+        },
+        {
+          "id": "5ae91b3a-7905-4591-aab3-2ea6f3fdc9d2",
+          "content": "Influencers: \"Swipe up to enter my puffer jacket giveaway!\"",
+          "likes": 0
+        },
+        {
+          "id": "599d085d-ccf1-4b2f-a6db-607c37ceda34",
+          "content": "Pondering if these ducks have better job security.",
+          "likes": 0
+        },
+        {
+          "id": "2ac85491-5e7d-4703-a62e-a704b13baba2",
+          "content": "Me, wishing I could invest in duck startups.",
+          "likes": 0
+        },
+        {
+          "id": "d3e65bf8-6177-47ea-95aa-53255aec5307",
+          "content": "When the barista spells your name wrong again.",
+          "likes": 0
+        },
+        {
+          "id": "cc76479c-f935-4c67-ae0d-8eced35fc413",
+          "content": "When the influencer says 'it's a lifestyle.'",
+          "likes": 0
+        },
+        {
+          "id": "39b4d672-f72f-4926-90d6-e9904e716d15",
+          "content": "When someone says art degrees are useless.",
+          "likes": 0
+        },
+        {
+          "id": "1060c1ec-6b58-4479-8bd6-36e1acc091e7",
+          "content": "Influencer level: posing with ducks for #pondlife.",
+          "likes": 0
+        },
+        {
+          "id": "fdfe6fd6-1773-49af-99de-df256d7cbfa3",
+          "content": "I swear it's not a sumo suit, Karen!",
+          "likes": 0
+        },
+        {
+          "id": "6110a5d3-cfae-4470-83c8-616095c0d736",
+          "content": "Influencers when they fake a smile for likes.",
+          "likes": 0
+        },
+        {
+          "id": "9d04dfb8-fd78-489f-8863-cdc924711fa5",
+          "content": "Flat-earthers when shown a globe.",
+          "likes": 0
+        },
+        {
+          "id": "293240d0-b1e2-4149-9473-e81789684783",
+          "content": "After one too many existential YouTube videos.",
+          "likes": 0
+        },
+        {
+          "id": "ba99e2c4-1514-45f9-a180-bee1a063ec46",
+          "content": "When you invest in Jurassic Park's IPO.",
+          "likes": 0
+        },
+        {
+          "id": "ba7a8aa5-e306-4675-835b-7252ff161cad",
+          "content": "Art history majors: \"This, my friends, is the Mona Lisa of laughter.\"",
+          "likes": 0
+        },
+        {
+          "id": "0d0d4ce7-5b9d-431d-b413-e19512c7e2f4",
+          "content": "Karens: \"Excuse me, can I speak to the joke manager?\"",
+          "likes": 0
+        },
+        {
+          "id": "88364cdc-636f-41e8-970d-6dc1b49c864c",
+          "content": "Fundamentalist Christians: \"Smiling? Must be praying in disguise.\"",
+          "likes": 0
+        },
+        {
+          "id": "bca4caf7-403f-469e-b2c2-2843c1ef56b3",
+          "content": "Boomers: \"Back in my day, we laughed in black and white.\"",
+          "likes": 0
+        }
+      ],
+      "avgLikes": 0,
+      "likeRate": 0
+    },
+    {
+      "id": 35,
+      "slug": "co-lum-bia",
+      "description": "Columbia Part 1 (Associations Only)",
+      "captionCount": 111,
+      "totalLikes": 0,
+      "captions": [
+        {
+          "id": "d8ae121e-8ded-4c57-b530-05628f70adb6",
+          "content": "Bro’s smiling like he just crashed out over Butler Library Wi-Fi.",
+          "likes": 0
+        },
+        {
+          "id": "c855811f-5d71-4190-931d-4c634a34ac51",
+          "content": "Cera: 'These fans are as relentless as a Hamilton elevator.'",
+          "likes": 0
+        },
+        {
+          "id": "f356357a-7cec-4149-8423-e45b11e09221",
+          "content": "Aubrey Plaza covers her mouth like she's entering a John Jay roll debate.",
+          "likes": 0
+        },
+        {
+          "id": "ef6d4129-2220-49dc-8ad4-b096ed802aaf",
+          "content": "Remember, Cera at Chuck E. Cheese has better food than JJ's.",
+          "likes": 0
+        },
+        {
+          "id": "f830d818-480c-46f8-8fbf-50a657983e58",
+          "content": "My GPA when I rely on Ferris strawberries for brain food.",
+          "likes": 0
+        },
+        {
+          "id": "4c91ab85-a008-4e07-a4c8-e40a02ba1406",
+          "content": "These church vibes got them aura farming for Jesus.",
+          "likes": 0
+        },
+        {
+          "id": "2e1f5076-95a7-4638-b54f-f14eba4546a4",
+          "content": "Hills just sitting there, salty they’re not the main character.",
+          "likes": 0
+        },
+        {
+          "id": "befdb425-2fdd-411d-acc5-d2185818d1da",
+          "content": "This river’s mogging every Tinder date pic, hands down.",
+          "likes": 0
+        },
+        {
+          "id": "54cbcdcc-e323-4210-8c56-9ac771646710",
+          "content": "These three smiling in a church like they didn’t just fail their Columbia finals, straight up delulu.",
+          "likes": 0
+        },
+        {
+          "id": "2f0f17c7-224d-49a1-a6d8-f2063b858883",
+          "content": "River flexing its curves, but it’s still mid af.",
+          "likes": 0
+        },
+        {
+          "id": "8a691b3f-b27f-401a-af91-72a0d87e96b8",
+          "content": "This river’s giving sad boy vibes, highkey needs therapy.",
+          "likes": 0
+        },
+        {
+          "id": "280a895d-bc93-42f6-8641-78f9ecf811dd",
+          "content": "Grinning like they’re not about to drop embarrassing personal lore.",
+          "likes": 0
+        },
+        {
+          "id": "53e390ae-2b65-4bb5-852a-ef1ec8d28ac4",
+          "content": "Email slaying free tickets, but Butler’s still got no seats.",
+          "likes": 0
+        },
+        {
+          "id": "46867ec2-0332-45ac-aa35-3a1bb402b3cf",
+          "content": "This river’s flexing harder than a Columbia freshman’s LinkedIn, type shi.",
+          "likes": 0
+        },
+        {
+          "id": "20fac2aa-7620-453f-a19b-accbf0a13d21",
+          "content": "Hamilton elevators and I both dread Monday morning classes.",
+          "likes": 0
+        },
+        {
+          "id": "86706772-6df3-4df2-a8b8-f6e1458dc4f9",
+          "content": "Plastic jugs at Bacchanal: it's a 'cartonival'!",
+          "likes": 0
+        },
+        {
+          "id": "1d023211-4ee7-46a5-ae1c-d9fd5bf2b425",
+          "content": "All floors in Hamilton should have Inferno doorstops.",
+          "likes": 0
+        },
+        {
+          "id": "c1af9bcb-db52-4b77-9504-068ad61615e0",
+          "content": "Bro’s beard mogging every CS major at Columbia fr.",
+          "likes": 0
+        },
+        {
+          "id": "1a7dcad9-a460-429f-a27f-80f32d8a5d0b",
+          "content": "Bro, raccoon tweaking after raiding Butler Library trash cans.",
+          "likes": 0
+        },
+        {
+          "id": "af409975-2686-4e06-8ba2-9b081e9efa9a",
+          "content": "Raccoon aura farming in the Barnard bathroom, lowkey pathetic.",
+          "likes": 0
+        },
+        {
+          "id": "a95beda6-3abf-4a13-bde6-3f2e50b24206",
+          "content": "Trump mogging Mamdani while the Oval Office aura farms hard.",
+          "likes": 0
+        },
+        {
+          "id": "74c02782-7240-447d-a4e8-23c506ca003e",
+          "content": "Bro studying in plaid pants while chaos slays behind—tweaker vibes!",
+          "likes": 0
+        },
+        {
+          "id": "d23c5fb1-a484-4a8b-90b7-c8ce1836793a",
+          "content": "Bare feet in Butler, unbothered by megaphones—peak brain rot!",
+          "likes": 0
+        },
+        {
+          "id": "7b5c1572-114b-4004-ac30-1a43ebebfbd6",
+          "content": "Savage dino pulling up with main character energy, still fat.",
+          "likes": 0
+        },
+        {
+          "id": "553fc101-e052-402f-941b-9c7673844322",
+          "content": "Stop glazing Nailong, he’s not the goat, just chunky.",
+          "likes": 0
+        },
+        {
+          "id": "d6ddc4a9-c87d-4d54-8837-15fafbe9039b",
+          "content": "Bro’s chubby ass clocked as a total bot.",
+          "likes": 0
+        },
+        {
+          "id": "137a704a-5956-4a5e-bcf5-2214e0132c4c",
+          "content": "Nailong got that salty energy, lost the Jurassic vibe.",
+          "likes": 0
+        },
+        {
+          "id": "33d8deac-4c7a-46a6-8f86-026ddc8df3fd",
+          "content": "Nailong out here with straight up mid dino vibes.",
+          "likes": 0
+        },
+        {
+          "id": "28680697-e193-4d57-80ec-29d41d2c9c97",
+          "content": "Lion’s crashing out while handler mogs at fixing that mane!",
+          "likes": 0
+        },
+        {
+          "id": "1218cce5-b4a5-448a-b2c8-23c8ba2fda49",
+          "content": "Bro, Columbia Lion looking salty AF getting styled mid-event!",
+          "likes": 0
+        },
+        {
+          "id": "97855536-ab48-4cb0-a33e-3eac738f1e78",
+          "content": "Columbia mascot’s lore: surviving a Jet2 holiday-level makeover!",
+          "likes": 0
+        },
+        {
+          "id": "c64348ef-7daf-4916-b686-aa0c3ce08822",
+          "content": "This lion’s dying inside, stuck in a situationship with style!",
+          "likes": 0
+        },
+        {
+          "id": "8ae0ddb9-e849-467f-b4a6-f3a0ccd7d511",
+          "content": "Lion’s face screams ‘lock in’ but handler’s just mid!",
+          "likes": 0
+        },
+        {
+          "id": "92ee3d6d-c547-402a-944f-8fd721cbbbd7",
+          "content": "My man’s coding while protests rage—Columbia canon event, fr!",
+          "likes": 0
+        },
+        {
+          "id": "eeb49384-c8a3-40e9-9f76-cb5364a2d3ff",
+          "content": "Orange shirt dude zoning out—protest? Sus, I’m dead!",
+          "likes": 0
+        },
+        {
+          "id": "6cb42c54-2e73-4d12-8e29-efc54cdb63e3",
+          "content": "Laptop guy ignoring the protest like it’s Butler Library Wi-Fi—chopped!",
+          "likes": 0
+        },
+        {
+          "id": "e147968a-fee4-4ea1-b43a-9f61ebfdb3a9",
+          "content": "Doggo out here tryna lock in at the family meeting, but he’s cooked.",
+          "likes": 0
+        },
+        {
+          "id": "520490dd-f469-471d-b1eb-8a7ff5e5ae8d",
+          "content": "Bro thinks he’s in a Columbia lecture, paw up like ‘I got the answer,’ no cap.",
+          "likes": 0
+        },
+        {
+          "id": "997df9d4-fea2-4182-8a91-8b3de14086c5",
+          "content": "Lowkey, this pup’s raising his paw like he’s debating at Barnard, sybau.",
+          "likes": 0
+        },
+        {
+          "id": "900823ca-ae63-49df-a6b8-3e0b84fd203b",
+          "content": "Plaza hiding laughter like when you dodge work by hiding in Dodge.",
+          "likes": 0
+        },
+        {
+          "id": "94532cfc-ecf1-4f10-ad08-799a750ad083",
+          "content": "Attempting the impossible: finding a quiet spot in Butler during finals.",
+          "likes": 0
+        },
+        {
+          "id": "cb1a9bf3-6165-4b53-9694-bb24a33137dc",
+          "content": "Plaza's face is me hearing about another Hamilton elevator jam.",
+          "likes": 0
+        },
+        {
+          "id": "02c1096b-dc5f-4d9f-8b67-8c037155ddcc",
+          "content": "The Hamilton elevator when you push 'up'.",
+          "likes": 0
+        },
+        {
+          "id": "c7b7dd70-a7a2-45b8-b3e4-9081ddce9a1c",
+          "content": "This tweaker dog acting like he’s got the floor—ragebaiting us all.",
+          "likes": 0
+        },
+        {
+          "id": "08dc182c-e8ef-403a-a668-fad954c43cdf",
+          "content": "Pup in a situationship with the table, begging for scraps, fr.",
+          "likes": 0
+        },
+        {
+          "id": "55a012b7-2c10-4c1f-aaae-320d4d6c3f7e",
+          "content": "Midterm season: grooming each syllable.",
+          "likes": 0
+        },
+        {
+          "id": "6e110f0e-7610-4847-828b-e7bbaf753062",
+          "content": "Jae giving main character energy while roasting your project.",
+          "likes": 0
+        },
+        {
+          "id": "c8dd4b4a-0b41-47cf-8996-4c2982b1def8",
+          "content": "Jae’s shock when you thought OS was easy. Delulu.",
+          "likes": 0
+        },
+        {
+          "id": "9f2fdd74-ace9-49a8-87c5-7e9a1f8e5fa5",
+          "content": "Jae staring down cheaters like a campus grim reaper.",
+          "likes": 0
+        },
+        {
+          "id": "40c7a3e2-c875-48c7-aee2-5dbb47c8a70f",
+          "content": "Jae’s reaction to your ‘original’ essay? Lowkey savage.",
+          "likes": 0
+        },
+        {
+          "id": "60aa9987-2b36-4e0d-881c-5628689c4290",
+          "content": "Jae catching cheaters like a human plagiarism detector.",
+          "likes": 0
+        },
+        {
+          "id": "f3c60859-f483-4565-8285-cad2482dc54b",
+          "content": "Jae’s face when you flunk AP. Absolutely chopped.",
+          "likes": 0
+        },
+        {
+          "id": "8efbf194-bf18-4b49-bbd2-b230bd47c574",
+          "content": "Green boba flexing wisdom, strawberry just glazing, both cooked.",
+          "likes": 0
+        },
+        {
+          "id": "530a195e-b1c0-46bf-b915-d89c42157b57",
+          "content": "POV: Trying to register classes on Vergil like 'am I a joke to you?'",
+          "likes": 0
+        },
+        {
+          "id": "2bca0676-f20b-4ca8-b3ae-2440bd40cd26",
+          "content": "Jae’s face when you submit ChatGPT homework. Busted.",
+          "likes": 0
+        },
+        {
+          "id": "09259420-5e69-410c-804c-c07dcf6459a6",
+          "content": "Jae’s glare when you skip lecture. I’m dying.",
+          "likes": 0
+        },
+        {
+          "id": "fea0ed87-f70b-4c8c-9859-11e345ad6b42",
+          "content": "Jae clocking your cheating vibes—Columbia’s gonna eat.",
+          "likes": 0
+        },
+        {
+          "id": "f5672a64-e020-431a-8119-aaebee79de7e",
+          "content": "When Jae sees your copied code—straight up expelled.",
+          "likes": 0
+        },
+        {
+          "id": "060d58bd-5deb-4693-afc1-517bb7d1c362",
+          "content": "Bro, this dog’s bunny ears got more aura than me.",
+          "likes": 0
+        },
+        {
+          "id": "074a6ad3-b849-4c23-8b1c-2e2329844f56",
+          "content": "The 115th gate, closed, like LeBron's NBA doors at age 7.",
+          "likes": 0
+        },
+        {
+          "id": "72ae59df-32d4-4af1-9350-9cc59ecc000a",
+          "content": "When you realize Millstein's green chairs won't fix finals stress.",
+          "likes": 0
+        },
+        {
+          "id": "93ec9216-eb7a-4f4a-91fa-2a92d5bfc7ad",
+          "content": "A rat from the subway? No, just another big city roommate.",
+          "likes": 0
+        },
+        {
+          "id": "df2a9794-ef2c-49ad-8a1b-76ce8d36c3ef",
+          "content": "Hamilton's elevators finally getting an upgrade: actually working now.",
+          "likes": 0
+        },
+        {
+          "id": "b9c4f2b4-6fc1-408f-952a-6d37ee7a160c",
+          "content": "Trying to be the GOAT, but got mogged by calculus.",
+          "likes": 0
+        },
+        {
+          "id": "c7935c1c-4c22-4c38-b107-9ef09d4946ec",
+          "content": "Raccoon salty af after failing to lock in at Mudd.",
+          "likes": 0
+        },
+        {
+          "id": "233f91e1-0d1a-4a4a-b50b-a504cebfe5e0",
+          "content": "This raccoon’s a total NPC, flopped near Columbia’s toilets.",
+          "likes": 0
+        },
+        {
+          "id": "390855b4-0d36-4c83-b9e2-a313a02d2ebd",
+          "content": "Raccoon pulling a canon event: bathroom breakdown at Barnard.",
+          "likes": 0
+        },
+        {
+          "id": "12be12ea-ef0e-4aea-bc81-2fb776664b1c",
+          "content": "I’m dead, raccoon just gave up outside Low Library.",
+          "likes": 0
+        },
+        {
+          "id": "7434622f-7d89-4373-a913-0275737b8a40",
+          "content": "This raccoon’s vibe? Straight defeat on Columbia’s bathroom floor.",
+          "likes": 0
+        },
+        {
+          "id": "3cc66b29-f745-4df6-9b2a-0026aab80016",
+          "content": "Raccoon out here looking like a rejected Barnard mascot.",
+          "likes": 0
+        },
+        {
+          "id": "01d82ce5-dfaa-495b-a6b4-c559b6504552",
+          "content": "Bro, raccoon glazing the toilet like it’s Columbia’s crown jewel.",
+          "likes": 0
+        },
+        {
+          "id": "360d1ce5-edcb-494e-a902-484b124d14ba",
+          "content": "Raccoon tweaking hard after a night at 1020, sybau.",
+          "likes": 0
+        },
+        {
+          "id": "16754911-d26c-4c40-80e4-e3509531e19a",
+          "content": "More polished than Hamilton's elevator system during rush hour.",
+          "likes": 0
+        },
+        {
+          "id": "0de1240c-7150-424e-9f46-438b37309ea7",
+          "content": "Hamilton elevators when they realize they're 2 minutes late for class.",
+          "likes": 0
+        },
+        {
+          "id": "0f944e23-5a5b-4b59-9fdf-55a87c2411a1",
+          "content": "Is the snowman the next professor for Core Curriculum?",
+          "likes": 0
+        },
+        {
+          "id": "2e7d1800-e2e7-4974-985c-4401b2cb76cb",
+          "content": "Hamilton elevator realizing it's stuck between floors again.",
+          "likes": 0
+        },
+        {
+          "id": "16f0da37-ffa3-486b-8557-944008c389df",
+          "content": "Hamilton elevator when every class seems uphill both ways!",
+          "likes": 0
+        },
+        {
+          "id": "19bde9b2-6ebf-4d9f-a953-c3b2eb99f008",
+          "content": "Life's more unpredictable than catching a seat at JJ’s during rush.",
+          "likes": 0
+        },
+        {
+          "id": "122bccd4-d48e-40b2-becb-3ce29b1679d2",
+          "content": "Dodge Gym's mat selection could learn from this waterfall's flow.",
+          "likes": 0
+        },
+        {
+          "id": "1621df23-1bdf-420f-a865-ab185e50acbf",
+          "content": "Cosplay or registering for Columbia courses? Both endless lines.",
+          "likes": 0
+        },
+        {
+          "id": "b08ab209-d34a-4b5d-aa5c-871d8769cded",
+          "content": "Green boba staring like it’s judging my mid life choices.",
+          "likes": 0
+        },
+        {
+          "id": "5c1d049a-0cc4-4a2e-9019-5a91e87076a0",
+          "content": "When CULPA reviews leak just in time for course registration panic.",
+          "likes": 0
+        },
+        {
+          "id": "3042b798-e955-415d-9c1f-61f472c09ca5",
+          "content": "Spiritual sync found between me and the breakfast brisket hero.",
+          "likes": 0
+        },
+        {
+          "id": "2a8240b4-73b7-4d39-ba83-0f9537d669e2",
+          "content": "Your GPA post-Saul lectures, as flat as a penguin wave.",
+          "likes": 0
+        },
+        {
+          "id": "36d87135-141d-429b-af4f-39727ca6ba1c",
+          "content": "If Hamilton elevators were cardio instructors, I'd be an Olympian.",
+          "likes": 0
+        },
+        {
+          "id": "2ecb47a3-c59e-4de5-97c2-ffed01653d7d",
+          "content": "NSOP friends are a myth",
+          "likes": 0
+        },
+        {
+          "id": "5d5be749-d3c9-437e-bd3c-66053ad05b32",
+          "content": "Dodge Gym's water fountain refusing to let you hydrate.",
+          "likes": 0
+        },
+        {
+          "id": "311cd209-fbdd-491a-82f5-c07ece9e17eb",
+          "content": "Borzoi dressed better than your last CULPA-reviewed lecture outfit.",
+          "likes": 0
+        },
+        {
+          "id": "48cbfe73-a35f-4b90-aafe-b2d4466adec5",
+          "content": "Confused face realizing Milstein has 'green chair' energy.",
+          "likes": 0
+        },
+        {
+          "id": "2fee5d65-51a6-4f6f-8b01-5f16724f8974",
+          "content": "Waldo's hiding like a midterm reschedule email.",
+          "likes": 0
+        },
+        {
+          "id": "5dd2e469-e050-4d9b-9897-760d3bbb84cf",
+          "content": "More drama than registration day at Columbia, still overrated.",
+          "likes": 0
+        },
+        {
+          "id": "50a0a773-cf44-4e3b-9279-a8e6f7c72916",
+          "content": "Dodge Gym showers: Whispers in the wind",
+          "likes": 0
+        },
+        {
+          "id": "4c489793-e98e-4f43-81da-2b06189d82b8",
+          "content": "Hamilton elevators: the true test of Columbia patience.",
+          "likes": 0
+        },
+        {
+          "id": "31c9b474-721c-418f-b114-54cb08fb3b99",
+          "content": "When the Hamilton elevator works as often as my love life.",
+          "likes": 0
+        },
+        {
+          "id": "4377035b-277c-4192-9bf8-b7419c8e4eb1",
+          "content": "SSOL's waitlist: Like a club everyone gets rejected from.",
+          "likes": 0
+        },
+        {
+          "id": "5999360b-265d-4bd0-8335-afedb7b661c0",
+          "content": "Shark bed slaying, cat looking like a total NPC.",
+          "likes": 0
+        },
+        {
+          "id": "3b5941a0-31e6-47aa-9e60-bacbc541aba1",
+          "content": "Confidence level: Millstein Green Chair on finals night.",
+          "likes": 0
+        },
+        {
+          "id": "5e75890a-e9a5-4ffa-8336-7a968734d2e3",
+          "content": "Millstein chairs, social distance game stronger than ever.",
+          "likes": 0
+        },
+        {
+          "id": "627e21dc-c9ab-4050-9a48-25deff97868b",
+          "content": "Krispy Kreme hat mogging harder than your Columbia econ side quest.",
+          "likes": 0
+        },
+        {
+          "id": "6d66d3a9-8e4c-4b32-a42b-ee395f8fa8bd",
+          "content": "Dante's Inferno is now Butler's suggestion book.",
+          "likes": 0
+        },
+        {
+          "id": "cc64b0c0-6c09-4d83-b6e1-ecc04564ad54",
+          "content": "Marshmallow tweaker mogging trash bags, Dunkin’ can’t compete.",
+          "likes": 0
+        },
+        {
+          "id": "ae1466f7-cbf2-4261-921d-500d9f18b790",
+          "content": "Homer's new role: window duty in Hamilton height.",
+          "likes": 0
+        },
+        {
+          "id": "c832238b-e447-43c1-9364-af73a613adc7",
+          "content": "That one leaf looking like it just found out Surf and Turf is mid.",
+          "likes": 0
+        },
+        {
+          "id": "6facf90f-d105-4567-8599-a4f473af7af1",
+          "content": "When your face just heard 'Vergil doesn't work right now'",
+          "likes": 0
+        },
+        {
+          "id": "72716333-b8c4-4324-9917-4ae6661a269c",
+          "content": "Plush sits softer than a Columbia student at Heather interlibrary loan line.",
+          "likes": 0
+        },
+        {
+          "id": "9e32c711-e82e-4ea8-a93b-5416c0ecc927",
+          "content": "When Hamilton elevators decide gravity is optional.",
+          "likes": 0
+        },
+        {
+          "id": "85289543-3f99-4945-a564-787c2840c12a",
+          "content": "It’s giving ‘I overslept my Columbia registration’ energy.",
+          "likes": 0
+        },
+        {
+          "id": "7e1109ca-090f-469a-a377-c0f859e82d9a",
+          "content": "Hamilton elevators trying to keep up with LeBron's yearbook.",
+          "likes": 0
+        },
+        {
+          "id": "a9434771-55db-414f-8468-936c60936fe0",
+          "content": "Trying to understand Milstein's layout while sober.",
+          "likes": 0
+        },
+        {
+          "id": "80ffd510-f206-4ade-8794-2858851983cf",
+          "content": "Snoop looks up: Is the Hamilton elevator finally working? Nope.",
+          "likes": 0
+        },
+        {
+          "id": "b026c0c6-c9c5-4976-ba25-85222e1c4e46",
+          "content": "Core Curriculum and Inferno stalls: Never closing, just like midterms.",
+          "likes": 0
+        }
+      ],
+      "avgLikes": 0,
+      "likeRate": 0
+    },
+    {
+      "id": 41,
+      "slug": "dwight-shrute",
+      "description": "FACT: The funniest humor flavor.",
+      "captionCount": 9,
+      "totalLikes": 0,
+      "captions": [
+        {
+          "id": "84aafc58-f22b-4955-8c3a-26579c4102d6",
+          "content": "Dog is the only animal immune to white wine. Fact.",
+          "likes": 1
+        },
+        {
+          "id": "53e1357d-d7aa-4216-b4b2-0a3e225cb711",
+          "content": "I have never lost to a sushi roll photo. Not once.",
+          "likes": 0
+        },
+        {
+          "id": "e46429f0-7966-4ecd-81fd-4026ae575134",
+          "content": "Fact: Greenery improves ninja stealth efficacy faculty-wide. Fear trees.",
+          "likes": 0
+        },
+        {
+          "id": "56eecbf5-8fc0-4d69-a298-8ab280654142",
+          "content": "Fact: The trees are at perfect sentinel ratio. Good.",
+          "likes": 0
+        },
+        {
+          "id": "a03daa7f-1b3e-4d2e-8917-549057ef22c3",
+          "content": "Proximity to reflective windows optimizes threat detection. Rookie mistake: exposing rear flank.",
+          "likes": 0
+        },
+        {
+          "id": "6f543bfc-d54b-4ee0-b47d-878e461432e0",
+          "content": "Eye contact establishes dominance. Teeth display escalates it. Success is imminent.",
+          "likes": 0
+        },
+        {
+          "id": "92bf9e6d-6c3b-448a-8413-8471a911fca2",
+          "content": "These tents present security vulnerabilities. I have documented traces of squirrels.",
+          "likes": 0
+        },
+        {
+          "id": "e0a76e43-597b-4688-a46c-45f6f688bbb7",
+          "content": "Fact: Not even a ninja could make that sushi edible.",
+          "likes": 0
+        },
+        {
+          "id": "d9620ad6-81fd-4c32-9793-95979814a656",
+          "content": "Fact: Smiles are for showing dominance, or concealed hemorrhoids.",
+          "likes": -1
+        }
+      ],
+      "avgLikes": 0,
+      "likeRate": 0
+    },
+    {
+      "id": 62,
+      "slug": "ter-re-lyn-experiment",
+      "description": "WHAT IS FUNNY? \r\nexperimenting with a copy of ter-re-lyn for research purposes",
+      "captionCount": 181,
+      "totalLikes": 0,
+      "captions": [
+        {
+          "id": "2ab54ad3-6508-4f3f-9e9a-d87d147c1329",
+          "content": "bro signed up for pain, not participation",
+          "likes": 0
+        },
+        {
+          "id": "93eeaeef-0300-40bf-9f1e-c715ff1ed6fb",
+          "content": "me after the snowball fight asking who’s buying food",
+          "likes": 0
+        },
+        {
+          "id": "1d7416fc-afd0-4c0e-a776-a21e4c176a7c",
+          "content": "if you need effort, try the next table",
+          "likes": 0
+        },
+        {
+          "id": "59ab9d2c-ca8c-4fd3-8d29-745a25e1bc2f",
+          "content": "columbia's idea of 'community' right here",
+          "likes": 0
+        },
+        {
+          "id": "9542bbfe-2642-4843-8b49-1a9e30a9b34c",
+          "content": "hand up if you regret leaving your bed",
+          "likes": 0
+        },
+        {
+          "id": "0cdf81d4-b3f2-405f-8bea-bd0c14440843",
+          "content": "that hand says i’m tired of all of you",
+          "likes": 0
+        },
+        {
+          "id": "6c286c27-a06a-4f7d-a238-f3a611dda855",
+          "content": "no thoughts, just vibes and bad decisions",
+          "likes": 0
+        },
+        {
+          "id": "302cb2c6-61bb-409f-868c-92144e0d873a",
+          "content": "put me down as exhausted, not interested",
+          "likes": 0
+        },
+        {
+          "id": "1d82e3da-4009-4f43-bc44-696a857b6b21",
+          "content": "me raising my hand to dip first, not help clean up",
+          "likes": 0
+        },
+        {
+          "id": "ff68ffe9-75fa-4b57-a661-c6f731faa805",
+          "content": "literally me when someone says group project",
+          "likes": 0
+        },
+        {
+          "id": "952f1414-023a-4570-a2ea-97b86dd14a88",
+          "content": "low Steps energy, post-snowstorm, no one cares",
+          "likes": 0
+        },
+        {
+          "id": "3beb313f-8108-4e75-8ab9-386ee6833b94",
+          "content": "if warmth was silent judgment, you’d be a furnace",
+          "likes": 0
+        },
+        {
+          "id": "af8eebdc-c87c-47f1-9420-8cc9ffc2a71a",
+          "content": "you’re why group projects have Google Docs locked",
+          "likes": 0
+        },
+        {
+          "id": "752e89f0-359e-443d-be95-3a7cacb3ab3f",
+          "content": "bet you think your Spotify playlist is a flex",
+          "likes": 0
+        },
+        {
+          "id": "db7e7fc1-2680-447b-96c4-0b6254bdd5d6",
+          "content": "this face just screams ‘let’s circle back’",
+          "likes": 0
+        },
+        {
+          "id": "fa1b4cc3-ae38-4a39-b8cb-fc6d7395ede5",
+          "content": "honestly, your beard has more aura than you",
+          "likes": 0
+        },
+        {
+          "id": "176a88e3-5210-4603-a032-4a51e3deb768",
+          "content": "smile says i just sent a slack no one will read",
+          "likes": 0
+        },
+        {
+          "id": "aa1cae69-d0f7-4655-a7eb-c6f144ce9a51",
+          "content": "pretty sure you invented mansplaining at Columbia",
+          "likes": 0
+        },
+        {
+          "id": "6792081b-71c6-4ac9-8637-5c92b8549587",
+          "content": "do you charge for TED talks or just flex for friends?",
+          "likes": 0
+        },
+        {
+          "id": "6dcc45b1-e626-45cb-954e-f6cd3626bd52",
+          "content": "you look like you give beard tips no one asked for",
+          "likes": 0
+        },
+        {
+          "id": "c0c7263e-20bb-40f2-8fbc-50e01bee4d77",
+          "content": "Columbia said community but this dude ate it",
+          "likes": 0
+        },
+        {
+          "id": "8d39d719-5bb6-4cc7-bcde-efd57a2b75b2",
+          "content": "beard so thick it’s hiding my whole motivation",
+          "likes": 0
+        },
+        {
+          "id": "510b6f17-2d82-4c79-aea3-803bae4bbc68",
+          "content": "he looks like Low Steps were his villain origin",
+          "likes": 0
+        },
+        {
+          "id": "7092c8b0-9b24-42e0-8057-ea8c535196c3",
+          "content": "chillin like he invented procrastination fr",
+          "likes": 0
+        },
+        {
+          "id": "18135463-36fe-4b83-88f5-807333bf11a7",
+          "content": "bro’s beard got more flakes than Butler’s ceilings",
+          "likes": 0
+        },
+        {
+          "id": "961bcaa0-c894-4377-ae60-54cf4093d1ea",
+          "content": "beard so big it caught all the snowballs fr",
+          "likes": 0
+        },
+        {
+          "id": "2a0d24d7-b020-48ba-8156-56ef516b21c0",
+          "content": "bro looks like he ate all the snowball fight energy",
+          "likes": 0
+        },
+        {
+          "id": "0c401948-7532-4ca5-8d3f-b14fe14e2dec",
+          "content": "dude about to say why Low Steps are overrated",
+          "likes": 0
+        },
+        {
+          "id": "85004d4b-7319-4006-aac7-dfd096664327",
+          "content": "I just know he’s gonna gatekeep the library",
+          "likes": 0
+        },
+        {
+          "id": "41eee967-d453-4934-88ce-9f6740c12aa7",
+          "content": "this face screams ‘I peak at group projects’",
+          "likes": 0
+        },
+        {
+          "id": "507a6cfc-6632-4632-b6a3-db19907e0433",
+          "content": "did someone say 'group project'? same energy, fr.",
+          "likes": 0
+        },
+        {
+          "id": "2e0d35a7-3098-417e-b96b-e8545cc400d5",
+          "content": "you look like you just realized GPA isn’t a vibe.",
+          "likes": 0
+        },
+        {
+          "id": "b7576785-3903-4bfd-ad31-a7019af7c1b9",
+          "content": "trying to process the Columbia tuition bill, yikes.",
+          "likes": 0
+        },
+        {
+          "id": "f1a6aee6-7f25-483d-b2b0-1125d97cb262",
+          "content": "you look like you need a nap more than a diploma, tbh.",
+          "likes": 0
+        },
+        {
+          "id": "fb57eb6c-1c63-420e-8902-e83632c9614d",
+          "content": "you look like Low Steps after midnight: totally done.",
+          "likes": 0
+        },
+        {
+          "id": "37c4b2b6-a560-4f2c-9891-f8697e76d329",
+          "content": "realizing your only community is group chats, ouch.",
+          "likes": 0
+        },
+        {
+          "id": "8a16b773-40ff-4547-89d7-4c6a32bf03f3",
+          "content": "this is the face when you see your ex at JJ’s, dead.",
+          "likes": 0
+        },
+        {
+          "id": "26f51199-7346-4117-a24a-52ff420ff0e4",
+          "content": "that’s the face when Low Steps are actually icy, lol.",
+          "likes": 0
+        },
+        {
+          "id": "c47499bd-6b3d-43d5-80b7-b9e888c8a92d",
+          "content": "you look like 2020 Zoom class broke you, fr.",
+          "likes": 0
+        },
+        {
+          "id": "fcfbf72e-e58e-45c5-9753-e798244aa28b",
+          "content": "you clearly lost that snowball fight and your dignity, rip.",
+          "likes": 0
+        },
+        {
+          "id": "18048b6e-71a2-4916-91a1-5e57ebfcf166",
+          "content": "someone's starting a revolution, I'm just on Moodle",
+          "likes": 0
+        },
+        {
+          "id": "e84526a1-f799-440d-b3a9-abe72a21b158",
+          "content": "shoutout to the guy in pajamas living his worst life",
+          "likes": 0
+        },
+        {
+          "id": "7c747647-6040-433a-8062-d37a2bcd3842",
+          "content": "love how my GPA's lower than the volume here",
+          "likes": 0
+        },
+        {
+          "id": "bae297f6-9f29-453d-94cc-7b8e268f37b3",
+          "content": "columbia really said choose your own adventure fr",
+          "likes": 0
+        },
+        {
+          "id": "c46e45a5-a457-43f3-ad36-97fea901b6c2",
+          "content": "live laugh love ignoring everything behind me",
+          "likes": 0
+        },
+        {
+          "id": "4c6ae936-05ea-4e99-9e03-087700ca6d03",
+          "content": "people fighting for justice, I can't fight procrastination",
+          "likes": 0
+        },
+        {
+          "id": "95b9cd27-100a-407e-8e13-75c2745b1cc9",
+          "content": "the real disaster is my sleep schedule ngl",
+          "likes": 0
+        },
+        {
+          "id": "ab08bfe7-ac13-4be5-b5a0-8b9e4c3701e9",
+          "content": "if columbia had vibes, these wouldn't be them",
+          "likes": 0
+        },
+        {
+          "id": "9240e8ab-3044-401f-9f6d-709f530c63fb",
+          "content": "not even a riot can make my group project fun",
+          "likes": 0
+        },
+        {
+          "id": "d7ebb600-6a31-4f90-a8fc-b071664c9f26",
+          "content": "catch me protesting this midterm from my chair",
+          "likes": 0
+        },
+        {
+          "id": "00ff28c1-41de-4169-b993-e81f63c49ef5",
+          "content": "bro really clocked out in a Taco Bell bathroom",
+          "likes": 0
+        },
+        {
+          "id": "a4a71f04-f845-4693-abed-fce86eeb123d",
+          "content": "i wanna die as peacefully as this by a public toilet",
+          "likes": 0
+        },
+        {
+          "id": "7e9fd44e-16c6-4049-bb5f-58f493dc9e80",
+          "content": "trash can, toilet, raccoon, and me: squad goals",
+          "likes": 0
+        },
+        {
+          "id": "54d8a401-ca0d-4712-82ff-bc118a14aa88",
+          "content": "this raccoon did more today than my whole friend group",
+          "likes": 0
+        },
+        {
+          "id": "59749a93-6aef-4805-a1fd-59dcd29181a5",
+          "content": "honestly, this is just my GPA post-midterms",
+          "likes": 0
+        },
+        {
+          "id": "f3696f12-33a4-4105-8267-83462822e08f",
+          "content": "current mood: whatever biohazard this raccoon caught",
+          "likes": 0
+        },
+        {
+          "id": "392c5047-c7de-4cf3-bbc3-c822af221af4",
+          "content": "bathroom floors got more emotional support than my therapist",
+          "likes": 0
+        },
+        {
+          "id": "670672c2-6261-4453-8d73-810c62c844d7",
+          "content": "same energy as me after that 8am orgo final at Columbia",
+          "likes": 0
+        },
+        {
+          "id": "2fc48fc8-2118-46c5-ae35-34255def7bbc",
+          "content": "if you see me like this, just keep walking",
+          "likes": 0
+        },
+        {
+          "id": "540de8e6-3744-4723-bcac-1dfed084303e",
+          "content": "me after eating campus dining mystery meat",
+          "likes": 0
+        },
+        {
+          "id": "13810916-4a0c-4764-85c1-9ff41b9cae67",
+          "content": "trying to carve out a personality like columbia kids",
+          "likes": 0
+        },
+        {
+          "id": "3861b69a-005c-45bb-b060-82961339a033",
+          "content": "this is what shows up if you nap on butler floor",
+          "likes": 0
+        },
+        {
+          "id": "edf35f08-8804-4c22-854a-16865995cd68",
+          "content": "when your T.A. says 'this one’s easy' then hands you this",
+          "likes": 0
+        },
+        {
+          "id": "841e1f4d-0641-4b27-a854-356200d61cba",
+          "content": "my mental health every time i check lionmail and it’s full",
+          "likes": 0
+        },
+        {
+          "id": "12bad676-69a2-476f-94a7-c005f32066ad",
+          "content": "not even low steps can support my emotional damage rn",
+          "likes": 0
+        },
+        {
+          "id": "82af5a1b-e68b-4bef-a4af-087efeef4e49",
+          "content": "threatening to drop out every single midterm week ngl",
+          "likes": 0
+        },
+        {
+          "id": "1a74fc8b-a5e2-4e92-9f65-a6e4de87e58a",
+          "content": "me going feral when someone takes my low steps spot",
+          "likes": 0
+        },
+        {
+          "id": "06676982-dfea-4d2d-960d-309afe9f8696",
+          "content": "honestly would rather be stabbed than answer piazza qs",
+          "likes": 0
+        },
+        {
+          "id": "e0710899-eb9a-4e3c-b7c0-887d7996a3bd",
+          "content": "this is who bans you from resting on the steps fr",
+          "likes": 0
+        },
+        {
+          "id": "ba2e91f0-d947-4e24-a2a8-f29e70e80a23",
+          "content": "about to slice every columbia email in my inbox",
+          "likes": 0
+        },
+        {
+          "id": "5512fb10-cb96-43bb-8e08-47e607c24cb3",
+          "content": "this is what columbia 'community' looks like, sus",
+          "likes": 0
+        },
+        {
+          "id": "66ef6671-0be0-4c6c-b83a-a225439f714b",
+          "content": "bro fixing that head won't fix your gpa, no cap",
+          "likes": 0
+        },
+        {
+          "id": "1a52f678-f28b-4f1b-b93d-8d7d01e1b1b6",
+          "content": "columbia lion got more brain cells than admin, fr",
+          "likes": 0
+        },
+        {
+          "id": "de101b0d-c477-440e-a2ca-a6bc9e5b6182",
+          "content": "when your group project is just you, as always",
+          "likes": 0
+        },
+        {
+          "id": "2fa94a54-460c-4926-ac91-6b2f1cab032d",
+          "content": "no amount of repairs will make that lion slay",
+          "likes": 0
+        },
+        {
+          "id": "12425a4f-94b3-41e4-ba65-780c566da099",
+          "content": "crying in a costume cuz finals still exist, mood",
+          "likes": 0
+        },
+        {
+          "id": "9fd5e486-1c72-4c33-add6-8be453822df6",
+          "content": "can't tell if that's the mascot or my depression, rip",
+          "likes": 0
+        },
+        {
+          "id": "4211f6e1-ab34-4ff0-b0ea-136a6f5fcbe9",
+          "content": "me pretending i'm not dead inside at low steps, lol",
+          "likes": 0
+        },
+        {
+          "id": "5c75dacc-7a00-4512-b5ae-309ef487c7ea",
+          "content": "this whole vibe smells like internships and regret, yikes",
+          "likes": 0
+        },
+        {
+          "id": "8912d51e-77d4-4130-95ab-51e9a86ccf93",
+          "content": "even the mascot wants to drop out of columbia, no cap",
+          "likes": 0
+        },
+        {
+          "id": "1a5eef1f-0f47-494f-a3f1-63a1b4679ebb",
+          "content": "bro's just tryna leave this meeting early",
+          "likes": 0
+        },
+        {
+          "id": "73ec7ffb-5dac-4989-adfd-2083666c61e2",
+          "content": "put your paw down, nobody cares",
+          "likes": 0
+        },
+        {
+          "id": "92b27819-f620-4e96-af30-41f63ac624b2",
+          "content": "don't volunteer if you look like you eat crayons",
+          "likes": 0
+        },
+        {
+          "id": "7d2f3d33-2046-4483-a378-50462fbde484",
+          "content": "participation trophy energy is highkey wild",
+          "likes": 0
+        },
+        {
+          "id": "da96dcb9-925f-4d9e-b173-56731c263ff6",
+          "content": "sat on the wrong zoom and just rolled with it",
+          "likes": 0
+        },
+        {
+          "id": "2f9dd112-63be-42ce-ba2a-7d0443b1ad01",
+          "content": "is that your question or are you just bored?",
+          "likes": 0
+        },
+        {
+          "id": "6d825cc4-3541-46dd-9cb4-cab15241de3f",
+          "content": "yeah i raise my hand, still don't care",
+          "likes": 0
+        },
+        {
+          "id": "55429468-aec6-419d-8d81-508293afff60",
+          "content": "who raised his paw for emotional damage again",
+          "likes": 0
+        },
+        {
+          "id": "a3ce1591-e293-45c6-affd-8645395abbb8",
+          "content": "still less clueless than half my classmates",
+          "likes": 0
+        },
+        {
+          "id": "5549a0db-ecc6-4911-92a8-21a571e29b0c",
+          "content": "columbia low steps squad: present but dead inside",
+          "likes": 0
+        },
+        {
+          "id": "1a8658ef-5d3e-435a-81d2-14ae9b347747",
+          "content": "that lion's face is me realizing tuition's due next week",
+          "likes": 0
+        },
+        {
+          "id": "ede118e5-9920-4af0-8f07-20875ec65df8",
+          "content": "imagine getting emotional support from a dude in a lion rug",
+          "likes": 0
+        },
+        {
+          "id": "0c2b1da1-ab01-43fd-ae80-d5e8e3c3740c",
+          "content": "day ruined cause some dude's recharging his furry suit",
+          "likes": 0
+        },
+        {
+          "id": "eb1ce2a8-0681-461f-84ce-29d1965a594e",
+          "content": "bro needed emotional support and got a colonoscopy",
+          "likes": 0
+        },
+        {
+          "id": "1265519c-c5a8-453a-bc69-cfbbbd1ea88d",
+          "content": "mascot's definitely regretting all 8 semesters of this",
+          "likes": 0
+        },
+        {
+          "id": "1fa45ca7-a4cc-42d1-9296-f8379f752c11",
+          "content": "mascot just found out he's stuck in this major forever",
+          "likes": 0
+        },
+        {
+          "id": "f2196534-f9fb-4f07-91b0-9a3a7a24d68e",
+          "content": "lowkey wanna trade places with the mascot to check out",
+          "likes": 0
+        },
+        {
+          "id": "f7def3dc-ac53-4a1b-aecf-9b5a61698ff8",
+          "content": "all that columbia pride and he still wants to disappear",
+          "likes": 0
+        },
+        {
+          "id": "d7226e66-5aa0-4109-ad7b-cc6faf4a6168",
+          "content": "literally the only therapy session athletes can afford",
+          "likes": 0
+        },
+        {
+          "id": "e3a4efef-99f7-4855-b37d-6affc4a2b4b9",
+          "content": "columbia spirit animal looking like he needs a xanax",
+          "likes": 0
+        },
+        {
+          "id": "f45ac50d-4f10-48b5-9bf9-542e3894354f",
+          "content": "bro looks like he's tryna skip therapy fr",
+          "likes": 0
+        },
+        {
+          "id": "c83c6b7c-caab-461b-9322-ce0d5717be32",
+          "content": "he looks like his soul just left for community college",
+          "likes": 0
+        },
+        {
+          "id": "e4f1b067-db56-42b1-a148-3e75016c25ab",
+          "content": "columbia: fancy window, same existential dread",
+          "likes": 0
+        },
+        {
+          "id": "8cbab02c-f7d6-4331-a174-bf96e14fc2ae",
+          "content": "caught mid-life crisis in 4k in his living room",
+          "likes": 0
+        },
+        {
+          "id": "13470db0-c455-44a0-af20-77d4c8ab2eb5",
+          "content": "that face when your GPA's below room temp",
+          "likes": 0
+        },
+        {
+          "id": "717e014a-9321-4a53-9862-3a7d0b004828",
+          "content": "this is the look after checking your credit score",
+          "likes": 0
+        },
+        {
+          "id": "4366a844-6a24-46ff-99ce-dd3c1ed378a7",
+          "content": "bro just realized his wifi is 'Columbia123'",
+          "likes": 0
+        },
+        {
+          "id": "456b197d-2419-4d9a-b8cd-756431453475",
+          "content": "did it hurt when you found out dad's not coming back?",
+          "likes": 0
+        },
+        {
+          "id": "cf951fba-d528-4f6b-95e4-2e3267ea178f",
+          "content": "bro saw Ivy League kids eating instant ramen",
+          "likes": 0
+        },
+        {
+          "id": "8d3f5172-19d6-4be1-b980-13df1f495180",
+          "content": "when the smart kid finally flunks math lmao",
+          "likes": 0
+        },
+        {
+          "id": "cbd27964-6fdb-4c2c-b462-46a52c33c3fb",
+          "content": "he saw his bank account and chose violence",
+          "likes": 0
+        },
+        {
+          "id": "e99d2dbf-32d4-457f-abff-8c85ab4ba7b5",
+          "content": "if this floor smells like piss, it's noco vibes",
+          "likes": 0
+        },
+        {
+          "id": "42715e1e-6dbd-4231-8473-43c1ae4a22e7",
+          "content": "crawled in for peace, found my rock bottom fr",
+          "likes": 0
+        },
+        {
+          "id": "4802c3ee-6a96-43bc-89be-82121cb9f893",
+          "content": "laid out like someone just dropped my gpa, dying",
+          "likes": 0
+        },
+        {
+          "id": "3734d443-2318-4f1e-98d9-25062cfc612a",
+          "content": "freshman after a noco bathroom speedrun flop",
+          "likes": 0
+        },
+        {
+          "id": "4dadf5b7-9cad-4ee1-a75e-a8c7b18b1fc1",
+          "content": "this was me after a chem midterm and taco bell run",
+          "likes": 0
+        },
+        {
+          "id": "956ea6c7-f878-458c-ad8f-3cca8d313bd0",
+          "content": "columbia tuition got me literally cooked here",
+          "likes": 0
+        },
+        {
+          "id": "7392f79a-5047-49fe-a52a-6c3e967fde95",
+          "content": "when life gives you choices and you pick business, cooked",
+          "likes": 0
+        },
+        {
+          "id": "87be7c2a-715e-4881-a3d7-8e55da9f7454",
+          "content": "why does the trash can look less dead than me rn",
+          "likes": 0
+        },
+        {
+          "id": "d9832838-8426-4f2a-a9c3-c2604004228d",
+          "content": "me after eating anything from jj's place, cooked",
+          "likes": 0
+        },
+        {
+          "id": "f96da4e6-b6b0-406d-a9da-ae3ab1c3bf1d",
+          "content": "even the raccoon couldn't handle the columbia grind",
+          "likes": 0
+        },
+        {
+          "id": "4c195821-d77e-422f-ab94-404abd529918",
+          "content": "he looks so happy reminding us we’re broke",
+          "likes": 0
+        },
+        {
+          "id": "66231575-d1e9-41b8-ac53-d9cd657687fc",
+          "content": "deadass laughing at my ruined college plans",
+          "likes": 0
+        },
+        {
+          "id": "77a57b1e-dd1c-4461-a6ea-f35108bfff87",
+          "content": "Columbia’s new mascot: heart-eyed tax evader",
+          "likes": 0
+        },
+        {
+          "id": "a8c8e044-9bdb-4042-b2b9-14bf836a74d1",
+          "content": "bro really giggling signing my tuition death sentence",
+          "likes": 0
+        },
+        {
+          "id": "a883180c-4646-4699-a622-1509f77209df",
+          "content": "laughing in the Oval Office like he paid my tuition",
+          "likes": 0
+        },
+        {
+          "id": "01ac7c69-03c6-443d-bbff-667d66636898",
+          "content": "funny how he loves you but hates our endowment",
+          "likes": 0
+        },
+        {
+          "id": "8226ab85-6a8a-44b5-b485-4e87dcee3e8f",
+          "content": "this is how Columbia sees their financial aid",
+          "likes": 0
+        },
+        {
+          "id": "8466ba98-301b-4a1e-a453-648a9995f216",
+          "content": "hearts for every dollar Columbia never sees again",
+          "likes": 0
+        },
+        {
+          "id": "46f8b80b-5e19-48de-a64a-8eb507b5f9c3",
+          "content": "he’s smiling like my debt is a little joke",
+          "likes": 0
+        },
+        {
+          "id": "7923902c-15af-4b81-a100-ce2004f5e4fc",
+          "content": "dude just cut Columbia, called it date night",
+          "likes": 0
+        },
+        {
+          "id": "ed91746f-863d-47d4-8b2d-0a8edbfd64f1",
+          "content": "smiling cuz he already finished my semester",
+          "likes": 0
+        },
+        {
+          "id": "aa41923c-caae-4cb7-bc5b-c21bc38abd56",
+          "content": "he’s got more salt in his beard than my exam scores",
+          "likes": 0
+        },
+        {
+          "id": "50ebffb3-13bd-4474-8a38-df6da13de3c0",
+          "content": "sir please stop grading like you hate happiness",
+          "likes": 0
+        },
+        {
+          "id": "8ef56d55-bf02-4ae5-86fd-97ebe93d73e8",
+          "content": "bro looks like he yaps riddles before giving C’s",
+          "likes": 0
+        },
+        {
+          "id": "44045df4-67a2-43ce-bebe-d3a0de5feeb2",
+          "content": "dude’s beard holds secrets and everyone’s regrets",
+          "likes": 0
+        },
+        {
+          "id": "a10fdfd6-929d-4f05-a7d2-9c2f8d110aa1",
+          "content": "if wisdom was pain, that beard is a whole Columbia syllabus",
+          "likes": 0
+        },
+        {
+          "id": "f23eb51c-5bea-4350-b56f-75d8485f949f",
+          "content": "bet he gives sus reminders that drop your GPA",
+          "likes": 0
+        },
+        {
+          "id": "5dbcbb59-9231-41ac-9689-e467c7cf412e",
+          "content": "that look says “try harder” while you’re already crying",
+          "likes": 0
+        },
+        {
+          "id": "38cccd32-d289-4da0-bfe0-52b35128f299",
+          "content": "that beard’s seen more tweaks than Columbia’s finals",
+          "likes": 0
+        },
+        {
+          "id": "9a3cb138-db36-48ea-ae54-207eae80978d",
+          "content": "this is the face you see before flunking discrete math",
+          "likes": 0
+        },
+        {
+          "id": "ae520fd8-4a70-41ff-8627-6306c8fa1b3c",
+          "content": "wish i could attack my problems with that energy tbh",
+          "likes": 0
+        },
+        {
+          "id": "2a919119-ee97-401d-a1c4-2be87c20e715",
+          "content": "why does it look like a minion flunked culinary school",
+          "likes": 0
+        },
+        {
+          "id": "cf5eae28-c47f-4f6b-a919-baf116e82940",
+          "content": "if this thing comes near me, i'm calling animal control",
+          "likes": 0
+        },
+        {
+          "id": "1d1a1da8-3922-4ebf-b044-2459b376b31c",
+          "content": "bro really said if you can't cook, just threaten dinner",
+          "likes": 0
+        },
+        {
+          "id": "a5b95256-6084-449e-952c-2b881fe743f6",
+          "content": "yeah mood, i'd rather chop than yap",
+          "likes": 0
+        },
+        {
+          "id": "1885b1b3-08d2-4faf-aacb-e654201fb97e",
+          "content": "if anxiety was a kid's show character, i'm dead",
+          "likes": 0
+        },
+        {
+          "id": "1cde7b99-4900-459c-bc59-a4a9722645d8",
+          "content": "if you squint, that’s literally my self sabotage",
+          "likes": 0
+        },
+        {
+          "id": "a709112c-b342-4bd5-96a5-13f80a561755",
+          "content": "why does it look ready to cut off my wifi, sus",
+          "likes": 0
+        },
+        {
+          "id": "f41ef420-6bd7-4b15-b5b2-13e80ef13394",
+          "content": "this is what my sleep paralysis demon threatened me with",
+          "likes": 0
+        },
+        {
+          "id": "52640b87-c0cd-4694-bc3a-51cf3b2c640d",
+          "content": "def not letting this thing near my air fryer",
+          "likes": 0
+        },
+        {
+          "id": "fb01498c-5747-4403-a4c1-885cbf420ff3",
+          "content": "barefoot and emotionally unavailable, just like Butler",
+          "likes": 0
+        },
+        {
+          "id": "efc0130f-f966-4856-95da-fdf377587922",
+          "content": "insurgency in aisle 3, still can’t focus on page 1",
+          "likes": 0
+        },
+        {
+          "id": "26e31591-83f6-4a43-9d4e-b083219ec6da",
+          "content": "girl typing like the revolution's due at 11:59pm",
+          "likes": 0
+        },
+        {
+          "id": "b3ec7060-c086-4e59-bff0-526640752c56",
+          "content": "whole protest but you got time for Wordle huh",
+          "likes": 0
+        },
+        {
+          "id": "b0331877-1ff6-44e9-8fc6-7adc630fa337",
+          "content": "the plaid pants say \"don’t talk to me\" louder than chants",
+          "likes": 0
+        },
+        {
+          "id": "41a3771e-0813-4888-a6ce-668e0db9157e",
+          "content": "not even a megaphone can stop my GPA collapse",
+          "likes": 0
+        },
+        {
+          "id": "e7bce741-984e-4fb6-a2ac-77e1c0d0b59c",
+          "content": "protesting tuition but sis needs Canvas to load faster",
+          "likes": 0
+        },
+        {
+          "id": "b72c0887-4b9a-408f-ace7-4b3b46d39e58",
+          "content": "you’re not beating the burnt-out kid in orange, give up",
+          "likes": 0
+        },
+        {
+          "id": "8a442629-a805-4dd7-adff-930e7238e8b9",
+          "content": "Columbia finals: where chaos means nothing but wifi speed",
+          "likes": 0
+        },
+        {
+          "id": "5a4d1007-d67f-4c76-acb8-cfb1ba0fa104",
+          "content": "feet out like she owns the library and everyone in it",
+          "likes": 0
+        },
+        {
+          "id": "bccd5ffb-23d1-4e90-a5b6-9f06463de49f",
+          "content": "even the trash can got a better spot in life",
+          "likes": 0
+        },
+        {
+          "id": "5e29d280-bb3c-4135-9fbb-2d9e1779fc1e",
+          "content": "Columbia admin seeing another bathroom hygiene complaint",
+          "likes": 0
+        },
+        {
+          "id": "9b007d7d-b620-4000-b988-526e1693665c",
+          "content": "my last brain cell after midterms in Barnard stalls",
+          "likes": 0
+        },
+        {
+          "id": "a241425c-ce28-4660-9b18-3d78be4cacd9",
+          "content": "me after Columbia Noco bathroom air hits my soul",
+          "likes": 0
+        },
+        {
+          "id": "72c4791f-1cad-490f-a937-1661629dc3eb",
+          "content": "rock bottom is floor tile and a toilet judging you",
+          "likes": 0
+        },
+        {
+          "id": "746ee1e5-7dd8-472f-b56d-cfeff768591c",
+          "content": "this raccoon has more rizz than I do today",
+          "likes": 0
+        },
+        {
+          "id": "cf5a328d-7ccb-4b57-8f8a-1efac111b889",
+          "content": "i just laid down hoping the germs would finish me",
+          "likes": 0
+        },
+        {
+          "id": "2f0d530a-6cdd-4f74-810d-0432d116f029",
+          "content": "someone come mop up my dignity by the toilet",
+          "likes": 0
+        },
+        {
+          "id": "5b8f5b21-c4f2-46d2-b9b4-b18010252859",
+          "content": "if you relate to this raccoon, please get help",
+          "likes": 0
+        },
+        {
+          "id": "2d8376a7-17ce-46b6-9fb3-2936766dec38",
+          "content": "so this is what giving up in a public bathroom looks like",
+          "likes": 0
+        },
+        {
+          "id": "d0375b87-3725-477d-8383-738baf994dab",
+          "content": "even this dog’s got more motivation than my gpa",
+          "likes": 0
+        },
+        {
+          "id": "51851503-a3ee-446e-8caf-fe9d2611c48e",
+          "content": "went to class just to get owned by a labrador",
+          "likes": 0
+        },
+        {
+          "id": "58b37020-2f27-4b30-91be-f79ccfdab20f",
+          "content": "bro is more attentive than half my columbia seminar",
+          "likes": 0
+        },
+        {
+          "id": "4976f662-32f3-4a78-b541-7f592c2421b0",
+          "content": "if this is the group project leader i’m dropping out",
+          "likes": 0
+        },
+        {
+          "id": "a44583c2-8427-468a-971b-20670d66ee55",
+          "content": "why this dog look smarter than my whole friend group",
+          "likes": 0
+        },
+        {
+          "id": "649e2d85-1d2d-49a6-b100-ea6e8f5c6626",
+          "content": "dog’s chair got more stripes than my resume",
+          "likes": 0
+        },
+        {
+          "id": "29eb1b5f-61e3-404e-b4cc-95a223cef440",
+          "content": "not you raising your paw like you know the answer, tryhard",
+          "likes": 0
+        },
+        {
+          "id": "83d4cb08-229c-4c39-89a0-44796e875250",
+          "content": "dog showed up to class and still got more purpose than me",
+          "likes": 0
+        },
+        {
+          "id": "f05a18a4-f7a6-49be-80aa-0b3cf57001da",
+          "content": "there goes my spot as teacher’s pet, literally",
+          "likes": 0
+        },
+        {
+          "id": "efd8d15c-2f11-41a6-89e4-d4aa846b4299",
+          "content": "dog giving main character energy and i’m just background",
+          "likes": 0
+        }
+      ],
+      "avgLikes": 0,
+      "likeRate": 0
+    },
+    {
+      "id": 36,
+      "slug": "do-not-use-ter-re-lyn",
+      "description": "do not use",
+      "captionCount": 502,
+      "totalLikes": -438,
+      "captions": [
+        {
+          "id": "e21d77d7-1151-4bc6-b9fc-dc034e11e0eb",
+          "content": "How I feel walking thru Barnard as a guy",
+          "likes": 24
+        },
+        {
+          "id": "1943f108-a900-4997-950f-8d65750e27a0",
+          "content": "The hydration levels required for a SEAS all-nighter",
+          "likes": 12
+        },
+        {
+          "id": "f4881ea1-2810-4acf-90b5-36dd8e85faf5",
+          "content": "Idealizing the Ivy League then seeing the bathroom graffiti",
+          "likes": 8
+        },
+        {
+          "id": "7513cc2d-11bb-42f9-b38f-aed3ee03428e",
+          "content": "Me cooking after Columbia dining broke my spirit",
+          "likes": 7
+        },
+        {
+          "id": "91c19534-af9d-4d95-826f-4351b139dd2c",
+          "content": "Sprinting out of class when the prof forgets to take attendance",
+          "likes": 6
+        },
+        {
+          "id": "b2d75d47-b3f7-4c84-b307-b1ad98e084d1",
+          "content": "Me when I finally get signed into a Columbia dorm party",
+          "likes": 5
+        },
+        {
+          "id": "9a0a6a93-fa2e-46b8-8324-f7fbbe9b4150",
+          "content": "Opening the dryer and finding my favorite shirt half-melted again",
+          "likes": 5
+        },
+        {
+          "id": "97020fae-c1fa-444c-b8c9-6da966e92d00",
+          "content": "Me walking into Butler with zero intention of studying",
+          "likes": 5
+        },
+        {
+          "id": "94aaf256-f110-4e2b-8497-636cfb7978bf",
+          "content": "when you and your friends pull up to EC hoping for housing",
+          "likes": 4
+        },
+        {
+          "id": "c5750680-a776-427a-96ab-78fecdeda4fd",
+          "content": "Tell me why this looks like Ferris pasta night",
+          "likes": 3
+        },
+        {
+          "id": "dc278b2f-782e-4439-a43f-48abcf3dc1b6",
+          "content": "Dreading my student life fees as Dodge leaks overhead",
+          "likes": 2
+        },
+        {
+          "id": "653261ea-b241-4bbe-a1e1-d4d21ba153a7",
+          "content": "Seeing CVN lecture audio cut out for the 7th time this hour",
+          "likes": 2
+        },
+        {
+          "id": "6fa419e1-aaac-47a6-a820-777e3d3374ab",
+          "content": "Getting caught yawning in class and the professor locks eyes",
+          "likes": 2
+        },
+        {
+          "id": "186dc840-8a87-43a1-b302-8ae0bf0e3e4b",
+          "content": "registration but make it dinner",
+          "likes": 1
+        },
+        {
+          "id": "76b1b92f-d0cb-4901-8258-05a50dc1edde",
+          "content": "discrete math pset got me burning out like this",
+          "likes": 1
+        },
+        {
+          "id": "069018a0-36b6-46f1-b63f-a28e0da2ca23",
+          "content": "when the radiator turns your room into a sauna around 2am",
+          "likes": 1
+        },
+        {
+          "id": "a93695c2-bd85-43fa-b7f2-75ea6c36aa43",
+          "content": "Im gonna kill this exam today",
+          "likes": 0
+        },
+        {
+          "id": "0b1d5279-df5f-4ac4-87a5-1bd3fe0b7981",
+          "content": "8:40 am class and my soul left my body",
+          "likes": 0
+        },
+        {
+          "id": "1feae1d8-f833-40a9-822c-ddbcd5c29c2a",
+          "content": "The look I give when someone swipes my Ferris omelet",
+          "likes": 0
+        },
+        {
+          "id": "5d03da2f-8069-400d-acd0-3e08785b2075",
+          "content": "Ready to register for classes just to get waitlisted again",
+          "likes": 0
+        },
+        {
+          "id": "975db37a-af5d-4579-81a7-a46aacd75f7e",
+          "content": "waiting out add/drop in the bathroom like a war vet",
+          "likes": 0
+        },
+        {
+          "id": "2330c607-11bc-4f59-a7d7-ec31539e57fd",
+          "content": "these lights will never outshine the hairballs in John Jay showers",
+          "likes": 0
+        },
+        {
+          "id": "344f46c6-bdab-4d06-a17e-47453a4fe07c",
+          "content": "major requirements look so fun from outside the chaos",
+          "likes": 0
+        },
+        {
+          "id": "9d3ee017-5988-43f0-834a-86001e0579c4",
+          "content": "deadass spent twenty at Senior Night and still ended up here",
+          "likes": 0
+        },
+        {
+          "id": "c85fe335-3641-425d-8131-65399dd6188e",
+          "content": "would rather stare at buildings than find a relevant email",
+          "likes": 0
+        },
+        {
+          "id": "f44e1467-95ff-4848-8e42-4cda352560fc",
+          "content": "mood is watching CVN recordings on mute and pretending it counts",
+          "likes": 0
+        },
+        {
+          "id": "97771310-3573-40db-b17d-c005dbf826d0",
+          "content": "taking self care to a whole new cry for help",
+          "likes": 0
+        },
+        {
+          "id": "bc1d526d-cfdb-49f7-a354-6a31d4f6c00c",
+          "content": "who let me major in sadness, fr",
+          "likes": 0
+        },
+        {
+          "id": "8f183282-c1f1-44ff-8e5b-7b241d8f18ab",
+          "content": "why does this look like every group project at columbia, fr",
+          "likes": 0
+        },
+        {
+          "id": "ea4604c8-36a1-45fe-bc99-4d11dbf69efc",
+          "content": "honestly just toss me in with the sanitary pads",
+          "likes": 0
+        },
+        {
+          "id": "d1de229d-776b-4a78-a7f6-ce3a2374f886",
+          "content": "my soul after one econ midterm, just vibes left, straight up",
+          "likes": 0
+        },
+        {
+          "id": "0145dd4c-7096-4f73-927e-0ec1a66944bd",
+          "content": "this energy is why i got rejected from three clubs, type shi",
+          "likes": 0
+        },
+        {
+          "id": "ef3f2ec5-ddb1-47a7-bc57-0a1a1ed76571",
+          "content": "damn even the trash can's got more dignity than me rn",
+          "likes": 0
+        },
+        {
+          "id": "353c6e4f-b65f-46b5-863d-8606ef8edcd4",
+          "content": "lied on my resume and still ended up here, lol",
+          "likes": 0
+        },
+        {
+          "id": "b3abbda0-d58f-4bbf-a095-f3249180b862",
+          "content": "wish i could flop like this and just blame gluten, no cap",
+          "likes": 0
+        },
+        {
+          "id": "65a5af75-a3f4-4289-ab35-67b89fa4011b",
+          "content": "me fighting demons in the women's bathroom again, smh",
+          "likes": 0
+        },
+        {
+          "id": "4eace3c2-dd27-4934-9e73-3cd9a1f96880",
+          "content": "so wise but still my last pick for group projects lol",
+          "likes": 0
+        },
+        {
+          "id": "e18f8091-1721-4d29-88ff-6c786b98f635",
+          "content": "smiling like spiritual enlightenment is just ignoring emails, honestly",
+          "likes": 0
+        },
+        {
+          "id": "e5bc65fe-0409-47de-bfca-2373568084f0",
+          "content": "discrete math at columbia really spawns main characters, huh",
+          "likes": 0
+        },
+        {
+          "id": "fec8fb6b-9da7-4134-8c28-5ae4f2d2d3e4",
+          "content": "that face when you're the backup dad joke dude 😂",
+          "likes": 0
+        },
+        {
+          "id": "b5a690d2-bf78-4b91-bb7d-47bd60027b4c",
+          "content": "looking at me like he's about to roast my whole thesis, i'm dead",
+          "likes": 0
+        },
+        {
+          "id": "c869d1e4-c5b9-4937-a26a-95b76bfee166",
+          "content": "this beard saw my gpa and was like 'nah fam' and started receding too",
+          "likes": 0
+        },
+        {
+          "id": "f946af21-4721-4970-a3f3-fa045cf778b8",
+          "content": "getting lowkey judged by someone who owns like twelve polos",
+          "likes": 0
+        },
+        {
+          "id": "914ea148-4c6e-404d-afa9-c988b7d732fc",
+          "content": "is this facial hair on the tenure track or what",
+          "likes": 0
+        },
+        {
+          "id": "aa882b76-e1f7-4044-bb0b-5b154a3e8417",
+          "content": "bet your students turn in their homework just 'cause they feel bad for you",
+          "likes": 0
+        },
+        {
+          "id": "79fdc336-3e7a-4428-a73c-43bd40961608",
+          "content": "pretty sure you charge tuition for dropping life wisdom",
+          "likes": 0
+        },
+        {
+          "id": "48260751-a41d-4ce8-b383-c899bf588fec",
+          "content": "how i look hearing my dorm neighbors through the walls",
+          "likes": 0
+        },
+        {
+          "id": "485dcb27-e886-4613-9c4d-c77f06e115c8",
+          "content": "me in avery getting stopped for my half empty coffee",
+          "likes": 0
+        },
+        {
+          "id": "93347025-e467-444c-a560-4c59bf48dd8b",
+          "content": "me dropping to the floor when the heater turns on again",
+          "likes": 0
+        },
+        {
+          "id": "6f119b1d-fb3f-4c47-9368-009536ff7ed9",
+          "content": "they’re chanting freedom i’m unfree from cs160 homework",
+          "likes": 0
+        },
+        {
+          "id": "5de4a98a-aebd-48cd-99c4-0987e39d8b24",
+          "content": "most people fear missing out, i fear missing deadlines",
+          "likes": 0
+        },
+        {
+          "id": "7e38bf72-1093-430e-a075-a9f05b76ae78",
+          "content": "shutting out world history like it’s my group chat",
+          "likes": 0
+        },
+        {
+          "id": "1abdc612-ccd7-4eff-b918-c04c44df3f78",
+          "content": "impressive focus, zero life signs detected",
+          "likes": 0
+        },
+        {
+          "id": "0df071e0-06f0-41a4-9a21-8a0516ca05e6",
+          "content": "vibes: protest in the streets, stress in these sheets",
+          "likes": 0
+        },
+        {
+          "id": "c5bb3797-2510-4c45-8939-172eb0e25987",
+          "content": "everyone’s fighting for justice i’m just fighting my GPA",
+          "likes": 0
+        },
+        {
+          "id": "b875e816-d261-4cd3-9c26-d570c2d40857",
+          "content": "columbia said pick your battles, i chose denial",
+          "likes": 0
+        },
+        {
+          "id": "8dfd2ea9-7970-4bb0-80b0-f8efda8eebc2",
+          "content": "the bare feet say finals, the face says drop out",
+          "likes": 0
+        },
+        {
+          "id": "94d3231f-d100-4127-894f-330f0d40fff5",
+          "content": "not leaving my seat till grading is more fair than this protest",
+          "likes": 0
+        },
+        {
+          "id": "122d249a-bd79-4de8-b32b-2d679b7967f4",
+          "content": "that strawberry swirl is the kid who audited jazz then dropped",
+          "likes": 0
+        },
+        {
+          "id": "1db00ae0-7468-45e6-a5c9-a63d7964fa49",
+          "content": "these drinks got more personality than my freshman floor",
+          "likes": 0
+        },
+        {
+          "id": "22e4eca7-f40c-466a-a94c-b7a6fba6ffef",
+          "content": "someone in Butler right now matching this matcha’s energy",
+          "likes": 0
+        },
+        {
+          "id": "aeef890c-8bf1-403f-856b-0f327181c724",
+          "content": "me vs my econ minor courseload but both dying inside",
+          "likes": 0
+        },
+        {
+          "id": "5bab6de0-714a-418c-9814-5cfb466ce55a",
+          "content": "not even a revolution can stop this canvas discussion post",
+          "likes": 0
+        },
+        {
+          "id": "11833e8b-96b7-4ed7-8866-977c634272e4",
+          "content": "that’s me acting all chill while someone hogs Dodge’s spray bottle",
+          "likes": 0
+        },
+        {
+          "id": "2eb414bc-3955-4956-8f80-02f68beddb9e",
+          "content": "literally me laughing mid-argument during surf and turf line",
+          "likes": 0
+        },
+        {
+          "id": "2ecad667-e813-4d91-8597-94662d0e4ab4",
+          "content": "the dynamic when your roommate takes 45 min in the Barnard 600 shower",
+          "likes": 0
+        },
+        {
+          "id": "4c3373c2-6aae-49ab-8bb5-630ec1f4019d",
+          "content": "the face you make when Columbia cancels your federal funding",
+          "likes": 0
+        },
+        {
+          "id": "5a65248f-8eb9-426a-bfe9-eb64c2a39182",
+          "content": "sorry, did you say something? i only respond to trauma",
+          "likes": 0
+        },
+        {
+          "id": "133a79a7-7c41-4e3c-9800-323d054f2dd1",
+          "content": "columbia tour groups blocking my only way out like fr",
+          "likes": 0
+        },
+        {
+          "id": "b375f807-7677-42c4-ba15-2d2799a15572",
+          "content": "begging for a break like i didn’t waste 6 hours on tiktok",
+          "likes": 0
+        },
+        {
+          "id": "39ecaa33-b575-4e8e-aee3-9f16b29543c7",
+          "content": "sign me up for literally anything to escape this place",
+          "likes": 0
+        },
+        {
+          "id": "2ea4ba2d-bebc-4348-b3ad-f913123a5f3e",
+          "content": "are we all just sitting here pretending we’re not losing it?",
+          "likes": 0
+        },
+        {
+          "id": "15db9d98-1cc1-466a-a465-57e9cf2913ac",
+          "content": "me waiting for someone to finally admit they secretly hate me",
+          "likes": 0
+        },
+        {
+          "id": "f96cd427-dda1-417c-a65a-af9371f1da5c",
+          "content": "can i answer or just keep pretending anyone's listening",
+          "likes": 0
+        },
+        {
+          "id": "f5af9a59-40ca-41e0-82ac-49300d97dbe7",
+          "content": "let me embarrass myself first so it’s fair",
+          "likes": 0
+        },
+        {
+          "id": "d7073036-b353-4ed8-aaea-985aed054a4d",
+          "content": "call on me and i'm dropping out on sight",
+          "likes": 0
+        },
+        {
+          "id": "0099d794-51d7-4731-b45e-feb2c8bb4c86",
+          "content": "why do i feel more seen by this table than my therapist, no cap",
+          "likes": 0
+        },
+        {
+          "id": "b4fcd6e6-f5bb-4b2b-83f0-978c00ba1ff6",
+          "content": "this is the energy HR gives when you’re begging for a sick day",
+          "likes": 0
+        },
+        {
+          "id": "e8fcac51-4338-4456-b636-f8f933ec75c6",
+          "content": "if self sabotage had a mascot, it’d be this mess",
+          "likes": 0
+        },
+        {
+          "id": "b5f95c0e-0474-4e9d-82d4-a1a236ecec34",
+          "content": "the face you make after winning one argument on campuswire, dying",
+          "likes": 0
+        },
+        {
+          "id": "c2514bae-4b0c-4435-9040-e11bb25ef66a",
+          "content": "wow even this thing gets more action than me, no cap",
+          "likes": 0
+        },
+        {
+          "id": "78329cf1-439c-41c5-9023-88115b9d6498",
+          "content": "my last two brain cells are beefing and neither wants to chill",
+          "likes": 0
+        },
+        {
+          "id": "8246e2e6-bf37-4a6f-91f5-b7e10266866f",
+          "content": "honestly cuter than my Columbia Medical Services nurse, no cap",
+          "likes": 0
+        },
+        {
+          "id": "c060d201-fb57-4e5c-acfd-b24dda2bc3e0",
+          "content": "me trying to cut my imposter syndrome but it’s like, immortal",
+          "likes": 0
+        },
+        {
+          "id": "cd5a3860-4e0b-4a24-bf80-8e04ab87ecd3",
+          "content": "this feels like my GPA is about to snitch to my mom",
+          "likes": 0
+        },
+        {
+          "id": "4330732d-6d56-421b-b9c9-b9a5abd01f54",
+          "content": "someone def flunked the Columbia roommate quiz again",
+          "likes": 0
+        },
+        {
+          "id": "7c7c2096-f21a-42fe-8b6d-f6155453a497",
+          "content": "she’s about to serve a whole plate of ‘why am i even here’ vibes",
+          "likes": 0
+        },
+        {
+          "id": "1e739595-73fb-4714-a0de-b81cedbc8860",
+          "content": "stood up by the outlet again at Butler",
+          "likes": 0
+        },
+        {
+          "id": "317ef38b-b5de-475b-b90f-300a22f2976f",
+          "content": "me deciding if i’d rather drown or swim across campus lake",
+          "likes": 0
+        },
+        {
+          "id": "7c19f6c6-83b0-4162-a0ab-38abb9aabaf8",
+          "content": "me contemplating life choices while my Diana burrito bowl gets cold",
+          "likes": 0
+        },
+        {
+          "id": "99fc8498-f9a7-4131-8d2b-16787420a194",
+          "content": "how i look at the MTA app when the 1 train says 8 min away",
+          "likes": 0
+        },
+        {
+          "id": "b2132b9a-1526-49ff-8c2a-2d48ca000899",
+          "content": "me after eating two Fac Shack cookies in a row",
+          "likes": 0
+        },
+        {
+          "id": "57b05fe6-fed4-43eb-8e2c-288297463f73",
+          "content": "If post-finals had a mascot it would be this jacket",
+          "likes": 0
+        },
+        {
+          "id": "b4904062-aba6-4723-8d05-8d13a568d1b8",
+          "content": "Jacket looks like it just got physically escorted by Columbia security",
+          "likes": 0
+        },
+        {
+          "id": "cc5f2201-aa28-4497-a034-ee8902c29865",
+          "content": "This is exactly how I felt after eating at JJ’s experiment night",
+          "likes": 0
+        },
+        {
+          "id": "f1e21a0e-cf8e-4bdb-a3b3-cf02e7c0b509",
+          "content": "Hanging on the door like me on my last Dodge stair climb",
+          "likes": 0
+        },
+        {
+          "id": "6198fac9-cc76-4db8-bb6f-419050a47bab",
+          "content": "getting groomed for another round of forced school spirit",
+          "likes": 0
+        },
+        {
+          "id": "fbf6168f-7858-4ba1-bc47-72b7831170d3",
+          "content": "Used to protect me from the cold now it guards my last shred of dignity",
+          "likes": 0
+        },
+        {
+          "id": "be1c25af-2d00-482b-998a-a4118af40330",
+          "content": "should’ve picked a major that doesn’t make me cringe",
+          "likes": 0
+        },
+        {
+          "id": "c7ad35e6-8591-4d1c-a49b-b1409f5da163",
+          "content": "if my hair’s this fried, just expel me now",
+          "likes": 0
+        },
+        {
+          "id": "af190baa-0153-4000-b491-75cb31375766",
+          "content": "therapist said no dropping out this week, so here I am",
+          "likes": 0
+        },
+        {
+          "id": "2ed705eb-4a03-49c5-bb4e-0a2dbfc1b20c",
+          "content": "this lion’s got more drama than Barnard chats",
+          "likes": 0
+        },
+        {
+          "id": "ff980d06-beb6-457a-8906-8c52621091d2",
+          "content": "never felt less like royalty in my life",
+          "likes": 0
+        },
+        {
+          "id": "860d33c6-e6aa-4ce2-8f0a-97ae0711c5cf",
+          "content": "not even Adderall can save my brain today",
+          "likes": 0
+        },
+        {
+          "id": "a75ea80c-b8a3-4cc6-b919-8daa1c456455",
+          "content": "taking emotional damage for college credit, again",
+          "likes": 0
+        },
+        {
+          "id": "2ab085f0-1fc3-43bd-a34d-65bf953532cc",
+          "content": "me acting like the radiators aren’t boiling my soul",
+          "likes": 0
+        },
+        {
+          "id": "5fd0cf32-6c18-413b-8e43-c85d8d783e7c",
+          "content": "the fact I paid tuition for this is killing me inside",
+          "likes": 0
+        },
+        {
+          "id": "99ed3f25-492d-47ba-84e3-1aceb90047d5",
+          "content": "easiest way to age ten years in a sec",
+          "likes": 0
+        },
+        {
+          "id": "8c117843-4c1f-496e-9239-55c034b21158",
+          "content": "probably just saw his reflection and freaked out",
+          "likes": 0
+        },
+        {
+          "id": "90e0131e-5637-428e-9788-4ede8fc0bfbf",
+          "content": "object permanence but make it emotional damage fr",
+          "likes": 0
+        },
+        {
+          "id": "db485bc4-f3de-42b9-accf-6d055b8a444c",
+          "content": "this is my brain hearing there's more group work ugh",
+          "likes": 0
+        },
+        {
+          "id": "60c62f27-1d8b-4511-b978-bee8677cb16d",
+          "content": "how it feels when your GPA loads in real time smh",
+          "likes": 0
+        },
+        {
+          "id": "d8fb3ca9-7468-459a-84b6-f72d3b45fda8",
+          "content": "not even Shopping Period was this much of a plot twist omg",
+          "likes": 0
+        },
+        {
+          "id": "bd197b3e-2939-4478-b45a-3424e88331d2",
+          "content": "looks like you just realized your kid's actually that dumb lol",
+          "likes": 0
+        },
+        {
+          "id": "3c9e244a-ebc7-43d8-a023-799d6ec472fb",
+          "content": "that face when you remember your mic was never muted rip",
+          "likes": 0
+        },
+        {
+          "id": "676a07d6-e78d-4851-ae0c-bad0ffe20213",
+          "content": "waiting for the WiFi to come back like it's my dad coming home",
+          "likes": 0
+        },
+        {
+          "id": "e8fb6e6f-0161-4a42-9e1a-2744bf26d655",
+          "content": "that’s the face of someone realizing rent prices are a thing",
+          "likes": 0
+        },
+        {
+          "id": "474cdd0e-08e2-45d4-bde1-03d21e842955",
+          "content": "Gradescope notification hits different with this cover",
+          "likes": 0
+        },
+        {
+          "id": "6461fb4a-20f2-4f6c-9d03-91a38f0fe899",
+          "content": "Trying to read greatness while JJ’s serves waffle jalapeño again",
+          "likes": 0
+        },
+        {
+          "id": "8d4823c9-bd54-4f5a-a5b3-0951e1a9937a",
+          "content": "Me before opening JJ’s mystery soup of the day",
+          "likes": 0
+        },
+        {
+          "id": "a09f57a9-cf08-4b6c-8b4f-3608c56e92a8",
+          "content": "Low-key cradling this book like it’s my add/drop schedule",
+          "likes": 0
+        },
+        {
+          "id": "d8929719-db2d-4fa3-a408-b5b04794b351",
+          "content": "This is me waiting for Chef Mike’s to bring back the free soup",
+          "likes": 0
+        },
+        {
+          "id": "4bf116ef-a0c6-4b1c-a312-6ba2fd6c32dd",
+          "content": "he giggled like i didn’t just wreck his whole day",
+          "likes": 0
+        },
+        {
+          "id": "5603cef9-e075-4b16-844d-6b7c18e4c883",
+          "content": "columbia might be sus for community, but we bond over random snowball fights on low steps",
+          "likes": 0
+        },
+        {
+          "id": "58c9969b-d56a-44e2-9c6d-9c82e4da9468",
+          "content": "why’d he look at me like i just dropped a whole problem set",
+          "likes": 0
+        },
+        {
+          "id": "3045c5dd-5a1d-4947-90b3-6cc15b206614",
+          "content": "dude looks like me grabbing jj’s slushie during finals chaos",
+          "likes": 0
+        },
+        {
+          "id": "52f1a4a4-424f-4673-bf95-ad4dcec0ea5f",
+          "content": "seen more chemistry in a group therapy sesh fr",
+          "likes": 0
+        },
+        {
+          "id": "c0334f90-f30c-480c-a9ec-221c95cf2285",
+          "content": "should’ve dipped when i had the chance",
+          "likes": 0
+        },
+        {
+          "id": "a79b23a7-c1fb-4e9e-ad12-789df5f54b46",
+          "content": "this is gonna be me with my thesis advisor next week, no cap",
+          "likes": 0
+        },
+        {
+          "id": "413affa0-95b0-4635-93a4-99627712cea7",
+          "content": "lowkey dug my own grave letting him meet the rents ngl",
+          "likes": 0
+        },
+        {
+          "id": "e9191c07-8bea-4caa-95a8-b7e8ac834332",
+          "content": "absolutely zero chance of me having a main character moment here",
+          "likes": 0
+        },
+        {
+          "id": "53e90622-989e-4053-af4a-5e5fb8e46334",
+          "content": "he’s acting like i’m not regretting everything rn smh",
+          "likes": 0
+        },
+        {
+          "id": "e1d26129-e209-4476-a327-4fbecf80e8bd",
+          "content": "tried to bring group project vibes but forgot the group despair",
+          "likes": 0
+        },
+        {
+          "id": "7f240ec2-dc4c-40a9-8f29-22c4c0662577",
+          "content": "man's beard has seen more fails than my degree audit",
+          "likes": 0
+        },
+        {
+          "id": "56cbb93f-dfb6-425b-b1ef-0d5eb406ee6f",
+          "content": "as a CVN student, drowning in emails about pizza parties",
+          "likes": 0
+        },
+        {
+          "id": "1aae9f09-13cc-417e-a75a-39b195dcac09",
+          "content": "you’re either wise or just out of patience, can't I have a feeling?",
+          "likes": 0
+        },
+        {
+          "id": "f2a1b977-2855-487a-92b7-45f3e684de9e",
+          "content": "that’s not wisdom in his eyes, just pure disappointment",
+          "likes": 0
+        },
+        {
+          "id": "8a8980e9-927c-4ce7-a93c-1a313c990f59",
+          "content": "late night 7/11 run got me feeling unhinged af",
+          "likes": 0
+        },
+        {
+          "id": "3cd3323f-da45-4f4d-808d-27f92e3753bd",
+          "content": "Me restocking my room for the third time this week",
+          "likes": 0
+        },
+        {
+          "id": "734db432-0f62-4450-aa0f-f6e0decdce2c",
+          "content": "my beard's doing more work than my will to live rn",
+          "likes": 0
+        },
+        {
+          "id": "0cb630bf-8467-4296-a397-e803d1c7c0d7",
+          "content": "staring at my GPA like it just stabbed me in the back",
+          "likes": 0
+        },
+        {
+          "id": "6147a801-d46f-40a0-afc4-24aa42cbeb41",
+          "content": "he looks like he gives hugs but also collects regrets, no cap",
+          "likes": 0
+        },
+        {
+          "id": "0c479124-8f56-41b8-bb43-d86d08793f19",
+          "content": "smiles like he just graded my final and sighed",
+          "likes": 0
+        },
+        {
+          "id": "58c99891-b657-4c68-ae26-9a37540b5d31",
+          "content": "probably thinks hummus can fix literally everything",
+          "likes": 0
+        },
+        {
+          "id": "1449a8e8-153f-4e77-a29e-9b7ea04d20ce",
+          "content": "bet his secret talent is napping through meetings",
+          "likes": 0
+        },
+        {
+          "id": "5cf7778a-403d-4d34-b660-a359074c3792",
+          "content": "everyone's out protesting and you're still flunking stats smh",
+          "likes": 0
+        },
+        {
+          "id": "9c8b08f1-d301-4a3d-aa2e-90826d590a9a",
+          "content": "i see the revolution but my deadline's scarier ngl",
+          "likes": 0
+        },
+        {
+          "id": "3762f37a-2fb0-4241-ae78-35b404f2596c",
+          "content": "that assignment ain't the only thing due here fr",
+          "likes": 0
+        },
+        {
+          "id": "67ef9f57-8898-49f9-b97a-670a78a8fcfa",
+          "content": "imagine thinking your thesis is louder than a megaphone lol",
+          "likes": 0
+        },
+        {
+          "id": "d681f61b-63e5-432c-b309-b37b151ed9f6",
+          "content": "your GPA is not bouncing back from this one, babe",
+          "likes": 0
+        },
+        {
+          "id": "efa50bff-77e7-436a-ae0f-30492796b123",
+          "content": "at columbia they protest while you ghost group projects lol",
+          "likes": 0
+        },
+        {
+          "id": "1276a2ff-35e1-4e57-a1c1-77e4e0426ca1",
+          "content": "rebellion's at 100 and you're at 4% battery, rip",
+          "likes": 0
+        },
+        {
+          "id": "4d5b0138-9903-4111-9180-d950cf33d2d4",
+          "content": "your socks dipped out of pure embarrassment",
+          "likes": 0
+        },
+        {
+          "id": "6ef8f221-2b65-4536-996a-b7c741d73f97",
+          "content": "you look like you powered down halfway through midterms",
+          "likes": 0
+        },
+        {
+          "id": "c9daf738-10ea-4d9d-89c7-9062d488d88e",
+          "content": "if peace breaks out, hmu, i'm tryna nap",
+          "likes": 0
+        },
+        {
+          "id": "24d1c238-6e74-458b-9098-1039a7922dd4",
+          "content": "This is me on my fourth recorded lecture of pure static",
+          "likes": 0
+        },
+        {
+          "id": "363a71df-8509-482b-832b-e865ec07552e",
+          "content": "Tried to hype myself up for Sulz and got this",
+          "likes": 0
+        },
+        {
+          "id": "495d7c49-714f-4a93-ba15-cb6ceb540ae6",
+          "content": "Reaction when Columbia gets Barnard perks again",
+          "likes": 0
+        },
+        {
+          "id": "fe43cf21-7922-4980-a59c-227ae1a23666",
+          "content": "me waiting for my Columbia therapist’s ‘thoughts’ email like...",
+          "likes": 0
+        },
+        {
+          "id": "c8a078c6-c502-49af-bca4-c215c7e8da5e",
+          "content": "worse than the 4th grade haircut my mom forced on me",
+          "likes": 0
+        },
+        {
+          "id": "78dae7fe-a71e-4d4d-b109-e86a822d929e",
+          "content": "why do i look like i partied too hard at a kid’s bday bash",
+          "likes": 0
+        },
+        {
+          "id": "cac8bbb0-a4e6-4e00-a636-0e1a5095e086",
+          "content": "his face screams finals but his vibe is all spring break",
+          "likes": 0
+        },
+        {
+          "id": "dadee6b8-88e9-4b15-81e4-322e0840f844",
+          "content": "this is my face at every single family dinner",
+          "likes": 0
+        },
+        {
+          "id": "75b229cd-803e-4977-be55-afe3b83e5708",
+          "content": "honestly, Barnard after group projects is just a mood",
+          "likes": 0
+        },
+        {
+          "id": "6da9bd72-c323-4e77-8b53-e829531519a0",
+          "content": "someone wake me up when networking isn’t pure humiliation",
+          "likes": 0
+        },
+        {
+          "id": "1199676d-0435-474f-af14-4a88cb03ed73",
+          "content": "rewatching my mental breakdown from every possible angle",
+          "likes": 0
+        },
+        {
+          "id": "c8f12cad-e0a2-48de-bea7-0875ea958b52",
+          "content": "literally rolled out of bed for THIS",
+          "likes": 0
+        },
+        {
+          "id": "8bf1c289-5369-409e-acca-6a44cc20126f",
+          "content": "deadass would rather bomb a core class than sit here again",
+          "likes": 0
+        },
+        {
+          "id": "8138fcac-8079-45f3-83fb-77e25496a31e",
+          "content": "reaction mode: concerned, emotional posture: empathetic af",
+          "likes": 0
+        },
+        {
+          "id": "9badb5c9-b677-4c4f-9d46-33eca2e17786",
+          "content": "literally raising my paw for someone to end this meeting, i'm begging",
+          "likes": 0
+        },
+        {
+          "id": "f32f5b69-ba66-465d-894d-594457844aed",
+          "content": "pls just let me dip first, i swear i won’t come back",
+          "likes": 0
+        },
+        {
+          "id": "423c4067-379b-425e-8f3b-49c1c41db92c",
+          "content": "the group project dog they keep muting, classic",
+          "likes": 0
+        },
+        {
+          "id": "b5dac1d4-30dd-485d-a5ca-d573632379a1",
+          "content": "wow another question that’ll never get answered, shocker",
+          "likes": 0
+        },
+        {
+          "id": "d48cea1a-673d-4411-a4fa-069af8be79e2",
+          "content": "volunteering to be ignored again, love that for me",
+          "likes": 0
+        },
+        {
+          "id": "19816892-db01-409e-bf74-39f6aeee2c37",
+          "content": "i feel like this dog at every barnard sga meeting, no cap",
+          "likes": 0
+        },
+        {
+          "id": "d6b17d8a-3630-49e1-8fd1-e44c6b105b40",
+          "content": "me pretending i know what’s up just to participate",
+          "likes": 0
+        },
+        {
+          "id": "20323e92-1228-4ffe-aaa2-84050d2609e2",
+          "content": "i just wanna drop out with a shred of dignity left",
+          "likes": 0
+        },
+        {
+          "id": "62ee0271-2e5c-4d3f-8145-68556082bd23",
+          "content": "can i get a treat for pretending to listen, like seriously",
+          "likes": 0
+        },
+        {
+          "id": "e3430d3d-567a-4502-a341-dc917ee68bc2",
+          "content": "if i raise my paw any higher, maybe i’ll just ascend",
+          "likes": 0
+        },
+        {
+          "id": "cac3983c-4f63-458b-b557-b577a164896b",
+          "content": "literally me after one sip of Hewitt water, why is it like this",
+          "likes": 0
+        },
+        {
+          "id": "60a6b090-62c7-423c-8360-86983c48e7f1",
+          "content": "accidentally walked into Butler at 7 am and now i'm just... here",
+          "likes": 0
+        },
+        {
+          "id": "d190bdf8-d4e7-4a8e-a972-ad9fdec27a29",
+          "content": "even the trash can's got more dignity than me rn, dying",
+          "likes": 0
+        },
+        {
+          "id": "2a975425-d9a4-451c-aab9-dc425d0bfe37",
+          "content": "dressing up for Zoom class while my room is 95 degrees",
+          "likes": 0
+        },
+        {
+          "id": "e22879d0-abf5-4ddb-9ac2-cd5313980cf0",
+          "content": "imagine growing up into this much disappointment, yikes",
+          "likes": 0
+        },
+        {
+          "id": "157ad2d5-c2ff-439d-b6d7-8f90c08acb2f",
+          "content": "every time i get hyped, life just laughs even louder",
+          "likes": 0
+        },
+        {
+          "id": "9f3961f9-b182-4842-943b-d0850ad2ca89",
+          "content": "was that my youth leaving or just hope, idk",
+          "likes": 0
+        },
+        {
+          "id": "f6fcd783-91a6-40b5-823b-009570f3da0f",
+          "content": "when you realize high school was your peak, rip",
+          "likes": 0
+        },
+        {
+          "id": "200c5cd4-c9e9-41fd-9071-1de5c0f0d1cc",
+          "content": "shopping period hit and all my classes just vanished",
+          "likes": 0
+        },
+        {
+          "id": "67a134ba-42b1-47d2-aa1e-22d1c52465fb",
+          "content": "someone said lifelong learner but i’m like, nah i’m done",
+          "likes": 0
+        },
+        {
+          "id": "1dabb4f1-6ee6-45f2-9266-5c1267dad48c",
+          "content": "guess i really do need that therapist, huh",
+          "likes": 0
+        },
+        {
+          "id": "702fca88-26a3-4a15-a456-e2f6587700c8",
+          "content": "again with the self respect? couldn’t be me fr",
+          "likes": 0
+        },
+        {
+          "id": "2826db08-a8be-48f7-b5c1-33be6a9a051c",
+          "content": "pretty sure my last brain cell just dipped",
+          "likes": 0
+        },
+        {
+          "id": "ebf38308-8110-4c0b-adcb-27148329ef8b",
+          "content": "literally watched my gpa yeet itself out the window",
+          "likes": 0
+        },
+        {
+          "id": "82e7ed95-bf1e-4ad7-8e38-2105f28a7930",
+          "content": "imagine being this happy to ruin everyone’s day, savage",
+          "likes": 0
+        },
+        {
+          "id": "ec6d740e-9020-42ad-88c8-8113b54db7bf",
+          "content": "girl, did you lose your spine at dodgeball or just in life",
+          "likes": 0
+        },
+        {
+          "id": "5a4867bc-b3d3-4a20-988a-03fe33861aee",
+          "content": "my last brain cell watching me fail again like it’s proud",
+          "likes": 0
+        },
+        {
+          "id": "00cc31dc-b426-4c83-ba11-73b65d241f8b",
+          "content": "why’s the side character acting like he’s the main event",
+          "likes": 0
+        },
+        {
+          "id": "bb61e17b-52c3-48a7-a304-a3354c06e8a3",
+          "content": "that’s the smile you get right before HR comes knocking",
+          "likes": 0
+        },
+        {
+          "id": "358ff7d3-3334-4480-8745-966cc0073dd7",
+          "content": "dude next to him just realized he peaked at orientation, rip",
+          "likes": 0
+        },
+        {
+          "id": "9ac3fa6f-0de7-4a8c-b2b9-76f54542cd1f",
+          "content": "why’s his mood like Barnard at a Columbia football game",
+          "likes": 0
+        },
+        {
+          "id": "36f3e264-96f3-4d69-8190-a7a665b2e269",
+          "content": "this is the worst LinkedIn endorsement i’ve ever seen, no cap",
+          "likes": 0
+        },
+        {
+          "id": "73829757-24f9-4271-b319-ab6f3facddf6",
+          "content": "can’t even fix my GPA but he’s out here solving world peace",
+          "likes": 0
+        },
+        {
+          "id": "541e167f-c05b-4266-9e06-cede8b8457bf",
+          "content": "honestly, i sit like that during office hours too",
+          "likes": 0
+        },
+        {
+          "id": "90138669-81dd-45df-a2f1-424960f2e3fc",
+          "content": "if columbia dining had a spirit animal, it's def this dude",
+          "likes": 0
+        },
+        {
+          "id": "c40361a2-c1e4-4f59-a16f-e5ef125eced1",
+          "content": "this is how you look when you say it's just a little cut",
+          "likes": 0
+        },
+        {
+          "id": "848f2c57-16c3-4d56-aa6d-6175501584d9",
+          "content": "why does this have the energy of a barnard group chat tho",
+          "likes": 0
+        },
+        {
+          "id": "682ffff5-fe95-4d26-9a45-6e70d9800ac5",
+          "content": "procrastination but with extra consequences",
+          "likes": 0
+        },
+        {
+          "id": "cf97df78-b6ae-4f5c-8b3d-9bb7ac565068",
+          "content": "you on canvas discussion boards all semester, no cap",
+          "likes": 0
+        },
+        {
+          "id": "38411e62-35fc-4ed5-90d2-3d49f69c2963",
+          "content": "literally my advisor reading my thesis draft rn",
+          "likes": 0
+        },
+        {
+          "id": "668144ae-13a9-4718-8bb8-91252aa0245c",
+          "content": "if anxiety was cute but also ready to end you fr",
+          "likes": 0
+        },
+        {
+          "id": "320c307e-9b0d-441b-aa74-d4e1f255433c",
+          "content": "why does this look like my roommate after a 12-hour shift lol",
+          "likes": 0
+        },
+        {
+          "id": "70e90133-4588-4945-85d5-27950f65207a",
+          "content": "honestly? finals week vibes in mascot form",
+          "likes": 0
+        },
+        {
+          "id": "d8cab75f-c83e-40c6-ac98-ae3f1953600c",
+          "content": "peak performance unlocked after a night at 1020, no cap",
+          "likes": 0
+        },
+        {
+          "id": "d0527784-3b6f-493a-a0f6-7ebde873174a",
+          "content": "my therapist just called my emotional posture \"abysmal\" and i'm like, can't i have a moment?",
+          "likes": 0
+        },
+        {
+          "id": "11486254-ea53-43dd-aa54-23c6f5890f9f",
+          "content": "not being dramatic, just permanently stuck in reaction mode, help",
+          "likes": 0
+        },
+        {
+          "id": "d452354b-84f8-45f4-9d5f-7767d54332a8",
+          "content": "kinda how i feel when group projects pick partners and i'm left solo",
+          "likes": 0
+        },
+        {
+          "id": "f9157018-f8f4-49c4-8859-93c19cafd9b2",
+          "content": "me opening canvas and seeing zero feedback: why do i even try",
+          "likes": 0
+        },
+        {
+          "id": "d067ee32-d183-49fa-a97f-3558686daf26",
+          "content": "this is columbia housing core stress in animal form, send help",
+          "likes": 0
+        },
+        {
+          "id": "c9a88962-4cda-4980-bc87-e7c041b5d617",
+          "content": "when your GPA's lower than rent and you're just like... mood",
+          "likes": 0
+        },
+        {
+          "id": "0a3f116c-420f-4ac4-948d-64a0ef3d36bf",
+          "content": "When you realize you’ll always be skimming and never reading",
+          "likes": 0
+        },
+        {
+          "id": "e94c335f-677a-4225-b8e4-17fba788b4ea",
+          "content": "this is rock bottom but like, make it clean",
+          "likes": 0
+        },
+        {
+          "id": "cacae6b3-9d7b-4a8f-9b63-f1c8916c63c3",
+          "content": "i knew gas station sushi was a bad life choice",
+          "likes": 0
+        },
+        {
+          "id": "cb844e6e-be74-4672-ba0a-8ff2d82c88b9",
+          "content": "went in for a breakdown, came out like this",
+          "likes": 0
+        },
+        {
+          "id": "6e14b505-90f7-4989-9733-18e410cce523",
+          "content": "heard my gpa and just laid down to die",
+          "likes": 0
+        },
+        {
+          "id": "24c25f22-d19d-4e3f-9fc2-b8f6caa24000",
+          "content": "my soul legit left my body in this bathroom stall",
+          "likes": 0
+        },
+        {
+          "id": "0d26c704-253a-4dc0-acda-e8ad8931e943",
+          "content": "columbia midterms got everyone turning into floor gremlins",
+          "likes": 0
+        },
+        {
+          "id": "30019cb9-f6f8-4a50-b339-943f52682652",
+          "content": "honestly, same trash can, same",
+          "likes": 0
+        },
+        {
+          "id": "b7bd3eb6-a2a4-419f-bf75-79757efa1d80",
+          "content": "not even rabies could take me out this quick",
+          "likes": 0
+        },
+        {
+          "id": "5d4c0b1e-7b97-4089-8817-fd3418057994",
+          "content": "me after one sniff of the noco bathroom walls 🤢",
+          "likes": 0
+        },
+        {
+          "id": "d3d8a51b-6654-46db-9ff6-2c09dff3bdea",
+          "content": "did calculus actually end me or am i just playing dead for the drama",
+          "likes": 0
+        },
+        {
+          "id": "2f1efed9-3843-47e1-aafa-3916041f772d",
+          "content": "congrats, i just tanked workplace morale by existing",
+          "likes": 0
+        },
+        {
+          "id": "fcceff64-ee13-4e9a-b8cd-2b91d91dba75",
+          "content": "please tell me that was the curve, omg",
+          "likes": 0
+        },
+        {
+          "id": "07e98ca4-f750-4175-a2dd-73a031744a1f",
+          "content": "i’d rather retake orgo than hear that again, no cap",
+          "likes": 0
+        },
+        {
+          "id": "df056e47-c5f9-4c15-b2a1-afd3d2641261",
+          "content": "caught my brain blue screening rn",
+          "likes": 0
+        },
+        {
+          "id": "75608649-af9a-4ff3-9489-102f2284f407",
+          "content": "did someone just say group project? yikes",
+          "likes": 0
+        },
+        {
+          "id": "e7cd878e-7db1-4742-8b26-126fd84feed9",
+          "content": "oh so THIS is what academic humiliation kink is",
+          "likes": 0
+        },
+        {
+          "id": "36551f2c-4768-4f98-a813-4c2483e91f63",
+          "content": "what even is inner peace anymore, like fr",
+          "likes": 0
+        },
+        {
+          "id": "1359aa8d-e42f-4aa7-97dd-79409892e2f3",
+          "content": "is this what rock bottom feels like fr",
+          "likes": 0
+        },
+        {
+          "id": "1107c8c5-64d2-405f-bf55-6c0c805bdee4",
+          "content": "this better not be another jae email, smh",
+          "likes": 0
+        },
+        {
+          "id": "4be3de45-90c9-4c9e-9527-34729046d9b0",
+          "content": "my will to live just hit a 404 error",
+          "likes": 0
+        },
+        {
+          "id": "0fbb97d9-a4d7-4639-823e-d1d198ad0b19",
+          "content": "Just found out library fines don’t graduate with you",
+          "likes": 0
+        },
+        {
+          "id": "e40825de-4988-40d3-9be8-89bd0ec1746d",
+          "content": "pretty sure my soul just dipped from the chat",
+          "likes": 0
+        },
+        {
+          "id": "b44fa640-18a6-4234-973d-3a3e4f31a8be",
+          "content": "if wisdom was real, he’d let us skip the final, no cap",
+          "likes": 0
+        },
+        {
+          "id": "b19836d6-8a1e-48e6-b8e8-2237972830d0",
+          "content": "dude’s about to tell me i’m failing with full-on confidence",
+          "likes": 0
+        },
+        {
+          "id": "77a384b8-39b7-4fa7-b355-6cd4a43151bf",
+          "content": "his smile says pass/fail, but his eyes scream hope’s dead",
+          "likes": 0
+        },
+        {
+          "id": "f14124b7-c122-4490-98a2-628af6e0308a",
+          "content": "bro really said welcome to office hours like it’s therapy",
+          "likes": 0
+        },
+        {
+          "id": "324f15c5-6d98-4df1-8dda-bdf2172f357b",
+          "content": "if i roll in late, he just spawns another midterm",
+          "likes": 0
+        },
+        {
+          "id": "00cc58e7-1d40-4528-a5e4-2a6cc05e1635",
+          "content": "this is the face of someone who survived AP at columbia, type shi",
+          "likes": 0
+        },
+        {
+          "id": "7d47fd71-86f5-4ee6-992c-ea10bc8e4f74",
+          "content": "bet his beard grades tougher than half the department",
+          "likes": 0
+        },
+        {
+          "id": "d1d311ed-d741-4274-8960-9be3ff3c4b0f",
+          "content": "his beard could curve your GPA from across the room, fr",
+          "likes": 0
+        },
+        {
+          "id": "e284ccac-efde-45b3-b2a0-78f1116032b7",
+          "content": "the only ancient secret he’s spilling is how to hate group projects",
+          "likes": 0
+        },
+        {
+          "id": "6b324471-5f52-4475-8f9a-6d0a8db49247",
+          "content": "pretty sure he laughs every time someone crashes out after lab",
+          "likes": 0
+        },
+        {
+          "id": "0cd647cf-4b4a-4e8b-a170-1abe3e878692",
+          "content": "feet out like i own butler and still bombing the midterm",
+          "likes": 0
+        },
+        {
+          "id": "28294e4d-bdbb-4dd2-99c9-ef3dccffc19c",
+          "content": "team protest or team burnout, either way i’m losing",
+          "likes": 0
+        },
+        {
+          "id": "97661547-e49c-47d6-9200-3b26b191b36f",
+          "content": "literally dying while they’re unionizing in the background lol",
+          "likes": 0
+        },
+        {
+          "id": "ebfa0265-7d25-424b-aa69-2d6f3e3fb622",
+          "content": "should’ve just majored in noise cancelling headphones fr",
+          "likes": 0
+        },
+        {
+          "id": "9903ca76-ab95-4b57-ac81-ccca714e026e",
+          "content": "i’d trade my laptop for a sense of purpose tbh",
+          "likes": 0
+        },
+        {
+          "id": "f0b4812c-7d59-4a18-915b-eac970ef991b",
+          "content": "everyone’s fighting the system, i’m just fighting my gpa",
+          "likes": 0
+        },
+        {
+          "id": "f054e5e8-198d-44c1-83ad-527ae3ca0812",
+          "content": "only at columbia does insomnia get you front row at a riot",
+          "likes": 0
+        },
+        {
+          "id": "87146db5-c86e-46c1-83e4-6431d867377f",
+          "content": "some people protest, some people rot. i’m basically compost",
+          "likes": 0
+        },
+        {
+          "id": "a7ad3a32-3e89-4fd6-a76e-3908e57395f3",
+          "content": "love how i’m getting a migraine and a degree at the same time",
+          "likes": 0
+        },
+        {
+          "id": "391a936a-f9b6-4d81-a68a-4961745e18ca",
+          "content": "glad my whole personality is submitting assignments barefoot",
+          "likes": 0
+        },
+        {
+          "id": "196d21b2-e202-4677-be9d-af34da098e0f",
+          "content": "honestly, at this point i’m rooting for my own downfall",
+          "likes": 0
+        },
+        {
+          "id": "f7889dc6-a3f4-4dc9-a94b-6a99ab8aaede",
+          "content": "this is what happens when you bottle up issues since 2005",
+          "likes": 0
+        },
+        {
+          "id": "567d6bd7-dfd8-41bb-80b6-dbfca3c50e3b",
+          "content": "smiling like my GPA isn’t crying for help",
+          "likes": 0
+        },
+        {
+          "id": "aa4b6efd-1582-44f9-8028-71e1d859b5ee",
+          "content": "my therapist after hearing my stress coping skills: 👀",
+          "likes": 0
+        },
+        {
+          "id": "df150d7b-a88a-4697-bf0d-4238ee0ca9c3",
+          "content": "scheming my comeback for everyone who said group projects are character-building",
+          "likes": 0
+        },
+        {
+          "id": "5429b2a9-fdca-4226-97d0-260ec28c499b",
+          "content": "me coming up with excuses for why my assignment’s still not done",
+          "likes": 0
+        },
+        {
+          "id": "81260b80-910c-4a3c-9cff-0eb50f32cfeb",
+          "content": "living proof that smiling through the pain just makes people uncomfy",
+          "likes": 0
+        },
+        {
+          "id": "130d822a-96b6-470c-8e22-fad85e41bc75",
+          "content": "all this positivity and still ready to wreck someone’s vibe",
+          "likes": 0
+        },
+        {
+          "id": "b22c81aa-0f28-4b91-ac68-7ec5d041d25e",
+          "content": "if being unhinged was a minor, i’d be dean’s list at Columbia",
+          "likes": 0
+        },
+        {
+          "id": "0f8264c6-dabd-4761-aaba-6af522955749",
+          "content": "when your teacher posts your grade for the whole class to see, brutal",
+          "likes": 0
+        },
+        {
+          "id": "8d62612f-73d6-4707-8daa-eaed7fc9bdd9",
+          "content": "my sleep paralysis demon just vibing while I spiral",
+          "likes": 0
+        },
+        {
+          "id": "76fe780e-e9d6-44ca-b77b-d6865b6f0a2c",
+          "content": "this dude eats stress for breakfast and calls it brunch, no cap",
+          "likes": 0
+        },
+        {
+          "id": "19be41ae-7d48-4b1d-9fee-10a6cb36c9e1",
+          "content": "imagine cracking up after slashing $400 mil from columbia, wild",
+          "likes": 0
+        },
+        {
+          "id": "0ad06101-0824-4fb2-b8d6-dd1b015a3e12",
+          "content": "this is exactly how my boss looks when I drop a resignation",
+          "likes": 0
+        },
+        {
+          "id": "c65ea514-d9a5-488d-8e7a-865b00343a75",
+          "content": "columbia really out here selling students to ICE and calling it networking, yikes",
+          "likes": 0
+        },
+        {
+          "id": "9516c74c-3d52-42b0-9b17-47a2fbab45b9",
+          "content": "reminds me why therapy costs a whole $200 an hour, smh",
+          "likes": 0
+        },
+        {
+          "id": "d12d7c61-6bdf-4fd6-b3fb-31564c5b4b8b",
+          "content": "guess we’re just smiling through the villain arc now",
+          "likes": 0
+        },
+        {
+          "id": "8a5139e5-0be8-46d1-b96e-d8bf68f3d2ac",
+          "content": "why’s he looking like he just invented guilt, fr",
+          "likes": 0
+        },
+        {
+          "id": "571609b8-ac22-4c9d-b402-fce5bbc136f9",
+          "content": "the only love I get is from student debt collectors, rip",
+          "likes": 0
+        },
+        {
+          "id": "beac41dc-3dc0-4193-b6cf-ffe8a5388e54",
+          "content": "columbia handed me a degree and a panic disorder",
+          "likes": 0
+        },
+        {
+          "id": "24110fe6-e612-4bc5-a762-40bf2d728686",
+          "content": "every group project ending in therapy bills",
+          "likes": 0
+        },
+        {
+          "id": "bffcf8c8-24c5-407d-a007-b6b60b87581a",
+          "content": "someone said passing rate and now i’m awake",
+          "likes": 0
+        },
+        {
+          "id": "9ad23bf5-f988-4df9-8d31-4bc3bc2f73b6",
+          "content": "AP really is just academic hazing with extra steps",
+          "likes": 0
+        },
+        {
+          "id": "1acd1b26-7728-424b-a9ac-96955953ac8c",
+          "content": "when you realize your students are actually dumber",
+          "likes": 0
+        },
+        {
+          "id": "acb50f13-c810-45ed-847e-fb8ba6a811e4",
+          "content": "AP exam just asked for my liver and my soul",
+          "likes": 0
+        },
+        {
+          "id": "bb59e21d-6b63-4757-885d-6f9866e4be28",
+          "content": "guessing my social life expired with my gpa",
+          "likes": 0
+        },
+        {
+          "id": "5c903aaa-a176-412f-808d-38f12bf06a6e",
+          "content": "heard columbia students call this fun and nearly fainted",
+          "likes": 0
+        },
+        {
+          "id": "a391d8e2-b97f-481e-bf46-cf0c8abba207",
+          "content": "lowest grade in the class but most shocked in the room",
+          "likes": 0
+        },
+        {
+          "id": "4262d8a5-8651-44b9-b8fc-e4798647ece0",
+          "content": "this is my face at every family reunion",
+          "likes": 0
+        },
+        {
+          "id": "44d6ce2e-e207-4de9-a9fa-f5ade6f89d56",
+          "content": "columbia's hottest therapy: just become the carpet, lol",
+          "likes": 0
+        },
+        {
+          "id": "2de1416b-7fc6-4362-b3df-ac7e04400dcf",
+          "content": "me every time someone even whispers 'finals season'",
+          "likes": 0
+        },
+        {
+          "id": "99f05988-e408-48ae-9ca7-5bf91da9f15e",
+          "content": "feeling like that lion rn, no cap",
+          "likes": 0
+        },
+        {
+          "id": "252070e0-17f2-4ac8-89ba-b42fe40eef3e",
+          "content": "my brain's fried after two weeks at columbia, fr",
+          "likes": 0
+        },
+        {
+          "id": "b157d6b4-0bbb-419c-91bc-3d98062e98d5",
+          "content": "that face when admin drops a new portal on us",
+          "likes": 0
+        },
+        {
+          "id": "66c299fd-ecdd-46ce-93c6-4ae447531bd1",
+          "content": "he's about to lose it and honestly, same",
+          "likes": 0
+        },
+        {
+          "id": "f2b0200d-b51b-408d-91d1-5a0b02f44958",
+          "content": "that face you make after drowning in group project emails",
+          "likes": 0
+        },
+        {
+          "id": "d0aee856-7cf8-462c-bd5a-d1faf5323904",
+          "content": "the mane ain't saving your personality, babes",
+          "likes": 0
+        },
+        {
+          "id": "06c5c692-bd64-4eb2-a202-219baabaecae",
+          "content": "even the lion's like, 'why did i pay this much for tuition?'",
+          "likes": 0
+        },
+        {
+          "id": "39658fef-ea4e-4b21-bed8-9b0c0533fb54",
+          "content": "congrats, you totally wrecked the mascot and the holiday vibes",
+          "likes": 0
+        },
+        {
+          "id": "376c587c-c513-4b21-92d6-1b24c9e5b947",
+          "content": "bro, why’s he staring like i just bombed my columbia midterm?",
+          "likes": 0
+        },
+        {
+          "id": "3b028f2f-177d-42a5-ad37-66182c76014a",
+          "content": "contracted dining hall dysentery send thoughts and prayers",
+          "likes": 0
+        },
+        {
+          "id": "4a605894-93fa-473d-8cc2-b14d00ce9e59",
+          "content": "When Columbia emails me my grade and I survive anyway",
+          "likes": 0
+        },
+        {
+          "id": "d35921d5-d91d-4ad1-85a9-34fcc67de4b8",
+          "content": "caught myself romanticizing nap time in weird places again, oops",
+          "likes": 0
+        },
+        {
+          "id": "88165624-75f4-4231-8f74-f7c06b9a2d81",
+          "content": "even the trash can has higher standards than me, rip",
+          "likes": 0
+        },
+        {
+          "id": "f578c486-ddda-49ec-81a3-ba452b5517cb",
+          "content": "me after three minutes in a Noco bathroom, send help",
+          "likes": 0
+        },
+        {
+          "id": "fe786135-a126-4642-96a5-19f63c2d4e99",
+          "content": "this is my roman empire but with way more regret",
+          "likes": 0
+        },
+        {
+          "id": "8fc3bd9d-b8d0-4d74-8c3d-f25b922c908f",
+          "content": "i love when infrastructure treats me like trash, it's a vibe",
+          "likes": 0
+        },
+        {
+          "id": "07284831-3bf2-4d3e-8be1-7cd6ed32cde5",
+          "content": "if rock bottom had a Yelp review, this would be it",
+          "likes": 0
+        },
+        {
+          "id": "06c1d20a-2b42-4123-82a9-11bf7c9a8e8c",
+          "content": "found the star of Columbia finals week, lol",
+          "likes": 0
+        },
+        {
+          "id": "74a23611-ea18-4972-b02a-80c0aee5ff04",
+          "content": "grateful no one expected greatness from me today, phew",
+          "likes": 0
+        },
+        {
+          "id": "e06a4973-7f8c-41c8-8d30-5ea611053fa7",
+          "content": "the only thing lower than my GPA is this raccoon's will to live",
+          "likes": 0
+        },
+        {
+          "id": "d8a0dc7f-5e19-4004-bab4-ca785cec4d14",
+          "content": "i aspire to this level of emotional damage, honestly",
+          "likes": 0
+        },
+        {
+          "id": "b3686e34-6413-45b6-8aa1-a9f831614016",
+          "content": "wish i was passionate but this assignment’s literally killing me",
+          "likes": 0
+        },
+        {
+          "id": "928bc10c-82e9-482a-94ef-1fbb4ba60ad2",
+          "content": "missing the revolution cuz i can’t even manage my own time lol",
+          "likes": 0
+        },
+        {
+          "id": "fe32626e-0ae7-4fda-ade9-44fe1db25aaa",
+          "content": "everyone’s taking on the system, i’m just battling turnitin",
+          "likes": 0
+        },
+        {
+          "id": "5af96cb4-25d0-444d-8c16-3dc361430850",
+          "content": "me acting like this protest isn’t about my GPA going down the drain",
+          "likes": 0
+        },
+        {
+          "id": "53c5cf04-c586-4c97-952b-49aaf3c69e1f",
+          "content": "they’re out here fighting for justice, i’m just fighting APA citations",
+          "likes": 0
+        },
+        {
+          "id": "02103647-ad7d-4754-8fac-8ada4f390d50",
+          "content": "my priorities: deadline first, overthrow later",
+          "likes": 0
+        },
+        {
+          "id": "ac460128-baa8-4bbc-b3dc-64a8d12a0fbf",
+          "content": "came to columbia for the vibes, got stuck with all this unrest instead",
+          "likes": 0
+        },
+        {
+          "id": "c441e0b0-98c2-4187-8f59-b0b31df4e143",
+          "content": "this is why butler kids never make it to protests fr",
+          "likes": 0
+        },
+        {
+          "id": "23c956c4-5748-413d-8d6c-2628d2f6bed5",
+          "content": "a riot could pop off and i’d still forget my discussion post",
+          "likes": 0
+        },
+        {
+          "id": "188efbf8-cf3b-4bdf-9b1f-a88b26034a7b",
+          "content": "columbia tradition: ignore the world, fail the midterm, repeat",
+          "likes": 0
+        },
+        {
+          "id": "4107b4fc-5db8-41f5-b79e-0a6faaa79ccd",
+          "content": "Them scheming while I’m lost finding Havemeyer Hall bathroom.",
+          "likes": 0
+        },
+        {
+          "id": "a47b9f3e-b68a-4d0a-8c3b-28d43428e198",
+          "content": "that face when you think you're deep during NSOP, type shi",
+          "likes": 0
+        },
+        {
+          "id": "b65c5456-d8df-4e18-b5fb-2e22af441eb9",
+          "content": "i'd raise my hand too if i had nothing to lose, honestly",
+          "likes": 0
+        },
+        {
+          "id": "fbb7c74a-d342-40c1-bb54-e031909a1c04",
+          "content": "sit down, nobody asked and nobody cares fr",
+          "likes": 0
+        },
+        {
+          "id": "55168461-8ad7-4170-ad72-ad1ce1c2cdbb",
+          "content": "literally the teacher's least favorite, no cap",
+          "likes": 0
+        },
+        {
+          "id": "0761c61c-48ee-4c98-b45a-619727dbfca3",
+          "content": "imagine lifting your paw this high just for some attention lmao",
+          "likes": 0
+        },
+        {
+          "id": "ae83fda5-9ba2-46f9-8f58-f3c69d8ed60f",
+          "content": "always the first to volunteer for public embarrassment",
+          "likes": 0
+        },
+        {
+          "id": "3cb432b5-dd38-4525-9f3d-4f04ee24453b",
+          "content": "first to answer, last to get it, classic",
+          "likes": 0
+        },
+        {
+          "id": "fcabba60-2397-413f-a84b-2f9935f48d86",
+          "content": "giving \"pick me\" vibes but still getting ignored, ouch",
+          "likes": 0
+        },
+        {
+          "id": "473b58bf-bd94-4894-8184-415029036248",
+          "content": "trying to look smart but left your brain at home",
+          "likes": 0
+        },
+        {
+          "id": "20e9a096-37b6-42a0-a287-c18c198e4425",
+          "content": "living for the sound of your own flop opinions, huh",
+          "likes": 0
+        },
+        {
+          "id": "5f25cbbb-4f2d-48f3-bd86-51ab5277a1f0",
+          "content": "bet he’s giving you extra credit just for not crying in class lol",
+          "likes": 0
+        },
+        {
+          "id": "4362cfc6-e8ad-4267-af34-55f2cd8c5e65",
+          "content": "smiles like he knows i’m not making it to junior year, rip",
+          "likes": 0
+        },
+        {
+          "id": "5c861cff-c96a-4cef-8b1b-7775a126521a",
+          "content": "if wisdom was real, he’d use it to dip from columbia tbh",
+          "likes": 0
+        },
+        {
+          "id": "37f59f38-854d-47fc-a0f9-37a81921d113",
+          "content": "honestly, he grades with the vibe of a dad who’s just done with you",
+          "likes": 0
+        },
+        {
+          "id": "1c7f2564-93b1-4d06-8a67-58d657bfb7a3",
+          "content": "if he helps me survive AP, i’m naming my trauma after him",
+          "likes": 0
+        },
+        {
+          "id": "9eba2f6b-a054-4dad-ab2f-8dbb7e0eea3a",
+          "content": "you can totally tell he’s memorized all our gpa drops, it’s wild",
+          "likes": 0
+        },
+        {
+          "id": "fadbd915-7dd6-44b4-a69b-d85257f4a2fe",
+          "content": "he’s smiling like he just watched you crashout at office hours",
+          "likes": 0
+        },
+        {
+          "id": "1b445a8b-b4fd-4681-a76a-320d6a16ddd3",
+          "content": "the way he’s looking at me is giving soft academic threat vibes",
+          "likes": 0
+        },
+        {
+          "id": "74fd8450-b312-4bd9-ae1d-97864e8351a1",
+          "content": "he’s like my sleep paralysis demon but for AP midterms, no cap",
+          "likes": 0
+        },
+        {
+          "id": "76f832f8-aeae-4a2d-a9e5-7a5fd92c2249",
+          "content": "this is the face you see when you’re lowkey failing in silence",
+          "likes": 0
+        },
+        {
+          "id": "f2bba960-9990-45c8-8e2e-d190a4e46596",
+          "content": "guess who just blew $400 million for Columbia?",
+          "likes": 0
+        },
+        {
+          "id": "7700ee8e-cb46-471b-a9d4-ce14cc33b086",
+          "content": "awkward family photos but like, you're both the disappointments",
+          "likes": 0
+        },
+        {
+          "id": "fa221a12-a4a9-4c23-a9af-e49a609a8e66",
+          "content": "smiling like he didn't just hand Columbia over to ICE",
+          "likes": 0
+        },
+        {
+          "id": "e2d1079f-6e9b-40c2-b80d-1d58ffd369b1",
+          "content": "if i smile any harder, my student loans might just disappear",
+          "likes": 0
+        },
+        {
+          "id": "1523112b-a048-4df8-85e4-b737968e0559",
+          "content": "bet you ten bucks he calls him buddy and then wrecks his life",
+          "likes": 0
+        },
+        {
+          "id": "abd62250-a1d8-4bd2-92fa-b475454d0249",
+          "content": "the fake joy in this room could power a small country, no cap",
+          "likes": 0
+        },
+        {
+          "id": "4260fa8f-62e0-4aa7-93d5-613e39239a10",
+          "content": "wild how both our therapists are getting paid for this moment",
+          "likes": 0
+        },
+        {
+          "id": "dd87ddd6-b879-4875-9086-150369da5760",
+          "content": "bro looks like he mentally checked out an hour ago",
+          "likes": 0
+        },
+        {
+          "id": "2127faca-66dd-4337-997e-b9be29e1795c",
+          "content": "dude really thinks this is a friendsgiving, smh",
+          "likes": 0
+        },
+        {
+          "id": "96e7c98b-79e0-44d8-8742-be168d96be21",
+          "content": "lovebombing but your love language is literally federal budget cuts",
+          "likes": 0
+        },
+        {
+          "id": "844399ac-ed3b-4002-abd8-228c7201c4f8",
+          "content": "just columbia things, type shi",
+          "likes": 0
+        },
+        {
+          "id": "7f64d295-4c56-4434-8465-800adc983a3a",
+          "content": "trust issues be looking like this",
+          "likes": 0
+        },
+        {
+          "id": "b0656741-98b6-4b25-8e5b-358e5c22f676",
+          "content": "me spawning on campus after it rains",
+          "likes": 0
+        },
+        {
+          "id": "e0bcbbc3-108f-4733-9d24-c51fa400fe47",
+          "content": "honestly, just end me rn",
+          "likes": 0
+        },
+        {
+          "id": "f5463953-8e30-494c-9106-1f1418662b99",
+          "content": "this is my mood when the water refill stations are cooked",
+          "likes": 0
+        },
+        {
+          "id": "4caeb8a4-983a-48b6-828b-e92749cb3550",
+          "content": "why is this literally my intrusive thoughts, tho",
+          "likes": 0
+        },
+        {
+          "id": "2e2b0312-d06f-4dc4-9b0e-6f8fb1c1bbd8",
+          "content": "i look like this before every presentation, no cap",
+          "likes": 0
+        },
+        {
+          "id": "9de56ff6-ef80-48c6-93f9-9abc55336801",
+          "content": "cutting people off like columbia clubs, savage",
+          "likes": 0
+        },
+        {
+          "id": "526dbef3-756d-4a2f-9a40-b6bffcc3e860",
+          "content": "dodge gym only sharpens my trauma, fr",
+          "likes": 0
+        },
+        {
+          "id": "692835fb-5b1a-4e11-8af3-650ec666559b",
+          "content": "yep, that's exactly how finals hit",
+          "likes": 0
+        },
+        {
+          "id": "214aa7ef-bb7b-4b79-bfa6-d41bb405e547",
+          "content": "not even my hair wants to be at this event",
+          "likes": 0
+        },
+        {
+          "id": "052c330e-b43b-4e87-a401-2fb1e044d8ad",
+          "content": "wish columbia’s endowment could fix my head too, fr",
+          "likes": 0
+        },
+        {
+          "id": "d9f1572a-86df-40c5-b9fe-a6a5bb3e89ff",
+          "content": "every time i touch grass it bites back, no cap",
+          "likes": 0
+        },
+        {
+          "id": "bea3a0b8-2f75-4dd4-bab3-bc4c88a6dfc3",
+          "content": "pretty sure even the fireplace is lowkey judging me rn",
+          "likes": 0
+        },
+        {
+          "id": "9670dd79-5258-404d-a2de-cf58327eb0f4",
+          "content": "starting to think my brain’s just for decoration",
+          "likes": 0
+        },
+        {
+          "id": "4295d751-5e75-4142-b4a6-f49900b591cf",
+          "content": "this is what i get for stepping outside during finals week",
+          "likes": 0
+        },
+        {
+          "id": "ae55be87-a8f1-4656-9a6a-792bf028248e",
+          "content": "me when my group project needs emotional labor ugh",
+          "likes": 0
+        },
+        {
+          "id": "09b278c8-c581-4fb8-8c0e-f07dd4d749ea",
+          "content": "waiting for columbia to finally give me a personality upgrade",
+          "likes": 0
+        },
+        {
+          "id": "e1035aa6-0150-44a0-8ef3-d1322c957971",
+          "content": "looking like i’m two chalky pills away from a primal scream",
+          "likes": 0
+        },
+        {
+          "id": "3c015dcf-9048-4dc8-9dee-866f3db3d0cb",
+          "content": "when you need advil for the hangover but all you get is life advice smh",
+          "likes": 0
+        },
+        {
+          "id": "7594162a-c45f-46a4-af33-5ff5b60c99d0",
+          "content": "when he says 'group project' and you just know you're doomed",
+          "likes": 0
+        },
+        {
+          "id": "a63d8eb3-5487-4d35-ac32-992b805f21b2",
+          "content": "smiling like student debt isn’t about to devour me whole",
+          "likes": 0
+        },
+        {
+          "id": "afdc4f4e-8ade-44f3-99db-bb63a6044e3a",
+          "content": "imagine being this hyped to just exist in the oval office",
+          "likes": 0
+        },
+        {
+          "id": "17c255b0-8224-4809-8471-18a0186b0315",
+          "content": "congrats on the raise, hope your email gets hacked lol",
+          "likes": 0
+        },
+        {
+          "id": "71ee01bc-cf7a-4a3f-a55c-6bd6eadc4ad4",
+          "content": "flirting at work while HR just vibes like it's a spectator sport",
+          "likes": 0
+        },
+        {
+          "id": "32529a21-a407-44aa-adf5-8c4f71a3dfa2",
+          "content": "that look you give before betraying someone for a snack, no regrets",
+          "likes": 0
+        },
+        {
+          "id": "21d5ae6e-f5cb-46fd-912f-6a0cb59b949f",
+          "content": "watching Columbia lose $400 million and still acting like it's nbd",
+          "likes": 0
+        },
+        {
+          "id": "db1935f8-5ce6-453a-be44-2db40c659386",
+          "content": "did we just trauma bond or is my coffee spilling the tea",
+          "likes": 0
+        },
+        {
+          "id": "22da4c12-c10b-4d4f-b60f-13cd92f284e1",
+          "content": "my last braincell is out here cheering for literally anyone but me",
+          "likes": 0
+        },
+        {
+          "id": "c4e128f2-b0df-4457-838b-1a1f9f73c65b",
+          "content": "living proof that ignorance is actually bliss, no cap",
+          "likes": 0
+        },
+        {
+          "id": "7964d9ff-2d44-43d7-8e7d-96d2f175ea99",
+          "content": "literally me after seeing the Noco bathrooms at Columbia, no cap",
+          "likes": 0
+        },
+        {
+          "id": "1b64d636-aadd-4cac-97c5-b9077bdb2641",
+          "content": "my life hit its peak at the trash can and it's been a nosedive since",
+          "likes": 0
+        },
+        {
+          "id": "903a7a60-fee6-4f98-a5bf-a750ab1d2edc",
+          "content": "if i move i might get charged for just existing here",
+          "likes": 0
+        },
+        {
+          "id": "21442870-beb4-47d1-8c95-a2484d8f4c74",
+          "content": "walked in for a break and now i'm basically part of the furniture",
+          "likes": 0
+        },
+        {
+          "id": "eee31b93-80df-47d9-a57b-f118ab1e3919",
+          "content": "every day i fight for my life and take the L",
+          "likes": 0
+        },
+        {
+          "id": "c709506e-35bf-462f-a46e-5db5d7a28669",
+          "content": "just tryna vibe and now this is my life story",
+          "likes": 0
+        },
+        {
+          "id": "206db63a-d0d8-4992-9a92-c0f440a1b45e",
+          "content": "emotional support raccoon flopped, send backup",
+          "likes": 0
+        },
+        {
+          "id": "66d7edf0-a7ea-451b-869e-828dbbcb42b6",
+          "content": "same vibe as hitting submit at 11:59 and then faceplanting",
+          "likes": 0
+        },
+        {
+          "id": "299868e5-d989-4171-b851-030d5e26c6b7",
+          "content": "catch me sprinting away from my responsibilities like this",
+          "likes": 0
+        },
+        {
+          "id": "18ea01f5-26fe-4d51-9299-ca6594595d60",
+          "content": "this is my villain origin story in a public bathroom",
+          "likes": 0
+        },
+        {
+          "id": "911a76cb-1f4b-43f9-86b4-ad801a8eff0a",
+          "content": "imagine if they graded my soul like they grade projects lol",
+          "likes": 0
+        },
+        {
+          "id": "5f849180-f202-4cd4-a818-88211b9e9554",
+          "content": "waited all semester for this guy to finally say 'it's fine' like bruh",
+          "likes": 0
+        },
+        {
+          "id": "7e091d29-d131-48f1-baa8-e3365c7de63f",
+          "content": "this dude grades on a curve, and it's the depression curve, rip",
+          "likes": 0
+        },
+        {
+          "id": "7792d91e-5410-4408-b312-3c7377b91331",
+          "content": "he's about to wreck my day with that gentle smile, smh",
+          "likes": 0
+        },
+        {
+          "id": "70e6a974-d01c-4799-8fb2-d1fbb88dbe7f",
+          "content": "the kind of guy who says 'don't stress' right before you bomb",
+          "likes": 0
+        },
+        {
+          "id": "276b7a0d-ad5e-4fde-9e15-6c9c917dcf32",
+          "content": "he's seen my GPA and still smiled, life's so unfair fr",
+          "likes": 0
+        },
+        {
+          "id": "1aefedc2-6369-477f-af88-6d4707f9a2f8",
+          "content": "pretty sure that beard's got tenure and my will to live, no cap",
+          "likes": 0
+        },
+        {
+          "id": "7ef32f3c-6a3a-43bd-a81d-9d3834a71ae2",
+          "content": "columbia makes you feel like you're failing but he's just vibing",
+          "likes": 0
+        },
+        {
+          "id": "42c8a0a6-c7f1-4766-bc07-2e41ecd48291",
+          "content": "he's got dad joke vibes but all i want is a pass/fail option",
+          "likes": 0
+        },
+        {
+          "id": "0c5232e8-4bb5-498b-acf1-3e6f2256adbc",
+          "content": "man's about to drop wisdom or a 40% final, no in between",
+          "likes": 0
+        },
+        {
+          "id": "794ced15-19c3-45ff-9b5d-8ebef214a7e8",
+          "content": "just here to ask when the suffering clock runs out",
+          "likes": 0
+        },
+        {
+          "id": "2e10ae31-b133-413b-93a9-b37cdbe321a6",
+          "content": "raising my hand like i'm not a whole week behind",
+          "likes": 0
+        },
+        {
+          "id": "b5813323-c66f-42bc-aa72-a406165d47b7",
+          "content": "the only question i got is why am i still here",
+          "likes": 0
+        },
+        {
+          "id": "3f96dfd7-f115-4714-9c8f-b08a92037cec",
+          "content": "raising my paw hoping someone sees my emotional damage",
+          "likes": 0
+        },
+        {
+          "id": "44d7ee66-4433-463b-8d5d-e2c531a80fab",
+          "content": "volunteering as tribute for another round of letdowns",
+          "likes": 0
+        },
+        {
+          "id": "928ee5d4-4d82-4d04-8d08-669e409a1567",
+          "content": "me faking participation just for those attendance points",
+          "likes": 0
+        },
+        {
+          "id": "c0e63501-d8d1-447a-b0c8-e297128ce426",
+          "content": "my brain in class: please let me go first so i can dip",
+          "likes": 0
+        },
+        {
+          "id": "51a1af29-17b9-4397-9e57-45ca119f3512",
+          "content": "ready to vent at barnard sga like it’s my therapy session",
+          "likes": 0
+        },
+        {
+          "id": "d45a724a-730b-4767-bb7d-f38abd8c5ba5",
+          "content": "congrats, you win nothing but more grind",
+          "likes": 0
+        },
+        {
+          "id": "5a359d98-f6d8-48d4-b4d4-43ee2a885b46",
+          "content": "ready to drop my excuse for existing, no cap",
+          "likes": 0
+        },
+        {
+          "id": "ed974ff5-7cc4-4774-a984-cbe3865369b1",
+          "content": "wild how my brain's kept me alive this long",
+          "likes": 0
+        },
+        {
+          "id": "6cc96466-470f-480c-aa3d-b2b0d9e321f5",
+          "content": "guess i peaked back in middle school",
+          "likes": 0
+        },
+        {
+          "id": "552a09db-b315-4ece-9de9-606f52a04267",
+          "content": "even my disappointment's disappointed rn",
+          "likes": 0
+        },
+        {
+          "id": "2d530f4b-0f0b-4659-9a28-e6e31e50d7ad",
+          "content": "can i get a refund on my ambition, please",
+          "likes": 0
+        },
+        {
+          "id": "a75fd840-c27d-4356-ae9a-069e2221ac56",
+          "content": "rip my GPA and my will to live",
+          "likes": 0
+        },
+        {
+          "id": "e90ff6ad-7fb8-4500-a84b-6524de01d392",
+          "content": "why do i look like i just watched my career crash and burn",
+          "likes": 0
+        },
+        {
+          "id": "4bc93cde-3994-44b1-9cf7-6415835cab3c",
+          "content": "one more Columbia email and i'm evaporating",
+          "likes": 0
+        },
+        {
+          "id": "9c173bd4-6498-49cd-9f41-d5dc7ad00d6d",
+          "content": "so this is what losing feels like, huh",
+          "likes": 0
+        },
+        {
+          "id": "1a59f38e-aaf1-4872-8ce2-0792d9fc8df3",
+          "content": "pretty sure my soul just dipped from the group chat",
+          "likes": 0
+        },
+        {
+          "id": "ef9e978b-3d73-4d60-bf28-8e44eea27ef0",
+          "content": "apparently i'm just here to be overwhelmed",
+          "likes": 0
+        },
+        {
+          "id": "9f9923cf-9aa4-47c4-a272-7ded4f6b5ea2",
+          "content": "this cat’s face when columbia’s gates are randomly locked",
+          "likes": 0
+        },
+        {
+          "id": "eb561e18-9590-489d-bb74-ab9c568ae0b7",
+          "content": "this is why columbia group projects are always a mess",
+          "likes": 0
+        },
+        {
+          "id": "a1678d04-b9f4-4db2-ad45-8fa2b2b7eebc",
+          "content": "barefoot and emotionally unavailable, as per usual",
+          "likes": 0
+        },
+        {
+          "id": "31906edb-4f9e-4a26-8930-a014571a1452",
+          "content": "plot twist: midterms are the real protest, no cap",
+          "likes": 0
+        },
+        {
+          "id": "07ba5fdc-ea8f-4ba3-b675-923251c6ecc1",
+          "content": "acting like there’s not a whole revolution going down behind me rn",
+          "likes": 0
+        },
+        {
+          "id": "21e24074-db49-4f33-824e-3ec85df8b41a",
+          "content": "not even an uprising can pull me away from this tragic c+",
+          "likes": 0
+        },
+        {
+          "id": "e3a99efa-cf9d-4903-9826-5db4618093dd",
+          "content": "everyone’s out here fighting the system, and i’m just fighting for wifi",
+          "likes": 0
+        },
+        {
+          "id": "ff78f303-4111-4548-a423-e56ccfffa45b",
+          "content": "these protesters wish they were as delulu as me",
+          "likes": 0
+        },
+        {
+          "id": "99ae6d68-e295-4873-9e41-00574fec6e81",
+          "content": "meanwhile, my biggest battle is my gpa crashing",
+          "likes": 0
+        },
+        {
+          "id": "86ce38c0-7560-465f-a500-e62d6f3539df",
+          "content": "if you catch me at butler, just mind your own collapse",
+          "likes": 0
+        },
+        {
+          "id": "ba7ef0bf-654c-4c13-a665-993ee761e33a",
+          "content": "bet half these people flunked out of orgo anyway, type shi",
+          "likes": 0
+        },
+        {
+          "id": "9594a9e8-363b-4388-8332-c7f923d2aac8",
+          "content": "Accurate depiction of my soul post-midterm season at Columbia",
+          "likes": 0
+        },
+        {
+          "id": "a2886f77-d093-410c-bd34-eb889a85665a",
+          "content": "dude i’m yapping like this at chef mike’s line",
+          "likes": 0
+        },
+        {
+          "id": "3b69a137-c0a8-41c3-a021-8af7b76a3d1a",
+          "content": "Literally prepping for Dodge gym showers",
+          "likes": -2
+        },
+        {
+          "id": "2b9cb11b-24eb-44fb-a82c-06beaf5b912c",
+          "content": "Waking up from a nap in Butler like you forgot your own name",
+          "likes": -2
+        },
+        {
+          "id": "867f1c9c-60e7-40b0-a440-cbe855817910",
+          "content": "Trying John Jay’s ‘fusion’ ravioli for the dare",
+          "likes": -2
+        },
+        {
+          "id": "be05898d-8f22-4e20-bcd5-af77afa1a80b",
+          "content": "Me after practice when the captain suggests a second run",
+          "likes": -2
+        },
+        {
+          "id": "239b03e3-cec6-4c17-aa1b-672784caa318",
+          "content": "Barnard baddies waiting to get signed in just to see JJ’s",
+          "likes": -2
+        },
+        {
+          "id": "3a2ade08-c06c-4d00-b1ce-2fb79066e6e1",
+          "content": "campus flooding but it’s just my emotions at week nine",
+          "likes": -2
+        },
+        {
+          "id": "442e6af1-6365-4b90-8243-10f4b7966bd0",
+          "content": "Honestly thought Ivy League meals would look less flammable",
+          "likes": -3
+        },
+        {
+          "id": "c3045ef9-d0e7-48aa-80db-68f9a3de762e",
+          "content": "This is me halfway through AP when my code runs for the first time",
+          "likes": -3
+        },
+        {
+          "id": "486be822-3471-433b-9ab6-6a52e0f14b9d",
+          "content": "The exact moment you realize it’s not Election Day Break yet",
+          "likes": -3
+        },
+        {
+          "id": "9dc08f0e-98cb-4d9d-b9cc-e425abce7d27",
+          "content": "Manifesting an EC single knowing it’ll be Wien sink life",
+          "likes": -4
+        },
+        {
+          "id": "a9d008f8-0569-441a-8510-9ec2a6a9b389",
+          "content": "Was promised Noco silence, got kitchen arson instead",
+          "likes": -4
+        },
+        {
+          "id": "c1b3d49d-37a0-4abe-9572-ae913c8932c7",
+          "content": "me pretending to be rich at Columbia then crying over Hewitt",
+          "likes": -4
+        },
+        {
+          "id": "396238fa-7168-4144-9b30-b2cfe8f09800",
+          "content": "Debating if \"skim\" means actually opening the reading pdf",
+          "likes": -4
+        },
+        {
+          "id": "b2328350-bd7e-4395-a8b5-c894c8d81b79",
+          "content": "This is what a Broadway dorm shower feels like at 7am",
+          "likes": -5
+        },
+        {
+          "id": "ad346e03-79a9-4efa-aa07-fa93cdce05af",
+          "content": "dining hall potatoes when i ask for vegan options",
+          "likes": -5
+        },
+        {
+          "id": "4186688c-5624-4cc3-8897-c3c28cec1d6d",
+          "content": "This is just me cooking with JJ’s Place at 2am energy",
+          "likes": -5
+        },
+        {
+          "id": "79117018-b2dc-4b7e-8e7c-74981eb9ee9a",
+          "content": "jj’s menu got me questioning god and my life choices",
+          "likes": -5
+        },
+        {
+          "id": "7c05b787-5292-4e86-b1a1-e97d9fea3abd",
+          "content": "Me checking John Jay for leaks after a 3am fire alarm",
+          "likes": -5
+        },
+        {
+          "id": "18862b33-4b58-4eaa-8916-d18556f2f4ac",
+          "content": "No outlets in Butler and this goat still got power",
+          "likes": -6
+        },
+        {
+          "id": "cbf916d3-f016-4f50-ae2d-db4abd6dcd25",
+          "content": "Trying to escape GMT rehearsal before the director finds me",
+          "likes": -6
+        },
+        {
+          "id": "fffd7f34-4f88-49a5-aff3-59355f53066a",
+          "content": "Still safer than stepping foot in Dodge",
+          "likes": -6
+        },
+        {
+          "id": "814c1c2b-bbbe-4867-95b3-d7a14c389d16",
+          "content": "The goat judging halal cart options on Broadway",
+          "likes": -6
+        },
+        {
+          "id": "621997f1-08e0-4cea-b1de-605410472b38",
+          "content": "EC housing application energy at its absolute peak",
+          "likes": -7
+        },
+        {
+          "id": "fdaebcff-9b08-4ede-aca3-6db907e6f387",
+          "content": "accidentally cooked my last hope with the pasta",
+          "likes": -7
+        },
+        {
+          "id": "b5442877-d5b1-4a6b-9ab3-519cefb59cbd",
+          "content": "trying to look healthy after Columbia Medical called me dramatic",
+          "likes": -7
+        },
+        {
+          "id": "b38b788d-e36b-4a40-b0af-77f995091b67",
+          "content": "NSOP day three realizing everyone has econ as a side quest",
+          "likes": -7
+        },
+        {
+          "id": "9085b64f-d266-4d6f-8186-720c759a32dc",
+          "content": "Me in line at Milstein for water after Senior Night",
+          "likes": -8
+        },
+        {
+          "id": "debdfeef-980c-4bef-9323-371ed03be8b5",
+          "content": "Trying not to make eye contact with anyone in the tunnels",
+          "likes": -8
+        },
+        {
+          "id": "76c559c5-a08a-426a-a491-60ba1940b12e",
+          "content": "Trying to remember if this is the first or sixth floor at Lerner",
+          "likes": -8
+        },
+        {
+          "id": "6dc7b0c1-7b70-4201-9735-c9bc8c9a4634",
+          "content": "Honestly feels like trying to get into last-call frat party",
+          "likes": -8
+        },
+        {
+          "id": "72d00e6e-3cac-403f-9292-e21ab2a53b9f",
+          "content": "The face I make after thirty minutes for the stairmaster",
+          "likes": -8
+        },
+        {
+          "id": "1787b5c4-ab37-4293-8e4b-02a7bb4a97aa",
+          "content": "The only thing fluffier than my NSOP elevator sweat",
+          "likes": -8
+        },
+        {
+          "id": "7548f019-e284-468d-9b7a-5d8782df6d38",
+          "content": "Furnald energy: silent judging and a touch of despair",
+          "likes": -9
+        },
+        {
+          "id": "67be8c95-3fa5-42e2-ad76-3d116db9c122",
+          "content": "Dude is literally prepared for John Jay peak hours",
+          "likes": -9
+        },
+        {
+          "id": "093321c4-abdb-4f6c-809c-c49c19516a25",
+          "content": "Why is this me at Diana before 9 AM crushing iced coffee",
+          "likes": -9
+        },
+        {
+          "id": "b72f6c9a-1c93-467e-be2c-5eb9c81ed20b",
+          "content": "TAs be doing all this just to decide if I pass participation",
+          "likes": -9
+        },
+        {
+          "id": "2cc7d181-9d96-4e71-8a81-85ac97201d07",
+          "content": "how I look after Senior Night before the crash",
+          "likes": -9
+        },
+        {
+          "id": "c6646e78-293e-4e7e-b8c6-76fa130297cd",
+          "content": "those dorm walls heard more secrets than therapy ever will",
+          "likes": -9
+        },
+        {
+          "id": "757b21ba-0e8a-4881-a8c5-f7c8b1ac83f4",
+          "content": "early 8:40 class vibes in edible form",
+          "likes": -9
+        },
+        {
+          "id": "6bfb461d-2992-4dcb-9a9c-f3146b502282",
+          "content": "Heater said choose between warmth and safety, not both",
+          "likes": -10
+        },
+        {
+          "id": "013c17dd-40f9-4db2-a650-02844b22b8a3",
+          "content": "This is every pre-med after surviving another orgo recitation",
+          "likes": -10
+        },
+        {
+          "id": "123553ad-0497-4fc2-af5b-6aae90622d37",
+          "content": "this is the only guy eating JJ’s waffle-mango sandwich",
+          "likes": -10
+        },
+        {
+          "id": "89b6d1e2-e706-4866-994a-4e2ea5c954b4",
+          "content": "Walking into John Jay for help and getting this kind of energy",
+          "likes": -11
+        },
+        {
+          "id": "2dd7bc7c-c583-4ca0-8260-6de0df0cd6f9",
+          "content": "When you buy water at Morton, but it still tastes like EC tap",
+          "likes": -11
+        },
+        {
+          "id": "4c84801d-8d43-45a0-9c0e-f2e7bf4d0915",
+          "content": "trying to be mysterious but I literally live in The Quad",
+          "likes": -11
+        },
+        {
+          "id": "43e47b6d-a783-4aea-8c7c-0324b280fbfa",
+          "content": "Me running from Primal Scream like it’s finals season again",
+          "likes": -11
+        },
+        {
+          "id": "b6dcec9f-60c2-49ed-af43-767fcdb58967",
+          "content": "potato’s living the barnard quad experience rn",
+          "likes": -11
+        },
+        {
+          "id": "856bfec5-8ce2-4910-aabf-ee80e7d5f425",
+          "content": "Surviving GMT tech week powered only by Koronet grease",
+          "likes": -11
+        },
+        {
+          "id": "65fad620-901d-4388-8718-4b28330e060d",
+          "content": "if Carlton was a stove my dinner would combust too",
+          "likes": -11
+        },
+        {
+          "id": "8bbb01bc-5098-47ba-8e73-d9c1a7b6d041",
+          "content": "brooks lounge quiet but my existential crisis isn’t",
+          "likes": -11
+        },
+        {
+          "id": "a5600d08-f979-45f0-832a-6f9095ec3e69",
+          "content": "me explaining how The Dodge is character building, actually",
+          "likes": -11
+        },
+        {
+          "id": "b5406702-be3b-4716-85b4-54226c05a11e",
+          "content": "The hydration level my CVN emails expect from me",
+          "likes": -12
+        },
+        {
+          "id": "3e726b2c-e910-4bff-bfff-3e954bd878a9",
+          "content": "catch me in john jay when the pipes burst again",
+          "likes": -12
+        },
+        {
+          "id": "d1c5b385-f46c-491d-a856-ce80bf1b9e24",
+          "content": "cc lecture audio cut out again just like my confidence",
+          "likes": -12
+        },
+        {
+          "id": "d6618ea1-c7fe-4987-bfb2-e85025a31bdc",
+          "content": "Goat saw my meal swipe balance and chose violence",
+          "likes": -12
+        },
+        {
+          "id": "a48d327a-e551-4fff-9188-6f8a02b2e34d",
+          "content": "serving Comtesse but I live in Carman with no AC",
+          "likes": -13
+        },
+        {
+          "id": "3c93b5c4-8f89-4688-806c-3da6e9457d91",
+          "content": "Found out Blue Java soup isn’t free the hard way",
+          "likes": -13
+        },
+        {
+          "id": "5e766a96-79be-4501-8b52-cab5ae6a3429",
+          "content": "when AP project code hits the if (potato) block",
+          "likes": -13
+        },
+        {
+          "id": "0718171e-2f18-4991-b420-f1f526ce8dc5",
+          "content": "gotta smile through the vibes-based lottery",
+          "likes": -13
+        },
+        {
+          "id": "879bad15-b1ff-4997-8602-2d93a9af0126",
+          "content": "men walking through Barnard side eyes level unlocked",
+          "likes": -14
+        },
+        {
+          "id": "bd8100c5-877b-4bae-90c9-20ed9568e410",
+          "content": "feels like waiting for the Dodge spray bottle",
+          "likes": -14
+        },
+        {
+          "id": "67362c88-89a4-42ca-95a2-3ebfccdfbfb4",
+          "content": "Buying this much water just to watch my econ side quest drown",
+          "likes": -14
+        },
+        {
+          "id": "1c316575-0bb2-44fe-9c7b-e5e676b8a45d",
+          "content": "Finding out Hewitt ran out of pasta again",
+          "likes": -15
+        },
+        {
+          "id": "7261690f-e16f-4c60-adb9-7c891b6691ff",
+          "content": "Diana breakfast rush but for pyromaniacs",
+          "likes": -15
+        }
+      ],
+      "avgLikes": -0.8725099601593626,
+      "likeRate": -0.8725099601593626
+    },
+    {
+      "id": 37,
+      "slug": "do-not-use-ter-re-lyn-gen",
+      "description": "do not use",
+      "captionCount": 145,
+      "totalLikes": -525,
+      "captions": [
+        {
+          "id": "d66d4da1-013e-4f33-b5c9-5e9a86f8dc82",
+          "content": "all this rizz for some glass footwear they're both buggin",
+          "likes": -8
+        },
+        {
+          "id": "947b4446-00c9-4a6c-b982-02a536f48176",
+          "content": "why did they even build colleges if I had to end up like this",
+          "likes": 0
+        },
+        {
+          "id": "c4829340-3178-4d1e-9ad6-f9a68c35d338",
+          "content": "on the floor praying someone yaps with me to feel alive",
+          "likes": 0
+        },
+        {
+          "id": "d25708af-4c66-4a38-bb1a-4d92d435265d",
+          "content": "me after making plans with delulu people",
+          "likes": 0
+        },
+        {
+          "id": "979074fc-fc1f-4346-8b2f-e95d0f4349f0",
+          "content": "Me when the tree care more dressed than my GPA ever has",
+          "likes": 0
+        },
+        {
+          "id": "7ae5cb1a-e7ef-4ed5-93ba-e7f2a0da7304",
+          "content": "that one time the prof said \"any questions before i grade?\"",
+          "likes": -8
+        },
+        {
+          "id": "4861e07a-8cdd-4731-a721-8f0b157a2cd8",
+          "content": "every weekday at 11:27 am in my advisor’s office yeah bet",
+          "likes": 0
+        },
+        {
+          "id": "7adb8151-b27d-4e1a-90b2-7acbbaef9202",
+          "content": "being ‘goated’ at finding garbage lunches just caught up to me",
+          "likes": 0
+        },
+        {
+          "id": "a3893b42-552f-4ada-84e9-a52d5f8c9ba6",
+          "content": "literally one more group project and it’s tap out season",
+          "likes": 0
+        },
+        {
+          "id": "b946f8d1-c4ea-4313-82cd-12825ea9b38c",
+          "content": "please who approved ogre gums as a feature",
+          "likes": -8
+        },
+        {
+          "id": "5f484f4d-d817-40fb-a9d2-d478662d8c37",
+          "content": "the raccoon only mogged the trash, not my gpa",
+          "likes": 0
+        },
+        {
+          "id": "9905303f-ea7e-4f86-bf34-1b398644f31e",
+          "content": "this is exactly how my smile looks before office hours as a TA",
+          "likes": 10
+        },
+        {
+          "id": "dedf0b7a-b5f2-4cdd-b163-c2ae2ea110b3",
+          "content": "crashed out like I just pulled an all-nighter for what",
+          "likes": 0
+        },
+        {
+          "id": "5ba01c99-22d6-4e7b-b11c-8242fdc07232",
+          "content": "trying so hard not to cry after he left me on delivered",
+          "likes": 0
+        },
+        {
+          "id": "8a23f90f-c37d-4bec-9c45-db3903c41bd1",
+          "content": "my skin smile logged out like i’m not even an NPC",
+          "likes": 0
+        },
+        {
+          "id": "b633646f-f821-4716-bc7a-00cde94fe3a9",
+          "content": "forehead Raided by Tax as soon as i clock in",
+          "likes": 0
+        },
+        {
+          "id": "e675c920-68e4-4773-9083-a63aeaed616b",
+          "content": "(head empty voice) nothing fills the trunk inside",
+          "likes": 0
+        },
+        {
+          "id": "55001d00-f94a-4cba-a5d6-7eef389a530a",
+          "content": "this is me trying to chug one mid panic attack",
+          "likes": -10
+        },
+        {
+          "id": "c5664744-6990-4da1-8ec2-18dd1fee543a",
+          "content": "critiquing my checking account like main character number-lore",
+          "likes": 0
+        },
+        {
+          "id": "2cbde704-2722-4739-9754-79624506e7a3",
+          "content": "crib so clean for what if you’re gonna defeat me like this",
+          "likes": 0
+        },
+        {
+          "id": "67ce23c1-a632-4bb0-a431-c507f7741b63",
+          "content": "ratio’d by the existential dread again ngl",
+          "likes": 0
+        },
+        {
+          "id": "7f00b622-f38d-48e6-a00f-3849c8fed017",
+          "content": "acting like i got rizz meanwhile laying here chopped cheese",
+          "likes": 0
+        },
+        {
+          "id": "e83ab70b-97aa-4e6e-ae67-7bd54dd624e7",
+          "content": "getting rinsed by life harder than my jet2 holiday",
+          "likes": 0
+        },
+        {
+          "id": "f3b0d946-022c-411f-af9e-07a1a5500681",
+          "content": "felt like i confessed my whole lore just to get ghosted after",
+          "likes": 0
+        },
+        {
+          "id": "888ec464-fa05-48a1-89c6-be0cd9588a54",
+          "content": "that moment you ask for layers and they give you alumni status",
+          "likes": -9
+        },
+        {
+          "id": "994c49d4-1d57-4e9d-9a39-fe59eb5731af",
+          "content": "This building slaying but it’s still depression inside ngl",
+          "likes": 0
+        },
+        {
+          "id": "b84e811e-ec75-407c-9af8-9b407bb65352",
+          "content": "Nightlife popped off but my credit score snoozed 😍",
+          "likes": 0
+        },
+        {
+          "id": "2e678a65-22ae-4d38-89f0-e667db597e85",
+          "content": "these twinkle lights cost more than my rent i’m literally paying to be jolly",
+          "likes": 0
+        },
+        {
+          "id": "f4f0a0e5-e86c-4c52-b35d-a6f374e753ed",
+          "content": "Barely enough will to wait for this bus let alone life tbh",
+          "likes": 0
+        },
+        {
+          "id": "5581106c-4f5e-41cb-aed3-f02e8dfd5caf",
+          "content": "of course the only hype here’s caffeine fumes off a megabus",
+          "likes": 0
+        },
+        {
+          "id": "84b022a2-35fe-4946-8ce7-d6150b04dc3a",
+          "content": "get hit with benzema pure vibes they still drafting me home",
+          "likes": 0
+        },
+        {
+          "id": "aa7fe6ff-2ef8-4b30-9aaa-6f3814578d57",
+          "content": "literally every festival ever overcrowded pink lights and existential dread",
+          "likes": 0
+        },
+        {
+          "id": "b5332bac-3fa6-48f6-9250-5de26f7ec8b9",
+          "content": "urban sunset fail you still end up weeping with pretzels at the bus",
+          "likes": 0
+        },
+        {
+          "id": "1b576ca5-907f-45d0-beb2-260c788955df",
+          "content": "this is how i look checking grades knowing it’s only getting worse",
+          "likes": 0
+        },
+        {
+          "id": "34850db9-fff8-4a24-982d-dffd9fe6fc06",
+          "content": "how i feel scrolling insta realizing everyone knows how to pose but me",
+          "likes": 0
+        },
+        {
+          "id": "3ca6cfc3-22c6-46c5-860b-ffed21fdc8a1",
+          "content": "me pondering dinner plans like i ever cook anything edible",
+          "likes": 0
+        },
+        {
+          "id": "66a42c26-40a8-4afe-bad5-0f32c5ec953f",
+          "content": "lowkey the physical embodiment of a accidental reply-all email",
+          "likes": 0
+        },
+        {
+          "id": "e8c437c6-9d07-460e-83cc-b062aebaea5f",
+          "content": "my entire vibe when someone says \"let’s process our feelings\"",
+          "likes": 0
+        },
+        {
+          "id": "43541e17-078b-4492-8274-0b0c986e0dc2",
+          "content": "roach meet raccoon meet déjà dans l’salle des deviusidadīs (waka waka moment)",
+          "likes": 0
+        },
+        {
+          "id": "19809325-e2c6-4a07-aede-49393abf400b",
+          "content": "i look like strawberry gooned out every group presentation",
+          "likes": 0
+        },
+        {
+          "id": "1b763423-8d48-44d2-b85b-b3cd9f7f5a11",
+          "content": "skin walking my anemic phase green fighting red tilt IRL",
+          "likes": 0
+        },
+        {
+          "id": "7d0866b2-0a47-4bfc-8435-7683b89fc151",
+          "content": "gonna tweak out for eternity if I mix like those colors",
+          "likes": 0
+        },
+        {
+          "id": "a29768f1-7b0c-4b1e-b423-6bb4f74b54d7",
+          "content": "if boba judgment hurt i’d literally be done for",
+          "likes": 0
+        },
+        {
+          "id": "e92ebcbb-d9e5-41f1-90d8-5b19a167d032",
+          "content": "people see me with moods as stark as the boba pearls",
+          "likes": 0
+        },
+        {
+          "id": "4d32ebf1-563f-4bb7-992f-d83ad7100d0a",
+          "content": "this happens every meet when two managers shake hands i spiral",
+          "likes": 0
+        },
+        {
+          "id": "6330aabd-3fa6-4bb8-b883-66f5847caf7a",
+          "content": "thinking im living three lives in my head, way clowny outside",
+          "likes": 0
+        },
+        {
+          "id": "6d1c44c4-1974-44d3-a2eb-da64a5217d29",
+          "content": "girl walks in to group project thinking it'll be collaborative? brain rot whole way down",
+          "likes": 0
+        },
+        {
+          "id": "6d776237-fd24-41fc-97d8-9f8dd35eef29",
+          "content": "day twenty not being able to read people's fake little smiles",
+          "likes": 0
+        },
+        {
+          "id": "c6a3ffaf-5136-487d-8454-38bea1aa627b",
+          "content": "mission aura farm: failed soon as that smirk showed up",
+          "likes": 0
+        },
+        {
+          "id": "393c3c6d-7b22-4f32-a34b-1b3635185b63",
+          "content": "when you’re the main character in a convenience store rom-com",
+          "likes": 0
+        },
+        {
+          "id": "9fdbd156-e4cb-4e2a-89a4-b6ce7baf274f",
+          "content": "therapist said talk to my inner child now he’s staring back",
+          "likes": 0
+        },
+        {
+          "id": "0c7065ad-6a6c-4af0-99e8-165a8db8aa31",
+          "content": "peak brain rot survived solely off the anime blonde dog pipeline",
+          "likes": 0
+        },
+        {
+          "id": "5e478309-2d02-4953-9abf-5e154e5d06b1",
+          "content": "if i have to log even one more week I will barf violently",
+          "likes": 0
+        },
+        {
+          "id": "74c464cc-ab19-4072-85e9-1f7e47a40b32",
+          "content": "literally how I looked taking the calc midterm attendance picture",
+          "likes": 0
+        },
+        {
+          "id": "116586f5-b841-4cba-b322-4ccf0cd1074e",
+          "content": "embarrassing the way that jacket’s collapsing rn",
+          "likes": 0
+        },
+        {
+          "id": "21f6ee5d-3cea-4c3a-9a81-c784de3e1ac7",
+          "content": "literally says im avoiding therapy rn",
+          "likes": 0
+        },
+        {
+          "id": "2d1ac40f-9f06-45c5-a75b-fd297c1e083d",
+          "content": "why’s it got more aura than my social battery",
+          "likes": 0
+        },
+        {
+          "id": "3b332c11-57f4-4fc0-a1bd-897130051242",
+          "content": "she hangs on door like my last bit of hope",
+          "likes": 0
+        },
+        {
+          "id": "ce93d575-23aa-499d-93e2-4e5dd1c90dec",
+          "content": "not even my heater hugs me this aggressively",
+          "likes": 0
+        },
+        {
+          "id": "42c7bbcb-b42d-46f1-8e12-f3eca13a949b",
+          "content": "every time i touch a book like this my jet2 holiday intensifies",
+          "likes": 0
+        },
+        {
+          "id": "44818c15-24ed-4695-9b52-076fd5abe193",
+          "content": "no way i paid 14 bucks for my personality now suddenly bot mode",
+          "likes": 0
+        },
+        {
+          "id": "5fdf27fa-b09d-4de8-a5fd-76c4c5e2b772",
+          "content": "this my roman empire bc i'm victim to self-improvement loops",
+          "likes": 0
+        },
+        {
+          "id": "8c90b26f-e490-4443-bb19-5e6ef11fefd0",
+          "content": "day five of hitting rock bottom and library self help shelf",
+          "likes": 0
+        },
+        {
+          "id": "ac941746-f272-43f4-9a2f-0a0c789e37a5",
+          "content": "dragged myself all the way out here just for brain rot? be so for real",
+          "likes": 0
+        },
+        {
+          "id": "9a100b60-c212-4aef-8d77-cb8f92ee442d",
+          "content": "me chasing that caffeine high like it owes me money",
+          "likes": 0
+        },
+        {
+          "id": "90e69968-65bf-486f-9beb-7465783e2303",
+          "content": "mood every time my water bottle disappears",
+          "likes": 4
+        },
+        {
+          "id": "36578a44-0016-4e05-b2da-252da41ddc47",
+          "content": "chat this how my social battery runs errands all dried up",
+          "likes": -10
+        },
+        {
+          "id": "83641adc-35ff-4c0c-9db4-5a9c4c6af11a",
+          "content": "acting unc status but definitely white knuckling life loaf",
+          "likes": -14
+        },
+        {
+          "id": "634be7ca-5535-4d5b-8ec3-fb3baf2aa6d1",
+          "content": "single file delusion olympics god put me through",
+          "likes": -11
+        },
+        {
+          "id": "ce3a179d-b198-4f6a-8f47-75fbfadd25b8",
+          "content": "job title rang firefighteryy self practicality finishedness tier",
+          "likes": -11
+        },
+        {
+          "id": "7bb85b87-4312-4cac-ba06-796f0b64edd8",
+          "content": "literally preparing for my hot girl walk through finals week",
+          "likes": -11
+        },
+        {
+          "id": "4121eb35-d1e6-4d72-9af0-359c9d0f782a",
+          "content": "seeing tuition hit my account then getting charged the \"wellness fee\"",
+          "likes": 21
+        },
+        {
+          "id": "13437a6c-8e77-4411-b9b5-86f327ac8e7f",
+          "content": "highkey did one crunch and almost took myself out",
+          "likes": 0
+        },
+        {
+          "id": "56d3339d-9446-4608-b94f-b744b7b6636e",
+          "content": "styled like a snack still chopped cheese on tinder",
+          "likes": -13
+        },
+        {
+          "id": "6d1a9f76-623e-4d2c-8b9e-19feac9ef13f",
+          "content": "walk in the room everybody yapping about my group project",
+          "likes": -14
+        },
+        {
+          "id": "bfa1d729-1c9a-4775-b026-df6e1b6ee474",
+          "content": "reminder that i peaked in 9th grade french club",
+          "likes": 1
+        },
+        {
+          "id": "d0c758e9-3f0c-477f-8109-66e3c7719371",
+          "content": "that one kid who flex abge* way too hard",
+          "likes": -11
+        },
+        {
+          "id": "db4e03c7-23db-439c-a7d4-5c147861da40",
+          "content": "my sleep schedule joined medieval nobility. slay? no. demise",
+          "likes": -15
+        },
+        {
+          "id": "1b738948-3481-4dac-8549-6f3b6eee3e59",
+          "content": "i had the ick from myself half a second after posting IG story",
+          "likes": -11
+        },
+        {
+          "id": "233c745f-726b-4776-b2b7-e51f1e61bc07",
+          "content": "me showing up to a zoom lecture in full gala getup for no reason",
+          "likes": -6
+        },
+        {
+          "id": "52aa655c-bde0-4b26-83ec-12210aa43ed7",
+          "content": "id run in the rain too if men in red capes showed up ngl",
+          "likes": -8
+        },
+        {
+          "id": "49cdd59b-ecc6-4f5c-a262-3a7c507f81c6",
+          "content": "nah beige flag: strong ethos for Y2K hydration arc",
+          "likes": -13
+        },
+        {
+          "id": "15f2c597-6084-472d-86cb-fe3f8b207133",
+          "content": "collecting emotional support water because the vibes are cooked",
+          "likes": -6
+        },
+        {
+          "id": "ac9f692c-7d24-40e5-a210-7149e69caa87",
+          "content": "channelin the discipline of a 98 calc prof picking grapes",
+          "likes": -18
+        },
+        {
+          "id": "3dbe996c-3736-4afc-b7eb-8ee8bc2787e7",
+          "content": "waiting in line like this before studying the group project",
+          "likes": -11
+        },
+        {
+          "id": "3162766b-9ce5-4f6a-b3fb-8634e523b8d2",
+          "content": "the balding prince energy sucks me right back into my jet2 holiday",
+          "likes": -13
+        },
+        {
+          "id": "719dc27f-ce57-4fa3-99ea-67ec97760d95",
+          "content": "am i really savage or do i also just make things way harder for myself",
+          "likes": -8
+        },
+        {
+          "id": "1d5516db-225c-4959-99af-7dc1a83aea42",
+          "content": "my whole lifeforce shredded on retracting one essay comma",
+          "likes": -4
+        },
+        {
+          "id": "2acc910c-9786-416c-a6aa-d651e2022133",
+          "content": "every time my boss yaps at 9 a.m. sharp like clockwork",
+          "likes": -2
+        },
+        {
+          "id": "9c889546-cd1f-4238-818e-5734c84c8a55",
+          "content": "tell me why this is my lock in face every Monday 9am",
+          "likes": -11
+        },
+        {
+          "id": "25a46a18-2667-4822-abe2-86dba3a53703",
+          "content": "me after my two-hour social battery expires mid crowd",
+          "likes": 6
+        },
+        {
+          "id": "328e28b3-c03f-4c86-ae1e-d1c3fb582cef",
+          "content": "that pasta is having more of a meltdown than my lawyer",
+          "likes": -8
+        },
+        {
+          "id": "2b9bcb87-897e-49f8-aa75-c0815c574cbb",
+          "content": "smiled like this the day they let me back in therapy",
+          "likes": 2
+        },
+        {
+          "id": "299e1a86-ef82-4e69-9630-0900c4eab70e",
+          "content": "the look you give when mom says 'i love all my kids equally'",
+          "likes": 4
+        },
+        {
+          "id": "9d6a3ba3-d2b6-4542-b9a5-913bee58c396",
+          "content": "pure rage knowing my romantic type is mfa guy with asthma",
+          "likes": 1
+        },
+        {
+          "id": "42f28c40-590b-4536-8875-af25bc0b2264",
+          "content": "spaghetti crashing out louder than I ever could",
+          "likes": -9
+        },
+        {
+          "id": "65c958d7-5929-4222-982c-87b513f48f6d",
+          "content": "this is what my gpa looks like around midterms",
+          "likes": 1
+        },
+        {
+          "id": "cc1a21a0-c708-4b5e-b135-ee77535d0785",
+          "content": "looking like that kid track coach pities to chase confidence",
+          "likes": -8
+        },
+        {
+          "id": "4418e6c7-4baf-4f2d-bacf-021cd6e834e6",
+          "content": "pot’s on fire just like my expectations famine",
+          "likes": -11
+        },
+        {
+          "id": "77efa993-f01a-44b5-bdd4-bc18f1f74dff",
+          "content": "al dente to full existential crisis shift",
+          "likes": -5
+        },
+        {
+          "id": "34c5e267-a643-49f4-86a1-348ea7367663",
+          "content": "still less chaotic than being emotionally available ig",
+          "likes": -4
+        },
+        {
+          "id": "0807cd3f-73e7-434b-b4bf-b14723ff6d99",
+          "content": "burnt to hell again it’s giving no cap tuesday backwards",
+          "likes": -9
+        },
+        {
+          "id": "01248434-0064-43e6-b2b3-7d642e82e93e",
+          "content": "when your friend invites you to a party but you're not sure if it's a gala or a UFC fight",
+          "likes": 0
+        },
+        {
+          "id": "04b5204d-f515-4d8e-bceb-1dcbf49bcabb",
+          "content": "the hydration aura farm battle pass completed bro im done",
+          "likes": 0
+        },
+        {
+          "id": "054a0a9f-761f-41cd-bc17-ad3079cd3f5d",
+          "content": "why do my attempts give ‘world ending event type shi’",
+          "likes": -9
+        },
+        {
+          "id": "05c5f712-07b3-4508-b733-0e2f21392efc",
+          "content": "when you gotta act like everything's fine but it’s sus af",
+          "likes": 0
+        },
+        {
+          "id": "14cf892a-a359-4b1b-b3b4-e16bef77a14b",
+          "content": "offered chess club meanwhile i barely held the pencil down",
+          "likes": -11
+        },
+        {
+          "id": "5ee655e5-abe1-41cd-a508-429e6f7838d3",
+          "content": "tell me why this looks like my selfie on fifty milligrams of delulu",
+          "likes": -6
+        },
+        {
+          "id": "62b298fa-f818-40f0-a827-0f880225767d",
+          "content": "remind me to never smile in team zoom calls again",
+          "likes": 4
+        },
+        {
+          "id": "55e125f3-64e0-4509-8586-164391f8a477",
+          "content": "literally the face i make punching air for fun brain rot type gig",
+          "likes": -13
+        },
+        {
+          "id": "85cd3513-6846-4380-bee5-0b62ca43de79",
+          "content": "tell me how customer support be watching my struggle ticket",
+          "likes": -7
+        },
+        {
+          "id": "0a755f62-183d-4694-93d3-7c9452d8f337",
+          "content": "when ur reflection is dramatic just to lie about being fine",
+          "likes": -14
+        },
+        {
+          "id": "0d999c41-1cde-4c18-8a34-6fc1952badb7",
+          "content": "outfit screaming summer camp therapy worksheet unlocked",
+          "likes": -10
+        },
+        {
+          "id": "16baa367-fe24-45a4-9f6f-6bc117d0b6a8",
+          "content": "the lion does not eat grass straight, respectfully i starve",
+          "likes": -4
+        },
+        {
+          "id": "be3d1b47-0396-4d3d-b5e9-a8a5b7df6090",
+          "content": "tried opening anthem ticket albums they handed me old raisins baggy",
+          "likes": -13
+        },
+        {
+          "id": "199926fc-4e1c-4543-825b-f0e07ad06d37",
+          "content": "this lowkey what happens when i pour stressed energy into hair",
+          "likes": -10
+        },
+        {
+          "id": "20bd63cb-9fac-41c2-bb83-bac93f9039d8",
+          "content": "gave myself the ick and I haven’t even stretched yet",
+          "likes": 0
+        },
+        {
+          "id": "286a4a3a-de64-44a4-9610-5afaeec042db",
+          "content": "literally how my will to live scrambles when ask goes off",
+          "likes": -13
+        },
+        {
+          "id": "2812cbf4-208b-47f5-8483-ee105bf40277",
+          "content": "he really spawned a sidequest boss just to fail the quest item thing",
+          "likes": -9
+        },
+        {
+          "id": "2c0f4bf5-2583-4fc4-b290-352e2e116bab",
+          "content": "standing in the kitchen fighting for my life again",
+          "likes": -2
+        },
+        {
+          "id": "33fc44e2-c136-4ff2-92f6-b2a29f850d02",
+          "content": "it's giving 'family dinner feels like a group project with NPCs'",
+          "likes": 0
+        },
+        {
+          "id": "4d4c712b-39a2-4c50-a396-24024e50a38a",
+          "content": "that fine line between overachiever and trash raccoon",
+          "likes": 0
+        },
+        {
+          "id": "31968e47-6a35-4f96-bb0c-743ab5ce7904",
+          "content": "civilization questline: failed side mission for basic happiness",
+          "likes": 0
+        },
+        {
+          "id": "4bbd4788-8572-4152-b1f1-4cea5c3dfced",
+          "content": "carrying all my groceries not accepting help feeling like this woman",
+          "likes": -5
+        },
+        {
+          "id": "4a698c39-e920-4726-9e79-5c8a93ee768e",
+          "content": "said i had main character energy this just feels finished",
+          "likes": -12
+        },
+        {
+          "id": "4efd6915-f79e-439d-98ec-6894333dc1ba",
+          "content": "this exactly how i look asking stupid questions in office hours",
+          "likes": 0
+        },
+        {
+          "id": "3e6f9b86-afc3-430e-8d5a-38c32ea4a229",
+          "content": "goat applied to Tiktok U white lotus waiting list next year",
+          "likes": -17
+        },
+        {
+          "id": "389c1393-f993-4859-912d-4234a1a5e164",
+          "content": "felt cute might cry after but highkey just tired",
+          "likes": -10
+        },
+        {
+          "id": "41fb8b40-fb27-4d48-861a-93d36a504e57",
+          "content": "honestly the wine glass is classier than my classmates",
+          "likes": -4
+        },
+        {
+          "id": "0ddc2172-70d3-4c85-8927-89b2a9d89c90",
+          "content": "tell me why the only thing i relate to is grass snobbery",
+          "likes": -11
+        },
+        {
+          "id": "6745a036-1a28-44e5-b5c8-a1cada79bfd5",
+          "content": "honestly at this point my parents owe gordon ramsay cash",
+          "likes": -8
+        },
+        {
+          "id": "68561c40-dfb8-4499-8659-547ecd2753eb",
+          "content": "when your success is just supplies daddy issues and pomposity",
+          "likes": -11
+        },
+        {
+          "id": "fe55e7a7-1c82-4201-81c3-67071650d07a",
+          "content": "chat, is my therapist paying you for points this guy is making",
+          "likes": -11
+        },
+        {
+          "id": "8cff26de-9b8c-4afb-8180-a93f6ff8a2bf",
+          "content": "woke up delulu thinking life would turn around",
+          "likes": -9
+        },
+        {
+          "id": "9eefbfa5-895f-4ed2-bc54-a8368318295b",
+          "content": "someone ask to speak to my manager one more time and it’s dusk",
+          "likes": -12
+        },
+        {
+          "id": "c2f2472a-7d29-4cd3-96e1-b3182e1ed4ed",
+          "content": "team project group looking for strategy what we need is an exorcist",
+          "likes": 0
+        },
+        {
+          "id": "6d7bed92-e9a1-4578-aa51-7d6fd9c7fb20",
+          "content": "this is how it feels when my left AirPod falls under my bed",
+          "likes": -13
+        },
+        {
+          "id": "75044dac-277c-4b22-b1b1-82cbbcf63da5",
+          "content": "when your friend is ready to fight but you're just contemplating life",
+          "likes": 0
+        },
+        {
+          "id": "8c7c8be2-231b-4a59-8644-bb37e5f23398",
+          "content": "pov: tried diffusing at-airport parent fights at 2am cornered like this",
+          "likes": -12
+        },
+        {
+          "id": "8ea4eaf4-4381-4642-b02e-1acd9a23949b",
+          "content": "Telling myself Christmas lights are personality now I’m cooked",
+          "likes": 0
+        },
+        {
+          "id": "db8876d1-0ed6-47fe-a49e-f49079a33330",
+          "content": "nah if a guy ever did that i'd block him by sunrise",
+          "likes": 0
+        },
+        {
+          "id": "802b3397-084a-49e2-86e9-136ba816894c",
+          "content": "me romancing the mirror and still looking this chopped",
+          "likes": 7
+        },
+        {
+          "id": "87a12a4d-fd05-4e6c-8b55-fd7512cb1496",
+          "content": "lookin at people with almond milk like they're mid spawn",
+          "likes": -8
+        },
+        {
+          "id": "bf427f5e-e229-4150-9565-246ffdd6d33f",
+          "content": "went digging for a steal, ended up emotional support chopped cheese",
+          "likes": 0
+        },
+        {
+          "id": "8e4ceaa1-4b74-4b4a-8bcb-20989d4149c6",
+          "content": "yeah just me and my deepest thoughts about tax evasion",
+          "likes": -4
+        }
+      ],
+      "avgLikes": -3.6206896551724137,
+      "likeRate": -3.6206896551724137
+    }
+  ],
+  "topPerformingCaptions": [
+    {
+      "id": "83130f0f-3c1e-4608-936b-ac9a5caceb9e",
+      "content": "Tony Dear’s Discrete Math made me this reflective tbh",
+      "like_count": 150,
+      "humor_flavor_id": 36,
+      "humor_flavors": {
+        "slug": "do-not-use-ter-re-lyn",
+        "description": "do not use"
+      }
+    },
+    {
+      "id": "71f7bf1b-04a9-4971-ae0a-6188c7e56317",
+      "content": "How I feel after opening CourseWorks for the first time all week",
+      "like_count": 98,
+      "humor_flavor_id": 36,
+      "humor_flavors": {
+        "slug": "do-not-use-ter-re-lyn",
+        "description": "do not use"
+      }
+    },
+    {
+      "id": "15c1389c-3feb-40d3-8152-7b9770e4c4cc",
+      "content": "Just saw my TA at 1020 after grading my disaster of a midterm",
+      "like_count": 25,
+      "humor_flavor_id": 36,
+      "humor_flavors": {
+        "slug": "do-not-use-ter-re-lyn",
+        "description": "do not use"
+      }
+    },
+    {
+      "id": "e21d77d7-1151-4bc6-b9fc-dc034e11e0eb",
+      "content": "How I feel walking thru Barnard as a guy",
+      "like_count": 24,
+      "humor_flavor_id": 36,
+      "humor_flavors": {
+        "slug": "do-not-use-ter-re-lyn",
+        "description": "do not use"
+      }
+    },
+    {
+      "id": "4121eb35-d1e6-4d72-9af0-359c9d0f782a",
+      "content": "seeing tuition hit my account then getting charged the \"wellness fee\"",
+      "like_count": 21,
+      "humor_flavor_id": 37,
+      "humor_flavors": {
+        "slug": "do-not-use-ter-re-lyn-gen",
+        "description": "do not use"
+      }
+    },
+    {
+      "id": "fc5e4366-2528-4534-b512-198f18d05da5",
+      "content": "the look you give when Vergil crashes during registration",
+      "like_count": 17,
+      "humor_flavor_id": 36,
+      "humor_flavors": {
+        "slug": "do-not-use-ter-re-lyn",
+        "description": "do not use"
+      }
+    },
+    {
+      "id": "1943f108-a900-4997-950f-8d65750e27a0",
+      "content": "The hydration levels required for a SEAS all-nighter",
+      "like_count": 12,
+      "humor_flavor_id": 36,
+      "humor_flavors": {
+        "slug": "do-not-use-ter-re-lyn",
+        "description": "do not use"
+      }
+    },
+    {
+      "id": "9905303f-ea7e-4f86-bf34-1b398644f31e",
+      "content": "this is exactly how my smile looks before office hours as a TA",
+      "like_count": 10,
+      "humor_flavor_id": 37,
+      "humor_flavors": {
+        "slug": "do-not-use-ter-re-lyn-gen",
+        "description": "do not use"
+      }
+    },
+    {
+      "id": "e53dc300-afe0-498d-9ecf-9c64f7501662",
+      "content": "waiting for Election Day Break like it’ll solve anything",
+      "like_count": 10,
+      "humor_flavor_id": 36,
+      "humor_flavors": {
+        "slug": "do-not-use-ter-re-lyn",
+        "description": "do not use"
+      }
+    },
+    {
+      "id": "83d070c3-e57c-4b9a-bee0-ebe8ff6e8df7",
+      "content": "‘my cooking isn’t that bad’—yes it is bro you are finished",
+      "like_count": 8,
+      "humor_flavor_id": 37,
+      "humor_flavors": {
+        "slug": "do-not-use-ter-re-lyn-gen",
+        "description": "do not use"
+      }
+    }
+  ],
+  "engagementMetrics": {
+    "captionsWithLikes": 81,
+    "avgLikesPerCaption": 6.888888888888889,
+    "maxLikes": 150,
+    "likeRate": "0.57"
+  }
+}
