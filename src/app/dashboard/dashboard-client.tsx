@@ -21,10 +21,11 @@ interface UserCaption {
   content: string
   like_count: number
   created_datetime_utc: string
-  humor_flavors?: {
+  humor_flavor_id?: string
+  humor_flavors: {
     slug: string
     description: string
-  }
+  }[] | null
 }
 
 interface UserStats {
@@ -181,8 +182,8 @@ export default function DashboardClient({ user, userCaptions, userStats }: Props
                     <div className="flex items-center space-x-3 text-xs text-gray-500">
                       <span>{caption.like_count || 0} likes</span>
                       <span>{new Date(caption.created_datetime_utc).toLocaleDateString()}</span>
-                      {caption.humor_flavors?.slug && (
-                        <span className="bg-gray-100 px-2 py-1 rounded">{caption.humor_flavors.slug}</span>
+                      {caption.humor_flavors && caption.humor_flavors.length > 0 && (
+                        <span className="bg-gray-100 px-2 py-1 rounded">{caption.humor_flavors[0].slug}</span>
                       )}
                     </div>
                   </div>

@@ -3,7 +3,7 @@ import { redirect } from 'next/navigation'
 import DashboardClient from './dashboard-client'
 
 export default async function Dashboard() {
-  const supabase = createClient()
+  const supabase = await createClient()
 
   const {
     data: { user },
@@ -21,7 +21,8 @@ export default async function Dashboard() {
       content,
       like_count,
       created_datetime_utc,
-      humor_flavors(slug, description)
+      humor_flavor_id,
+      humor_flavors!left(slug, description)
     `)
     .eq('profile_id', user.id)
     .order('created_datetime_utc', { ascending: false })
