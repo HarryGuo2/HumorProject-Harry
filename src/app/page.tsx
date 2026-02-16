@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { createClient } from '@/lib/supabase-browser'
 import Link from 'next/link'
 
 interface QuickStats {
@@ -10,11 +11,30 @@ interface QuickStats {
   topLikes: number
 }
 
+interface User {
+  id: string
+  email?: string
+  user_metadata: {
+    name?: string
+    avatar_url?: string
+    full_name?: string
+  }
+}
+
 export default function Home() {
   const [quickStats, setQuickStats] = useState<QuickStats | null>(null)
+  const [user, setUser] = useState<User | null>(null)
+  const [loading, setLoading] = useState(true)
+  const supabase = createClient()
 
   useEffect(() => {
-    async function fetchQuickStats() {
+    async function initialize() {
+      // Get current user
+      const { data: { user } } = await supabase.auth.getUser()
+      setUser(user)
+      setLoading(false)
+
+      // Fetch analytics data
       try {
         const response = await fetch('/api/caption-analytics')
         const result = await response.json()
@@ -33,11 +53,63 @@ export default function Home() {
       }
     }
 
-    fetchQuickStats()
+    initialize()
+
+    // Listen for auth changes
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      setUser(session?.user ?? null)
+    })
+
+    return () => subscription.unsubscribe()
   }, [])
+
+  const userName = user?.user_metadata?.name || user?.user_metadata?.full_name || user?.email || 'User'
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      {/* Auth Status Bar */}
+      <div className="bg-white/70 backdrop-blur-sm border-b border-white/20">
+        <div className="container mx-auto px-4 py-3">
+          <div className="flex justify-between items-center">
+            <div className="flex items-center space-x-2">
+              <span className="text-gray-600">Caption Popularity Analysis</span>
+            </div>
+
+            {!loading && (
+              <div className="flex items-center space-x-4">
+                {user ? (
+                  <>
+                    <div className="flex items-center space-x-2">
+                      {user.user_metadata?.avatar_url && (
+                        <img
+                          src={user.user_metadata.avatar_url}
+                          alt={userName}
+                          className="w-6 h-6 rounded-full"
+                        />
+                      )}
+                      <span className="text-gray-700 text-sm">Hello, {userName}!</span>
+                    </div>
+                    <Link
+                      href="/dashboard"
+                      className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded text-sm transition-colors"
+                    >
+                      Dashboard
+                    </Link>
+                  </>
+                ) : (
+                  <Link
+                    href="/auth/login"
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+                  >
+                    🔐 Login
+                  </Link>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
       <div className="container mx-auto px-4 py-16">
         {/* Hero Section */}
         <div className="text-center mb-16">
@@ -69,14 +141,54 @@ export default function Home() {
             </div>
           )}
 
+          {/* User-specific content */}
+          {user && (
+            <div className="bg-green-100 border border-green-200 rounded-xl p-6 mb-8 max-w-4xl mx-auto">
+              <div className="flex items-center justify-center mb-2">
+                <span className="text-2xl mr-2">🎉</span>
+                <h3 className="text-lg font-semibold text-green-800">Welcome back, {userName}!</h3>
+              </div>
+              <p className="text-green-700 text-center">
+                You're logged in! Access your personal dashboard to view your caption stats and exclusive content.
+              </p>
+            </div>
+          )}
+
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link
-              href="/analytics"
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg shadow-lg transition-all duration-200 hover:shadow-xl hover:scale-105 flex items-center gap-2"
-            >
-              📈 View Full Analytics Dashboard
-            </Link>
+            {user ? (
+              <>
+                <Link
+                  href="/dashboard"
+                  className="bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-lg shadow-lg transition-all duration-200 hover:shadow-xl hover:scale-105 flex items-center gap-2"
+                >
+                  🏠 Your Personal Dashboard
+                </Link>
+
+                <Link
+                  href="/analytics"
+                  className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg shadow-lg transition-all duration-200 hover:shadow-xl hover:scale-105 flex items-center gap-2"
+                >
+                  📈 View Analytics Dashboard
+                </Link>
+              </>
+            ) : (
+              <>
+                <Link
+                  href="/auth/login"
+                  className="bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-lg shadow-lg transition-all duration-200 hover:shadow-xl hover:scale-105 flex items-center gap-2"
+                >
+                  🔐 Login to Access Dashboard
+                </Link>
+
+                <Link
+                  href="/analytics"
+                  className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg shadow-lg transition-all duration-200 hover:shadow-xl hover:scale-105 flex items-center gap-2"
+                >
+                  📈 View Analytics Dashboard
+                </Link>
+              </>
+            )}
 
             <Link
               href="/images"
