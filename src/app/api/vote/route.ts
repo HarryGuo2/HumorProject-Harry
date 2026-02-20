@@ -5,12 +5,21 @@ export async function POST(request: NextRequest) {
   try {
     const supabase = await createClient()
 
-    // Check authentication
+    // Check authentication with debugging
     const { data: { user }, error: authError } = await supabase.auth.getUser()
 
+    console.log('Vote API Debug:', {
+      hasUser: !!user,
+      userId: user?.id,
+      userEmail: user?.email,
+      authError: authError?.message,
+      cookies: request.cookies.getAll().map(c => c.name)
+    })
+
     if (authError || !user) {
+      console.log('Authentication failed:', { authError: authError?.message, user: !!user })
       return NextResponse.json(
-        { success: false, error: 'Authentication required' },
+        { success: false, error: 'Authentication required', debug: { authError: authError?.message } },
         { status: 401 }
       )
     }

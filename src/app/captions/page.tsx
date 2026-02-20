@@ -11,10 +11,16 @@ interface Caption {
   like_count: number
   created_datetime_utc: string
   humor_flavor_id?: string
+  image_id?: string
   humor_flavors: {
     slug: string
     description: string
   }[] | null
+  images?: {
+    id: string
+    url: string
+    image_description: string
+  } | null
   vote_counts: {
     upvotes: number
     downvotes: number
@@ -221,33 +227,61 @@ export default function CaptionsPage() {
         ) : (
           <div className="space-y-6">
             {captions.map(caption => (
-              <div key={caption.id} className="bg-white rounded-lg shadow-md p-6">
-                <div className="mb-4">
-                  <p className="text-gray-800 text-lg leading-relaxed">
-                    "{caption.content || '(No caption text)'}"
-                  </p>
-                </div>
+              <div key={caption.id} className="bg-white rounded-lg shadow-md overflow-hidden">
+                {/* Image Section */}
+                {caption.images && (
+                  <div className="aspect-square md:aspect-video bg-gray-100">
+                    <img
+                      src={caption.images.url}
+                      alt={caption.images.image_description || 'Caption image'}
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDMwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0xNTAgMTAwQzEzNi4xOSAxMDAgMTI1IDExMS4xOSAxMjUgMTI1UzEzNi4xOSAxNTAgMTUwIDE1MFMxNzUgMTM4LjgxIDE3NSAxMjVTMTYzLjgxIDEwMCAxNTAgMTAwWk0xNTAgMTM3LjVDMTQzLjA5IDEzNy41IDEzNy41IDEzMS45MSAxMzcuNSAxMjVTMTQzLjA5IDExMi41IDE1MCAxMTIuNVMxNjIuNSAxMTguMDkgMTYyLjUgMTI1UzE1Ni45MSAxMzcuNSAxNTAgMTM3LjVaIiBmaWxsPSIjOUM5QzlDIi8+CjxwYXRoIGQ9Ik0yMDAgMTc1SDEwMEw4NyAyMDBIMjEzTDIwMCAxNzVaIiBmaWxsPSIjOUM5QzlDIi8+Cjwvc3ZnPg=='
+                      }}
+                    />
+                  </div>
+                )}
 
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center space-x-4 text-sm text-gray-500">
-                    <span>{caption.like_count || 0} likes</span>
-                    <span>{new Date(caption.created_datetime_utc).toLocaleDateString()}</span>
-                    {caption.humor_flavors && Array.isArray(caption.humor_flavors) && caption.humor_flavors.length > 0 && (
-                      <span className="bg-gray-100 px-2 py-1 rounded text-xs">
-                        {caption.humor_flavors[0]?.slug}
-                      </span>
-                    )}
+                {/* Content Section */}
+                <div className="p-6">
+                  {/* Caption Text */}
+                  <div className="mb-4">
+                    <p className="text-gray-800 text-lg leading-relaxed">
+                      "{caption.content || '(No caption text)'}"
+                    </p>
                   </div>
 
-                  <VotingButtons
-                    captionId={caption.id}
-                    initialVoteCounts={caption.vote_counts}
-                    userVote={caption.user_vote}
-                    isLoggedIn={!!user}
-                    onVoteChange={(newVoteCounts, userVote) =>
-                      handleVoteChange(caption.id, newVoteCounts, userVote)
-                    }
-                  />
+                  {/* Image Description (if no caption content) */}
+                  {!caption.content && caption.images?.image_description && (
+                    <div className="mb-4">
+                      <p className="text-gray-600 text-sm italic">
+                        Image: {caption.images.image_description}
+                      </p>
+                    </div>
+                  )}
+
+                  {/* Stats and Voting */}
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center space-x-4 text-sm text-gray-500">
+                      <span>{caption.like_count || 0} likes</span>
+                      <span>{new Date(caption.created_datetime_utc).toLocaleDateString()}</span>
+                      {caption.humor_flavors && Array.isArray(caption.humor_flavors) && caption.humor_flavors.length > 0 && (
+                        <span className="bg-gray-100 px-2 py-1 rounded text-xs">
+                          {caption.humor_flavors[0]?.slug}
+                        </span>
+                      )}
+                    </div>
+
+                    <VotingButtons
+                      captionId={caption.id}
+                      initialVoteCounts={caption.vote_counts}
+                      userVote={caption.user_vote}
+                      isLoggedIn={!!user}
+                      onVoteChange={(newVoteCounts, userVote) =>
+                        handleVoteChange(caption.id, newVoteCounts, userVote)
+                      }
+                    />
+                  </div>
                 </div>
               </div>
             ))}

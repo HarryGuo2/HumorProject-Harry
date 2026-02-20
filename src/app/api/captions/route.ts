@@ -34,7 +34,7 @@ export async function GET(request: NextRequest) {
         ascending = false
     }
 
-    // Get captions with basic info - use anon client for reliable data fetch (avoids cookie/session issues)
+    // Get captions with basic info including images - use anon client for reliable data fetch
     const { data: captions, error } = await supabase
       .from('captions')
       .select(`
@@ -43,7 +43,9 @@ export async function GET(request: NextRequest) {
         like_count,
         created_datetime_utc,
         humor_flavor_id,
-        humor_flavors!left(slug, description)
+        image_id,
+        humor_flavors!left(slug, description),
+        images!left(id, url, image_description)
       `)
       .order(orderBy, { ascending })
       .range(offset, offset + limit - 1)
