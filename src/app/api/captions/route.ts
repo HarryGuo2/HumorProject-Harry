@@ -39,6 +39,7 @@ export async function GET(request: NextRequest) {
     }
 
     // Get captions with basic info including images - use anon client for reliable data fetch
+    // Filter out captions without content
     let query = supabase
       .from('captions')
       .select(`
@@ -51,6 +52,8 @@ export async function GET(request: NextRequest) {
         humor_flavors!left(slug, description),
         images!left(id, url, image_description)
       `)
+      .not('content', 'is', null)
+      .neq('content', '')
 
     // Apply ordering
     if (randomOrder) {
@@ -146,10 +149,12 @@ export async function GET(request: NextRequest) {
       })
     }
 
-    // Get total count for pagination
+    // Get total count for pagination (only captions with content)
     const { count: totalCount } = await supabase
       .from('captions')
       .select('*', { count: 'exact', head: true })
+      .not('content', 'is', null)
+      .neq('content', '')
 
     return NextResponse.json({
       success: true,
