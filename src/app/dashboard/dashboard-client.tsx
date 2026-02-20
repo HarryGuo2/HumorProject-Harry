@@ -32,6 +32,9 @@ interface UserStats {
   totalCaptions: number
   totalLikes: number
   likesGiven: number
+  votesGiven: number
+  upvotesGiven: number
+  downvotesGiven: number
   joinedDate: string
 }
 
@@ -104,33 +107,47 @@ export default function DashboardClient({ user, userCaptions, userStats }: Props
         </div>
 
         {/* Stats Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-          <div className="bg-white rounded-lg shadow-md p-6">
-            <div className="text-3xl font-bold text-blue-600 mb-2">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8">
+          <div className="bg-white rounded-lg shadow-md p-4">
+            <div className="text-2xl font-bold text-blue-600 mb-1">
               {userStats.totalCaptions}
             </div>
-            <div className="text-gray-600">Your Captions</div>
+            <div className="text-gray-600 text-sm">Your Captions</div>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md p-6">
-            <div className="text-3xl font-bold text-green-600 mb-2">
+          <div className="bg-white rounded-lg shadow-md p-4">
+            <div className="text-2xl font-bold text-green-600 mb-1">
               {userStats.totalLikes}
             </div>
-            <div className="text-gray-600">Likes Received</div>
+            <div className="text-gray-600 text-sm">Likes Received</div>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md p-6">
-            <div className="text-3xl font-bold text-purple-600 mb-2">
+          <div className="bg-white rounded-lg shadow-md p-4">
+            <div className="text-2xl font-bold text-purple-600 mb-1">
               {userStats.likesGiven}
             </div>
-            <div className="text-gray-600">Likes Given</div>
+            <div className="text-gray-600 text-sm">Likes Given</div>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md p-6">
-            <div className="text-3xl font-bold text-orange-600 mb-2">
+          <div className="bg-white rounded-lg shadow-md p-4">
+            <div className="text-2xl font-bold text-indigo-600 mb-1">
+              {userStats.votesGiven}
+            </div>
+            <div className="text-gray-600 text-sm">Total Votes</div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md p-4">
+            <div className="text-2xl font-bold text-emerald-600 mb-1">
+              {userStats.upvotesGiven}
+            </div>
+            <div className="text-gray-600 text-sm">👍 Upvotes</div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md p-4">
+            <div className="text-2xl font-bold text-orange-600 mb-1">
               {Math.floor((Date.now() - new Date(userStats.joinedDate).getTime()) / (1000 * 60 * 60 * 24))}
             </div>
-            <div className="text-gray-600">Days Active</div>
+            <div className="text-gray-600 text-sm">Days Active</div>
           </div>
         </div>
 
@@ -201,6 +218,13 @@ export default function DashboardClient({ user, userCaptions, userStats }: Props
 
         {/* Action Buttons */}
         <div className="mt-8 text-center space-x-4">
+          <Link
+            href="/captions"
+            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700"
+          >
+            🗳️ Vote on Captions
+          </Link>
+
           <Link
             href="/analytics"
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"

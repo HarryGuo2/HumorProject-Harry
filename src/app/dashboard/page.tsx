@@ -33,10 +33,18 @@ export default async function Dashboard() {
     .select('id')
     .eq('profile_id', user.id)
 
+  const { data: userVotes } = await supabase
+    .from('caption_votes')
+    .select('vote_value')
+    .eq('profile_id', user.id)
+
   const userStats = {
     totalCaptions: userCaptions?.length || 0,
     totalLikes: userCaptions?.reduce((sum, caption) => sum + (caption.like_count || 0), 0) || 0,
     likesGiven: userLikes?.length || 0,
+    votesGiven: userVotes?.length || 0,
+    upvotesGiven: userVotes?.filter(v => v.vote_value > 0).length || 0,
+    downvotesGiven: userVotes?.filter(v => v.vote_value < 0).length || 0,
     joinedDate: user.created_at
   }
 

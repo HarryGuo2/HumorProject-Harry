@@ -174,26 +174,33 @@ export default function AnalyticsHome() {
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-center items-center">
             <Link
               href="/dashboard"
-              className="bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-lg shadow-lg transition-all duration-200 hover:shadow-xl hover:scale-105 flex items-center gap-2"
+              className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-4 rounded-lg shadow-lg transition-all duration-200 hover:shadow-xl hover:scale-105 flex items-center gap-2 justify-center"
             >
-              🏠 Your Personal Dashboard
+              🏠 Personal Dashboard
+            </Link>
+
+            <Link
+              href="/captions"
+              className="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-4 rounded-lg shadow-lg transition-all duration-200 hover:shadow-xl hover:scale-105 flex items-center gap-2 justify-center"
+            >
+              🗳️ Vote on Captions
             </Link>
 
             <Link
               href="/analytics"
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg shadow-lg transition-all duration-200 hover:shadow-xl hover:scale-105 flex items-center gap-2"
+              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-4 rounded-lg shadow-lg transition-all duration-200 hover:shadow-xl hover:scale-105 flex items-center gap-2 justify-center"
             >
-              📈 View Analytics Dashboard
+              📈 View Analytics
             </Link>
 
             <Link
               href="/images"
-              className="bg-white hover:bg-gray-50 text-gray-900 font-semibold px-8 py-4 rounded-lg shadow-lg transition-all duration-200 hover:shadow-xl border border-gray-200 flex items-center gap-2"
+              className="bg-white hover:bg-gray-50 text-gray-900 font-semibold px-6 py-4 rounded-lg shadow-lg transition-all duration-200 hover:shadow-xl border border-gray-200 flex items-center gap-2 justify-center"
             >
-              🖼️ Browse Image Gallery
+              🖼️ Image Gallery
             </Link>
           </div>
         </div>
