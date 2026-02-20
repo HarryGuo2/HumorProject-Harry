@@ -41,12 +41,12 @@ interface User {
 }
 
 export default function CaptionsPage() {
-  const [captions, setCaptions] = useState<Caption[]>([])
+  const [currentCaption, setCurrentCaption] = useState<Caption | null>(null)
   const [user, setUser] = useState<User | null>(null)
   const [loading, setLoading] = useState(true)
-  const [sortBy, setSortBy] = useState('newest')
-  const [loadingMore, setLoadingMore] = useState(false)
-  const [hasMore, setHasMore] = useState(true)
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const [captionCache, setCaptionCache] = useState<Caption[]>([])
+  const [totalCaptions, setTotalCaptions] = useState(0)
   const supabase = createClient()
 
   useEffect(() => {
@@ -55,8 +55,8 @@ export default function CaptionsPage() {
       const { data: { user } } = await supabase.auth.getUser()
       setUser(user)
 
-      // Load captions
-      await loadCaptions(true)
+      // Load first caption
+      await loadCaptionAtIndex(0)
       setLoading(false)
     }
 
@@ -70,59 +70,74 @@ export default function CaptionsPage() {
     return () => subscription.unsubscribe()
   }, [])
 
-  const loadCaptions = async (reset = false) => {
+  const loadCaptionAtIndex = async (index: number) => {
     try {
-      const offset = reset ? 0 : captions.length
-      const response = await fetch(`/api/captions?limit=10&offset=${offset}&sort=${sortBy}`, {
+      // Check if we have this caption in cache
+      if (captionCache[index]) {
+        setCurrentCaption(captionCache[index])
+        setCurrentIndex(index)
+        return
+      }
+
+      // Fetch caption from API using random sorting to get variety
+      const response = await fetch(`/api/captions?limit=1&offset=${index}&sort=random`, {
         credentials: 'include'
       })
       const result = await response.json()
 
-      if (result.success) {
-        const newCaptions = result.data.captions
-        setCaptions(reset ? newCaptions : [...captions, ...newCaptions])
-        setHasMore(result.data.pagination.hasMore)
+      if (result.success && result.data.captions.length > 0) {
+        const caption = result.data.captions[0]
+        setCurrentCaption(caption)
+        setCurrentIndex(index)
+        setTotalCaptions(result.data.pagination.total)
+
+        // Add to cache
+        setCaptionCache(prev => {
+          const newCache = [...prev]
+          newCache[index] = caption
+          return newCache
+        })
       }
     } catch (error) {
-      console.error('Failed to load captions:', error)
+      console.error('Failed to load caption:', error)
     }
   }
 
-  const handleSortChange = async (newSort: string) => {
-    setSortBy(newSort)
-    setLoading(true)
-
-    try {
-      const response = await fetch(`/api/captions?limit=10&offset=0&sort=${newSort}`, {
-        credentials: 'include'
-      })
-      const result = await response.json()
-
-      if (result.success) {
-        setCaptions(result.data.captions)
-        setHasMore(result.data.pagination.hasMore)
-      }
-    } catch (error) {
-      console.error('Failed to load captions:', error)
-    } finally {
+  const handleNext = async () => {
+    if (currentIndex < totalCaptions - 1) {
+      setLoading(true)
+      await loadCaptionAtIndex(currentIndex + 1)
       setLoading(false)
     }
   }
 
-  const handleLoadMore = async () => {
-    if (loadingMore || !hasMore) return
-
-    setLoadingMore(true)
-    await loadCaptions(false)
-    setLoadingMore(false)
+  const handlePrevious = async () => {
+    if (currentIndex > 0) {
+      setLoading(true)
+      await loadCaptionAtIndex(currentIndex - 1)
+      setLoading(false)
+    }
   }
 
   const handleVoteChange = (captionId: string, newVoteCounts: any, userVote: number | null) => {
-    setCaptions(prev => prev.map(caption =>
-      caption.id === captionId
+    // Update current caption
+    if (currentCaption?.id === captionId) {
+      setCurrentCaption(prev => prev ? { ...prev, vote_counts: newVoteCounts, user_vote: userVote } : null)
+    }
+
+    // Update cache
+    setCaptionCache(prev => prev.map(caption =>
+      caption?.id === captionId
         ? { ...caption, vote_counts: newVoteCounts, user_vote: userVote }
         : caption
     ))
+
+    // Automatically go to next caption after voting
+    setTimeout(() => {
+      if (currentIndex < totalCaptions - 1) {
+        handleNext()
+      }
+    }, 1500) // Give user time to see their vote registered
   }
 
   const handleLogout = async () => {
@@ -193,133 +208,103 @@ export default function CaptionsPage() {
           )}
         </div>
 
-        {/* Sort Controls */}
-        <div className="flex items-center space-x-4 mb-6">
-          <span className="text-gray-600 font-medium">Sort by:</span>
-          <div className="flex space-x-2">
-            {[
-              { value: 'newest', label: 'Newest' },
-              { value: 'oldest', label: 'Oldest' },
-              { value: 'most_liked', label: 'Most Liked' }
-            ].map(option => (
-              <button
-                key={option.value}
-                onClick={() => handleSortChange(option.value)}
-                disabled={loading}
-                className={`px-3 py-1 rounded-lg text-sm font-medium transition-colors ${
-                  sortBy === option.value
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
-                } ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
-              >
-                {option.label}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Captions List */}
+        {/* Caption Display */}
         {loading ? (
           <div className="text-center py-12">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
-            <p className="text-gray-600">Loading captions...</p>
+            <p className="text-gray-600">Loading caption...</p>
           </div>
-        ) : (
-          <div className="space-y-6">
-            {captions.map(caption => (
-              <div key={caption.id} className="bg-white rounded-lg shadow-md overflow-hidden">
-                {/* Image Section */}
-                {caption.images && (
-                  <div className="aspect-square md:aspect-video bg-gray-100">
-                    <img
-                      src={caption.images.url}
-                      alt={caption.images.image_description || 'Caption image'}
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDMwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0xNTAgMTAwQzEzNi4xOSAxMDAgMTI1IDExMS4xOSAxMjUgMTI1UzEzNi4xOSAxNTAgMTUwIDE1MFMxNzUgMTM4LjgxIDE3NSAxMjVTMTYzLjgxIDEwMCAxNTAgMTAwWk0xNTAgMTM3LjVDMTQzLjA5IDEzNy41IDEzNy41IDEzMS45MSAxMzcuNSAxMjVTMTQzLjA5IDExMi41IDE1MCAxMTIuNVMxNjIuNSAxMTguMDkgMTYyLjUgMTI1UzE1Ni45MSAxMzcuNSAxNTAgMTM3LjVaIiBmaWxsPSIjOUM5QzlDIi8+CjxwYXRoIGQ9Ik0yMDAgMTc1SDEwMEw4NyAyMDBIMjEzTDIwMCAxNzVaIiBmaWxsPSIjOUM5QzlDIi8+Cjwvc3ZnPg=='
-                      }}
-                    />
+        ) : currentCaption ? (
+          <div className="max-w-2xl mx-auto">
+            {/* Single Caption Card */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              {/* Image Section */}
+              {currentCaption.images && (
+                <div className="aspect-square md:aspect-video bg-gray-100">
+                  <img
+                    src={currentCaption.images.url}
+                    alt={currentCaption.images.image_description || 'Caption image'}
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDMwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0xNTAgMTAwQzEzNi4xOSAxMDAgMTI1IDExMS4xOSAxMjUgMTI1UzEzNi4xOSAxNTAgMTUwIDE1MFMxNzUgMTM4LjgxIDE3NSAxMjVTMTYzLjgxIDEwMCAxNTAgMTAwWk0xNTAgMTM3LjVDMTQzLjA5IDEzNy41IDEzNy41IDEzMS45MSAxMzcuNSAxMjVTMTQzLjA5IDExMi41IDE1MCAxMTIuNVMxNjIuNSAxMTguMDkgMTYyLjUgMTI1UzE1Ni45MSAxMzcuNSAxNTAgMTM3LjVaIiBmaWxsPSIjOUM5QzlDIi8+CjxwYXRoIGQ9Ik0yMDAgMTc1SDEwMEw4NyAyMDBIMjEzTDIwMCAxNzVaIiBmaWxsPSIjOUM5QzlDIi8+Cjwvc3ZnPg=='
+                    }}
+                  />
+                </div>
+              )}
+
+              {/* Content Section */}
+              <div className="p-8">
+                {/* Caption Text */}
+                <div className="mb-6">
+                  <p className="text-gray-800 text-xl leading-relaxed text-center">
+                    "{currentCaption.content || '(No caption text)'}"
+                  </p>
+                </div>
+
+                {/* Image Description (if no caption content) */}
+                {!currentCaption.content && currentCaption.images?.image_description && (
+                  <div className="mb-6">
+                    <p className="text-gray-600 text-sm italic text-center">
+                      Image: {currentCaption.images.image_description}
+                    </p>
                   </div>
                 )}
 
-                {/* Content Section */}
-                <div className="p-6">
-                  {/* Caption Text */}
-                  <div className="mb-4">
-                    <p className="text-gray-800 text-lg leading-relaxed">
-                      "{caption.content || '(No caption text)'}"
-                    </p>
-                  </div>
+                {/* Stats and Voting */}
+                <div className="flex flex-col items-center space-y-4">
+                  <VotingButtons
+                    captionId={currentCaption.id}
+                    initialVoteCounts={currentCaption.vote_counts}
+                    userVote={currentCaption.user_vote}
+                    isLoggedIn={!!user}
+                    onVoteChange={(newVoteCounts, userVote) =>
+                      handleVoteChange(currentCaption.id, newVoteCounts, userVote)
+                    }
+                  />
 
-                  {/* Image Description (if no caption content) */}
-                  {!caption.content && caption.images?.image_description && (
-                    <div className="mb-4">
-                      <p className="text-gray-600 text-sm italic">
-                        Image: {caption.images.image_description}
-                      </p>
-                    </div>
-                  )}
-
-                  {/* Stats and Voting */}
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-4 text-sm text-gray-500">
-                      <span>{caption.like_count || 0} likes</span>
-                      <span>{new Date(caption.created_datetime_utc).toLocaleDateString()}</span>
-                      {caption.humor_flavors && Array.isArray(caption.humor_flavors) && caption.humor_flavors.length > 0 && (
-                        <span className="bg-gray-100 px-2 py-1 rounded text-xs">
-                          {caption.humor_flavors[0]?.slug}
-                        </span>
-                      )}
-                    </div>
-
-                    <VotingButtons
-                      captionId={caption.id}
-                      initialVoteCounts={caption.vote_counts}
-                      userVote={caption.user_vote}
-                      isLoggedIn={!!user}
-                      onVoteChange={(newVoteCounts, userVote) =>
-                        handleVoteChange(caption.id, newVoteCounts, userVote)
-                      }
-                    />
+                  <div className="flex items-center space-x-4 text-sm text-gray-500">
+                    <span>{currentCaption.like_count || 0} likes</span>
+                    <span>{new Date(currentCaption.created_datetime_utc).toLocaleDateString()}</span>
+                    {currentCaption.humor_flavors && Array.isArray(currentCaption.humor_flavors) && currentCaption.humor_flavors.length > 0 && (
+                      <span className="bg-gray-100 px-2 py-1 rounded text-xs">
+                        {currentCaption.humor_flavors[0]?.slug}
+                      </span>
+                    )}
                   </div>
                 </div>
               </div>
-            ))}
+            </div>
 
-            {/* Load More Button */}
-            {hasMore && (
-              <div className="text-center pt-6">
-                <button
-                  onClick={handleLoadMore}
-                  disabled={loadingMore}
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {loadingMore ? (
-                    <div className="flex items-center">
-                      <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
-                      Loading more...
-                    </div>
-                  ) : (
-                    'Load More Captions'
-                  )}
-                </button>
-              </div>
-            )}
+            {/* Navigation Controls */}
+            <div className="flex justify-between items-center mt-8">
+              <button
+                onClick={handlePrevious}
+                disabled={currentIndex === 0 || loading}
+                className="flex items-center space-x-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-200"
+              >
+                <span>←</span>
+                <span>Previous</span>
+              </button>
 
-            {!hasMore && captions.length > 0 && (
-              <div className="text-center py-8 text-gray-500">
-                <p>🎉 You've seen all available captions!</p>
-                <p className="text-sm mt-1">Check back later for new content.</p>
+              <div className="text-sm text-gray-500">
+                {currentIndex + 1} of {totalCaptions}
               </div>
-            )}
 
-            {captions.length === 0 && !loading && (
-              <div className="text-center py-12 text-gray-500">
-                <div className="text-4xl mb-4">📝</div>
-                <p className="text-lg">No captions found</p>
-                <p className="text-sm mt-1">Try a different sort option or check back later.</p>
-              </div>
-            )}
+              <button
+                onClick={handleNext}
+                disabled={currentIndex >= totalCaptions - 1 || loading}
+                className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blue-700"
+              >
+                <span>Next</span>
+                <span>→</span>
+              </button>
+            </div>
+          </div>
+        ) : (
+          <div className="text-center py-12 text-gray-500">
+            <div className="text-4xl mb-4">📝</div>
+            <p className="text-lg">No captions found</p>
+            <p className="text-sm mt-1">Check back later for new content.</p>
           </div>
         )}
       </div>

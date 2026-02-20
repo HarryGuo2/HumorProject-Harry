@@ -16,10 +16,11 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url)
     const limit = parseInt(searchParams.get('limit') || '20')
     const offset = parseInt(searchParams.get('offset') || '0')
-    const sortBy = searchParams.get('sort') || 'newest' // newest, most_liked, most_voted
+    const sortBy = searchParams.get('sort') || 'newest' // newest, most_liked, most_voted, random
 
     let orderBy = 'created_datetime_utc'
     let ascending = false
+    let randomOrder = false
 
     switch (sortBy) {
       case 'most_liked':
@@ -29,13 +30,16 @@ export async function GET(request: NextRequest) {
         orderBy = 'created_datetime_utc'
         ascending = true
         break
+      case 'random':
+        randomOrder = true
+        break
       default: // newest
         orderBy = 'created_datetime_utc'
         ascending = false
     }
 
     // Get captions with basic info including images - use anon client for reliable data fetch
-    const { data: captions, error } = await supabase
+    let query = supabase
       .from('captions')
       .select(`
         id,
@@ -47,8 +51,16 @@ export async function GET(request: NextRequest) {
         humor_flavors!left(slug, description),
         images!left(id, url, image_description)
       `)
-      .order(orderBy, { ascending })
-      .range(offset, offset + limit - 1)
+
+    // Apply ordering
+    if (randomOrder) {
+      // For random ordering, we'll get a larger set and shuffle in JS since Supabase doesn't have RANDOM() function
+      query = query.order('created_datetime_utc', { ascending: false }).limit(1000)
+    } else {
+      query = query.order(orderBy, { ascending }).range(offset, offset + limit - 1)
+    }
+
+    const { data: captions, error } = await query
 
     if (error) {
       throw error
@@ -106,6 +118,33 @@ export async function GET(request: NextRequest) {
         total_votes: voteCounts.upvotes + voteCounts.downvotes + voteCounts.neutrals
       }
     })
+
+    // Apply random shuffling if requested
+    if (randomOrder && captionsWithVotes) {
+      // Shuffle the array using Fisher-Yates algorithm
+      for (let i = captionsWithVotes.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1))
+        ;[captionsWithVotes[i], captionsWithVotes[j]] = [captionsWithVotes[j], captionsWithVotes[i]]
+      }
+
+      // Apply pagination after shuffling
+      const startIndex = offset
+      const endIndex = offset + limit
+      const paginatedCaptions = captionsWithVotes.slice(startIndex, endIndex)
+
+      return NextResponse.json({
+        success: true,
+        data: {
+          captions: paginatedCaptions,
+          pagination: {
+            total: captionsWithVotes.length,
+            limit,
+            offset,
+            hasMore: endIndex < captionsWithVotes.length
+          }
+        }
+      })
+    }
 
     // Get total count for pagination
     const { count: totalCount } = await supabase
