@@ -33,6 +33,9 @@ export default function VotingButtons({
 
     if (isVoting) return
 
+    // If user clicks same vote, toggle it off (set to neutral)
+    const actualVoteValue = currentUserVote === voteValue ? 0 : voteValue
+
     setIsVoting(true)
 
     try {
@@ -44,7 +47,7 @@ export default function VotingButtons({
         },
         body: JSON.stringify({
           caption_id: captionId,
-          vote_value: voteValue
+          vote_value: actualVoteValue
         })
       })
 
@@ -62,16 +65,16 @@ export default function VotingButtons({
         }
 
         // Add new vote to counts
-        if (voteValue > 0) newVoteCounts.upvotes++
-        else if (voteValue < 0) newVoteCounts.downvotes++
+        if (actualVoteValue > 0) newVoteCounts.upvotes++
+        else if (actualVoteValue < 0) newVoteCounts.downvotes++
         else newVoteCounts.neutrals++
 
         setVoteCounts(newVoteCounts)
-        setCurrentUserVote(voteValue)
+        setCurrentUserVote(actualVoteValue)
 
         // Notify parent component if callback provided
         if (onVoteChange) {
-          onVoteChange(newVoteCounts, voteValue)
+          onVoteChange(newVoteCounts, actualVoteValue)
         }
 
       } else {
