@@ -79,7 +79,8 @@ export async function POST(request: NextRequest) {
       // Create new vote - try profile_id first; some schemas use user_id
       const insertPayload: Record<string, unknown> = {
         caption_id,
-        vote_value
+        vote_value,
+        created_datetime_utc: new Date().toISOString()
       }
       insertPayload.profile_id = user.id
 

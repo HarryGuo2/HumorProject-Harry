@@ -74,7 +74,7 @@ export async function GET(request: NextRequest) {
       userVotes = userVoteData || []
     }
 
-    // Process vote counts and normalize humor_flavors (PostgREST returns object for many-to-one, frontend expects array)
+    // Process vote counts and normalize relationships (PostgREST returns object for many-to-one, frontend expects array)
     const captionsWithVotes = captions?.map(caption => {
       const captionVotes = allVotes?.filter(v => v.caption_id === caption.id) || []
       const userVote = userVotes.find(v => v.caption_id === caption.id)
@@ -85,15 +85,22 @@ export async function GET(request: NextRequest) {
         neutrals: captionVotes.filter(v => v.vote_value === 0).length
       }
 
+      // Normalize humor_flavors to array
       const humorFlavors = caption.humor_flavors
         ? Array.isArray(caption.humor_flavors)
           ? caption.humor_flavors
           : [caption.humor_flavors]
         : null
 
+      // Normalize images - PostgREST returns object for many-to-one relationship
+      const images = caption.images && typeof caption.images === 'object' && !Array.isArray(caption.images)
+        ? caption.images
+        : null
+
       return {
         ...caption,
         humor_flavors: humorFlavors,
+        images: images,
         vote_counts: voteCounts,
         user_vote: userVote?.vote_value ?? null,
         total_votes: voteCounts.upvotes + voteCounts.downvotes + voteCounts.neutrals
