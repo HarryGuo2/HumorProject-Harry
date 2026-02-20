@@ -39,7 +39,7 @@ export async function GET(request: NextRequest) {
     }
 
     // Get captions with basic info including images - use anon client for reliable data fetch
-    // Filter out captions without content
+    // Filter out captions without content AND without images
     let query = supabase
       .from('captions')
       .select(`
@@ -54,6 +54,7 @@ export async function GET(request: NextRequest) {
       `)
       .not('content', 'is', null)
       .neq('content', '')
+      .not('image_id', 'is', null)
 
     // Apply ordering
     if (randomOrder) {
@@ -149,12 +150,13 @@ export async function GET(request: NextRequest) {
       })
     }
 
-    // Get total count for pagination (only captions with content)
+    // Get total count for pagination (only captions with both content and images)
     const { count: totalCount } = await supabase
       .from('captions')
       .select('*', { count: 'exact', head: true })
       .not('content', 'is', null)
       .neq('content', '')
+      .not('image_id', 'is', null)
 
     return NextResponse.json({
       success: true,
