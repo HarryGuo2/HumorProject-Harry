@@ -67,7 +67,9 @@ export default function CaptionsPage() {
   const loadCaptions = async (reset = false) => {
     try {
       const offset = reset ? 0 : captions.length
-      const response = await fetch(`/api/captions?limit=10&offset=${offset}&sort=${sortBy}`)
+      const response = await fetch(`/api/captions?limit=10&offset=${offset}&sort=${sortBy}`, {
+        credentials: 'include'
+      })
       const result = await response.json()
 
       if (result.success) {
@@ -85,7 +87,9 @@ export default function CaptionsPage() {
     setLoading(true)
 
     try {
-      const response = await fetch(`/api/captions?limit=10&offset=0&sort=${newSort}`)
+      const response = await fetch(`/api/captions?limit=10&offset=0&sort=${newSort}`, {
+        credentials: 'include'
+      })
       const result = await response.json()
 
       if (result.success) {
@@ -220,7 +224,7 @@ export default function CaptionsPage() {
               <div key={caption.id} className="bg-white rounded-lg shadow-md p-6">
                 <div className="mb-4">
                   <p className="text-gray-800 text-lg leading-relaxed">
-                    "{caption.content}"
+                    "{caption.content || '(No caption text)'}"
                   </p>
                 </div>
 
@@ -228,9 +232,9 @@ export default function CaptionsPage() {
                   <div className="flex items-center space-x-4 text-sm text-gray-500">
                     <span>{caption.like_count || 0} likes</span>
                     <span>{new Date(caption.created_datetime_utc).toLocaleDateString()}</span>
-                    {caption.humor_flavors && caption.humor_flavors.length > 0 && (
+                    {caption.humor_flavors && Array.isArray(caption.humor_flavors) && caption.humor_flavors.length > 0 && (
                       <span className="bg-gray-100 px-2 py-1 rounded text-xs">
-                        {caption.humor_flavors[0].slug}
+                        {caption.humor_flavors[0]?.slug}
                       </span>
                     )}
                   </div>

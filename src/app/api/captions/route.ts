@@ -1,12 +1,17 @@
-import { createClient } from '@/lib/supabase-server'
+import { createClient } from '@supabase/supabase-js'
+import { createClient as createServerClient } from '@/lib/supabase-server'
 import { NextRequest, NextResponse } from 'next/server'
 
 export async function GET(request: NextRequest) {
   try {
-    const supabase = await createClient()
+    // Use anon client for captions fetch - avoids cookie/session issues that can cause empty data
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!
+    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+    const supabase = createClient(supabaseUrl?.trim(), supabaseKey?.trim().replace(/\s+/g, ''))
 
-    // Get current user (optional for viewing)
-    const { data: { user } } = await supabase.auth.getUser()
+    // Server client for user-specific data (votes) - needs cookies for auth
+    const serverSupabase = await createServerClient()
+    const { data: { user } } = await serverSupabase.auth.getUser()
 
     const { searchParams } = new URL(request.url)
     const limit = parseInt(searchParams.get('limit') || '20')
@@ -29,7 +34,7 @@ export async function GET(request: NextRequest) {
         ascending = false
     }
 
-    // Get captions with basic info
+    // Get captions with basic info - use anon client for reliable data fetch (avoids cookie/session issues)
     const { data: captions, error } = await supabase
       .from('captions')
       .select(`
@@ -55,10 +60,10 @@ export async function GET(request: NextRequest) {
       .select('caption_id, vote_value')
       .in('caption_id', captionIds)
 
-    // Get user's votes for these captions if logged in
+    // Get user's votes for these captions if logged in (uses server client for auth)
     let userVotes: any[] = []
     if (user && captionIds.length > 0) {
-      const { data: userVoteData } = await supabase
+      const { data: userVoteData } = await serverSupabase
         .from('caption_votes')
         .select('caption_id, vote_value')
         .eq('profile_id', user.id)
@@ -67,7 +72,7 @@ export async function GET(request: NextRequest) {
       userVotes = userVoteData || []
     }
 
-    // Process vote counts for each caption
+    // Process vote counts and normalize humor_flavors (PostgREST returns object for many-to-one, frontend expects array)
     const captionsWithVotes = captions?.map(caption => {
       const captionVotes = allVotes?.filter(v => v.caption_id === caption.id) || []
       const userVote = userVotes.find(v => v.caption_id === caption.id)
@@ -78,10 +83,17 @@ export async function GET(request: NextRequest) {
         neutrals: captionVotes.filter(v => v.vote_value === 0).length
       }
 
+      const humorFlavors = caption.humor_flavors
+        ? Array.isArray(caption.humor_flavors)
+          ? caption.humor_flavors
+          : [caption.humor_flavors]
+        : null
+
       return {
         ...caption,
+        humor_flavors: humorFlavors,
         vote_counts: voteCounts,
-        user_vote: userVote?.vote_value || null,
+        user_vote: userVote?.vote_value ?? null,
         total_votes: voteCounts.upvotes + voteCounts.downvotes + voteCounts.neutrals
       }
     })

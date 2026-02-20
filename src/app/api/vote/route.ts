@@ -67,21 +67,29 @@ export async function POST(request: NextRequest) {
         }
       })
     } else {
-      // Create new vote
+      // Create new vote - try profile_id first; some schemas use user_id
+      const insertPayload: Record<string, unknown> = {
+        caption_id,
+        vote_value
+      }
+      insertPayload.profile_id = user.id
+
       const { data, error } = await supabase
         .from('caption_votes')
-        .insert({
-          caption_id,
-          profile_id: user.id,
-          vote_value
-        })
+        .insert(insertPayload)
         .select()
         .single()
 
       if (error) {
         console.error('Error creating vote:', error)
+        const errorMessage = error.message || 'Failed to create vote'
+        const errorCode = (error as { code?: string }).code
         return NextResponse.json(
-          { success: false, error: 'Failed to create vote' },
+          {
+            success: false,
+            error: errorMessage,
+            ...(errorCode && { code: errorCode })
+          },
           { status: 500 }
         )
       }

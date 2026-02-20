@@ -38,6 +38,7 @@ export default function VotingButtons({
     try {
       const response = await fetch('/api/vote', {
         method: 'POST',
+        credentials: 'include',
         headers: {
           'Content-Type': 'application/json'
         },
@@ -74,7 +75,8 @@ export default function VotingButtons({
         }
 
       } else {
-        alert(result.error || 'Failed to submit vote')
+        const msg = result.error || 'Failed to submit vote'
+        alert(msg + (result.code ? ` (Code: ${result.code})` : ''))
       }
     } catch (error) {
       console.error('Vote submission error:', error)
