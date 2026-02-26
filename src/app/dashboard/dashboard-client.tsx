@@ -219,6 +219,13 @@ export default function DashboardClient({ user, userCaptions, userStats }: Props
         {/* Action Buttons */}
         <div className="mt-8 text-center space-x-4">
           <Link
+            href="/upload"
+            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700"
+          >
+            📸 Upload & Generate Captions
+          </Link>
+
+          <Link
             href="/captions"
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700"
           >
