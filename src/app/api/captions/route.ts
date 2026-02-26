@@ -39,7 +39,7 @@ export async function GET(request: NextRequest) {
     }
 
     // Get captions with basic info including images - use anon client for reliable data fetch
-    // Filter out captions without content AND without images
+    // Filter out captions without content AND without images - use inner join to ensure both exist
     let query = supabase
       .from('captions')
       .select(`
@@ -50,11 +50,10 @@ export async function GET(request: NextRequest) {
         humor_flavor_id,
         image_id,
         humor_flavors!left(slug, description),
-        images!left(id, url, image_description)
+        images!inner(id, url, image_description)
       `)
       .not('content', 'is', null)
       .neq('content', '')
-      .not('image_id', 'is', null)
 
     // Apply ordering
     if (randomOrder) {
@@ -67,8 +66,10 @@ export async function GET(request: NextRequest) {
     const { data: captions, error } = await query
 
     if (error) {
+      console.error('Supabase query error:', error)
       throw error
     }
+
 
     // Get vote counts for these captions
     const captionIds = captions?.map(c => c.id) || []
@@ -153,10 +154,9 @@ export async function GET(request: NextRequest) {
     // Get total count for pagination (only captions with both content and images)
     const { count: totalCount } = await supabase
       .from('captions')
-      .select('*', { count: 'exact', head: true })
+      .select('images!inner(id)', { count: 'exact', head: true })
       .not('content', 'is', null)
       .neq('content', '')
-      .not('image_id', 'is', null)
 
     return NextResponse.json({
       success: true,
